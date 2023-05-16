@@ -640,7 +640,7 @@
     .social-icon {
       ul {
         display: flex;
-        gap: 10px;
+        gap: 15px;
         align-items: center;
         height: 35px;
 
@@ -685,21 +685,22 @@
   .right-wrapper {
     width: 100%;
     height: 100%;
-    .login-reg {
+    .inner-menu {
       display: flex;
       align-items: center;
       justify-content: end;
       height: 100%;
       .inner {
         line-height: initial;
+        display: flex;
+        gap: 15px;
       }
-      span {
-        a {
-          font-weight: 600;
-          transition: all 0.2s linear;
-          &:hover {
-            color: var(--theme_color);
-          }
+
+      a {
+        font-weight: 600;
+        transition: all 0.2s linear;
+        &:hover {
+          color: var(--theme_color);
         }
       }
     }

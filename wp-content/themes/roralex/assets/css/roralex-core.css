@@ -1360,7 +1360,7 @@ input[type=color] {
 }
 .top-header .left-wrapper .social-icon ul {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
   height: 35px;
 }
@@ -1400,20 +1400,22 @@ input[type=color] {
   width: 100%;
   height: 100%;
 }
-.top-header .right-wrapper .login-reg {
+.top-header .right-wrapper .inner-menu {
   display: flex;
   align-items: center;
   justify-content: end;
   height: 100%;
 }
-.top-header .right-wrapper .login-reg .inner {
+.top-header .right-wrapper .inner-menu .inner {
   line-height: initial;
+  display: flex;
+  gap: 15px;
 }
-.top-header .right-wrapper .login-reg span a {
+.top-header .right-wrapper .inner-menu a {
   font-weight: 600;
   transition: all 0.2s linear;
 }
-.top-header .right-wrapper .login-reg span a:hover {
+.top-header .right-wrapper .inner-menu a:hover {
   color: var(--theme_color);
 }
 

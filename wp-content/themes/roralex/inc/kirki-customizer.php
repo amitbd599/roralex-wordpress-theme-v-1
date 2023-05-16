@@ -319,6 +319,15 @@ function _header_top_fields( $fields ) {
         'priority' => 10,
     ];
 
+    $fields[] = [
+        'type'     => 'textarea',
+        'settings' => 'roralex_top_menu',
+        'label'    => esc_html__( 'Top Menu', 'roralex' ),
+        'section'  => 'header_top_setting',
+        'default'  => esc_html__( '#', 'roralex' ),
+        'priority' => 10,
+    ];
+
     return $fields;
 
 }
