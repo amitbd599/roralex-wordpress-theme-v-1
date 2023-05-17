@@ -47,10 +47,10 @@ case '3':
     $footer_class[3] = 'col-xl-4 col-lg-6';
     break;
 case '4':
-    $footer_class[1] = 'col-lg-3 col-md-6 col-sm-7';
-    $footer_class[2] = 'col-lg-3 col-md-3 col-sm-5';
-    $footer_class[3] = 'col-lg-3 col-md-3 col-sm-5';
-    $footer_class[4] = 'col-lg-3 col-md-6 col-sm-7';
+    $footer_class[1] = 'col-lg-4 col-md-6';
+    $footer_class[2] = 'col-lg-2 col-md-6';
+    $footer_class[3] = 'col-lg-3 col-md-6';
+    $footer_class[4] = 'col-lg-3 col-md-6';
     break;
 default:
     $footer_class = 'col-xl-3 col-lg-3 col-md-6';
@@ -64,17 +64,47 @@ default:
 
 <footer class="footer-section-version-two  mt-50">
     <!-- footer top -->
-
+    <?php if ( is_active_sidebar('footer-1') OR is_active_sidebar('footer-2') OR is_active_sidebar('footer-3') OR is_active_sidebar('footer-4') ): ?>
     <div class="footer-top">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <div class="wrapper-one">
+
+                <?php
+                    if ( $footer_columns < 4 ) {
+                    print '<div class="col-lg-4 col-md-6">';
+                    dynamic_sidebar( 'footer-1' );
+                    print '</div>';
+
+                    print '<div class="col-lg-2 col-md-6">';
+                    dynamic_sidebar( 'footer-2' );
+                    print '</div>';
+
+                    print '<div class="col-lg-3 col-md-6">';
+                    dynamic_sidebar( 'footer-3' );
+                    print '</div>';
+
+                    print '<div class="col-lg-3 col-md-6">';
+                    dynamic_sidebar( 'footer-4' );
+                    print '</div>';
+                    } else {
+                        for ( $num = 1; $num <= $footer_columns; $num++ ) {
+                            if ( !is_active_sidebar( 'footer-' . $num ) ) {
+                                continue;
+                            }
+                            print '<div class="' . esc_attr( $footer_class[$num] ) . '">';
+                            dynamic_sidebar( 'footer-' . $num );
+                            print '</div>';
+                        }
+                    }
+                ?>
+
+                <!-- <div class="col-lg-4 col-md-6">
+                    <div class="footer__widget footer-col-1 wrapper-one">
                         <div class="img-file">
                             <img src="./assets/img/common/Logo_White.png" alt="">
                         </div>
                         <div class="text-file">
-                            <h3>Building Construction</h3>
+                            <h3 class="footer__widget-title">Building Construction</h3>
                             <p>Loren ipsum dolor consectetur adipiscing elit sed do eiusmod tempor incididunt
                                 know you
                                 labore et dolore magna aliqua consectetur adipiscingLoren ipsum dolor
@@ -154,16 +184,18 @@ default:
                         </div>
 
                     </div>
-                </div>
+                </div> -->
             </div>
 
         </div>
     </div>
+
+    <?php endif; ?>
     <!-- footer bottom -->
     <div class="footer-bottom">
         <div class="container">
             <div class="row">
-                <hr>
+
                 <div class="inner">
                     <p>RORALEX &#169; 2023. All Rights Reserved</p>
                     <ul>
@@ -189,6 +221,9 @@ default:
 
 <footer class="d-none">
     <div class="footer__area">
+
+
+
         <?php if ( is_active_sidebar('footer-1') OR is_active_sidebar('footer-2') OR is_active_sidebar('footer-3') OR is_active_sidebar('footer-4') ): ?>
         <div class="footer__top grey-bg-4 pt-95 pb-45" data-bg-color="<?php print esc_attr( $bg_color );?>"
             data-top-space="<?php print esc_attr($roralex_footer_top_space); ?>px"
@@ -227,6 +262,10 @@ default:
             </div>
         </div>
         <?php endif; ?>
+
+
+
+
         <div class="footer__bottom grey-bg-4">
             <div class="container">
                 <div class="footer__bottom-inner">

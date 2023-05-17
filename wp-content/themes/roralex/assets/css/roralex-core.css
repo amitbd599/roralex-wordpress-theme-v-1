@@ -1645,6 +1645,7 @@ input[type=color] {
   color: var(--bg_white);
 }
 .footer-section-version-one .footer-bottom {
+  background: #333;
   margin-top: 20px;
   text-align: center;
 }
@@ -1655,9 +1656,7 @@ input[type=color] {
 
 /* ================ Footer Section version two Start ================*/
 .footer-section-version-two {
-  background: var(--primary_color);
   position: relative;
-  padding-top: 30px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-two {
@@ -1666,26 +1665,28 @@ input[type=color] {
 }
 .footer-section-version-two .footer-top {
   margin-top: 60px;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  background: var(--primary_color);
 }
-.footer-section-version-two .footer-top .wrapper-one {
+.footer-section-version-two .footer-top .wrapper-1 {
   padding-right: 30px;
+  margin-top: 16px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
-  .footer-section-version-two .footer-top .wrapper-one {
+  .footer-section-version-two .footer-top .wrapper-1 {
     margin-bottom: 40px;
   }
 }
-.footer-section-version-two .footer-top .wrapper-one .text-file {
-  margin-top: 16px;
-}
-.footer-section-version-two .footer-top .wrapper-one .text-file h3 {
-  font-size: 22px;
+.footer-section-version-two .footer-top .wrapper-1 .footer__widget-title {
+  font-size: 18px;
   font-weight: 600;
   color: var(--bg_white);
   position: relative;
   display: inline-block;
+  margin-bottom: 25px;
 }
-.footer-section-version-two .footer-top .wrapper-one .text-file h3::after {
+.footer-section-version-two .footer-top .wrapper-1 .footer__widget-title::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -1694,52 +1695,52 @@ input[type=color] {
   bottom: -5px;
   background: var(--text_color);
 }
-.footer-section-version-two .footer-top .wrapper-one .text-file p {
+.footer-section-version-two .footer-top .wrapper-1 p {
   font-size: 16px;
   margin-top: 16px;
   color: var(--bg_white);
   font-weight: normal;
   text-align: justify;
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon {
   margin-top: 5px;
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon ul {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon ul {
   display: flex;
   gap: 10px;
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon ul li a {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon ul li a {
   padding: 2px;
   font-size: 20px;
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon ul li a i {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon ul li a i {
   transition: all 0.2s linear;
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon ul li a:hover .fa-facebook-f {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon ul li a:hover .fa-facebook-f {
   color: var(--facebook);
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon ul li a:hover .fa-twitter {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon ul li a:hover .fa-twitter {
   color: var(--twitter);
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon ul li a:hover .fa-youtube {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon ul li a:hover .fa-youtube {
   color: var(--youtube);
 }
-.footer-section-version-two .footer-top .wrapper-one .social-icon ul li a:hover .fa-linkedin {
+.footer-section-version-two .footer-top .wrapper-1 .social-icon ul li a:hover .fa-linkedin {
   color: var(--linkedin);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
-  .footer-section-version-two .footer-top .wrapper-two {
+  .footer-section-version-two .footer-top .wrapper-2 {
     margin-bottom: 40px;
   }
 }
-.footer-section-version-two .footer-top .wrapper-two .text-file h3 {
+.footer-section-version-two .footer-top .wrapper-2 .footer__widget-title {
   font-size: 18px;
   font-weight: 600;
   color: var(--bg_white);
   position: relative;
   display: inline-block;
 }
-.footer-section-version-two .footer-top .wrapper-two .text-file h3::after {
+.footer-section-version-two .footer-top .wrapper-2 .footer__widget-title::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -1748,16 +1749,19 @@ input[type=color] {
   bottom: -5px;
   background: var(--text_color);
 }
-.footer-section-version-two .footer-top .wrapper-two .list-items ul {
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul {
   margin-top: 15px;
 }
-.footer-section-version-two .footer-top .wrapper-two .list-items ul li {
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul li, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li {
   color: var(--bg_white);
   padding: 2px 0;
   transition: all 0.2s linear;
   position: relative;
 }
-.footer-section-version-two .footer-top .wrapper-two .list-items ul li::after {
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul li a, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li a {
+  display: block;
+}
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul li::after, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li::after {
   position: absolute;
   content: "";
   left: 0;
@@ -1768,34 +1772,34 @@ input[type=color] {
   background: var(--bg_white);
   transition: all 0.2s linear;
 }
-.footer-section-version-two .footer-top .wrapper-two .list-items ul li:hover {
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul li:hover, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li:hover {
   padding-left: 15px;
   color: var(--theme_color);
 }
-.footer-section-version-two .footer-top .wrapper-two .list-items ul li:hover::after {
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul li:hover::after, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li:hover::after {
   width: 12px;
 }
-.footer-section-version-two .footer-top .wrapper-two .list-items ul.rtl li::after {
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul.rtl li::after, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul.rtl li::after {
   left: auto;
   right: 0;
 }
-.footer-section-version-two .footer-top .wrapper-two .list-items ul.rtl li:hover {
+.footer-section-version-two .footer-top .wrapper-2 .list-items ul.rtl li:hover, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul.rtl li:hover {
   padding-left: 0;
   padding-right: 17px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
-  .footer-section-version-two .footer-top .wrapper-three {
+  .footer-section-version-two .footer-top .wrapper-3 {
     margin-bottom: 40px;
   }
 }
-.footer-section-version-two .footer-top .wrapper-three .text-file h3 {
+.footer-section-version-two .footer-top .wrapper-3 .footer__widget-title {
   font-size: 18px;
   font-weight: 600;
   color: var(--bg_white);
   position: relative;
   display: inline-block;
 }
-.footer-section-version-two .footer-top .wrapper-three .text-file h3::after {
+.footer-section-version-two .footer-top .wrapper-3 .footer__widget-title::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -1804,11 +1808,11 @@ input[type=color] {
   bottom: -5px;
   background: var(--text_color);
 }
-.footer-section-version-two .footer-top .wrapper-three .input-section {
+.footer-section-version-two .footer-top .wrapper-3 .input-section {
   padding-right: 15px;
   margin-top: 15px;
 }
-.footer-section-version-two .footer-top .wrapper-three .input-section input {
+.footer-section-version-two .footer-top .wrapper-3 .input-section input {
   display: block;
   width: 100%;
   height: 44px;
@@ -1818,51 +1822,51 @@ input[type=color] {
   display: flex;
   align-items: center;
 }
-.footer-section-version-two .footer-top .wrapper-three .input-section input::placeholder {
+.footer-section-version-two .footer-top .wrapper-3 .input-section input::placeholder {
   font-size: 13px;
 }
-.footer-section-version-two .footer-top .wrapper-three .input-section .btn-shape-normal-outline {
+.footer-section-version-two .footer-top .wrapper-3 .input-section .btn-shape-normal-outline {
   padding: 8px;
   width: 120px;
   margin: 0;
   margin-top: 15px;
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon {
   margin-top: 15px;
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon ul {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon ul {
   display: flex;
   gap: 10px;
   align-items: center;
   padding-top: 2px;
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon ul li {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon ul li {
   padding: 2px;
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon ul li i {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon ul li i {
   font-size: 18px;
   transition: all 0.2s linear;
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon ul li:hover .fa-facebook-f {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon ul li:hover .fa-facebook-f {
   color: var(--facebook);
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon ul li:hover .fa-twitter {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon ul li:hover .fa-twitter {
   color: var(--twitter);
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon ul li:hover .fa-youtube {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon ul li:hover .fa-youtube {
   color: var(--youtube);
 }
-.footer-section-version-two .footer-top .wrapper-three .social-icon ul li:hover .fa-linkedin {
+.footer-section-version-two .footer-top .wrapper-3 .social-icon ul li:hover .fa-linkedin {
   color: var(--linkedin);
 }
-.footer-section-version-two .footer-top .wrapper-four .text-file h3 {
+.footer-section-version-two .footer-top .wrapper-4 .footer__widget-title {
   font-size: 18px;
   font-weight: 600;
   color: var(--bg_white);
   position: relative;
   display: inline-block;
 }
-.footer-section-version-two .footer-top .wrapper-four .text-file h3::after {
+.footer-section-version-two .footer-top .wrapper-4 .footer__widget-title::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -1871,29 +1875,29 @@ input[type=color] {
   bottom: -5px;
   background: var(--text_color);
 }
-.footer-section-version-two .footer-top .wrapper-four .items {
+.footer-section-version-two .footer-top .wrapper-4 .items {
   margin-top: 15px;
 }
-.footer-section-version-two .footer-top .wrapper-four .items ul li {
+.footer-section-version-two .footer-top .wrapper-4 .items ul li {
   display: flex;
   gap: 8px;
   padding: 3px 0;
 }
-.footer-section-version-two .footer-top .wrapper-four .items ul li i {
+.footer-section-version-two .footer-top .wrapper-4 .items ul li i {
   color: var(--bg_white);
 }
-.footer-section-version-two .footer-top .wrapper-four .items ul li span {
+.footer-section-version-two .footer-top .wrapper-4 .items ul li span {
   color: var(--bg_white);
 }
 .footer-section-version-two .footer-bottom {
-  margin-top: 20px;
   text-align: center;
+  background: #333;
+  padding: 20px 0;
 }
 .footer-section-version-two .footer-bottom .inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 5px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-two .footer-bottom .inner {
