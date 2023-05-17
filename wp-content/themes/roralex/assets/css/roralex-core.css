@@ -2947,14 +2947,19 @@ input[type=color] {
   font-weight: 700;
   color: var(--bg_white);
 }
-.bread-crumb .wrapper p {
+.bread-crumb .wrapper span {
   color: var(--bg_white);
   margin-top: 10px;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: normal;
 }
-.bread-crumb .wrapper p span {
-  color: var(--theme_color);
+.bread-crumb .wrapper i {
+  margin: 0 6px;
+  font-size: 12px;
+  display: inline-block;
+  padding-top: 0px;
+  font-weight: 600;
+  color: #fff;
 }
 
 /*----------------------------------------*/

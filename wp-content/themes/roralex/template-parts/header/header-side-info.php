@@ -16,7 +16,7 @@
     $roralex_phone_num = get_theme_mod( 'roralex_phone_num', __( '(88-0212-2500)', 'roralex' ) );
     $roralex_mail_id = get_theme_mod( 'roralex_mail_id', __( 'info@roralex.com', 'roralex' ) );
 
-    $roralex_extra_about_text = get_theme_mod( 'roralex_extra_about_text', __( 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and will give you a complete account of the system and expound the actual teachings of the great explore', 'roralex' ) );
+    $roralex_extra_about_text = get_theme_mod( 'roralex_extra_about_text', __( 'Trusted Contraction service!', 'roralex' ) );
 
     $roralex_extra_map = get_theme_mod( 'roralex_extra_map', __( '#', 'roralex' ) );
     $roralex_contact_title = get_theme_mod( 'roralex_contact_title', __( 'Contact Info', 'roralex' ) );
@@ -44,7 +44,9 @@
                     <img src="<?php echo esc_url($roralex_side_logo); ?>"
                         alt="<?php echo esc_attr__('logo', 'roralex'); ?>">
                 </a>
-                <p><?php echo esc_html__('Trusted Contraction service!', 'roralex'); ?></p>
+                <?php if(!empty($roralex_extra_about_text)) : ?>
+                <p><?php echo esc_html($roralex_extra_about_text); ?></p>
+                <?php endif;?>
             </div>
             <?php endif;?>
 

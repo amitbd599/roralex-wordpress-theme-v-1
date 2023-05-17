@@ -84,7 +84,6 @@ function roralex_breadcrumb_func() {
 
         // get_theme_mod
         $bg_img = get_theme_mod( 'breadcrumb_bg_img' );
-        $roralex_breadcrumb_shape_switch = get_theme_mod( 'roralex_breadcrumb_shape_switch', true );
         $breadcrumb_info_switch = get_theme_mod( 'breadcrumb_info_switch', true );
         $breadcrumb_switch = get_theme_mod( 'breadcrumb_switch', true );
 
@@ -94,70 +93,86 @@ function roralex_breadcrumb_func() {
             $bg_img = !empty( $bg_img_from_page ) ? $bg_img_from_page['url'] : $bg_img;
         }?>
 
-         <!-- page title area start -->
+<!-- page title area start -->
 
 
-          <!-- Bread Crumb Start -->
-        <section class="bread-crumb" data-background="./assets/img/bg-overlay/bg-overlay-7.png">
-            <div class=" container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="wrapper">
-                            <h2>About</h2>
-                            <p><a href="/index-1.html">Home</a> / <span>About Us</span></p>
-                        </div>
+<!-- Bread Crumb Start -->
+<?php if(!empty($breadcrumb_switch)) : ?>
+<section class="bread-crumb" data-background="<?php print esc_attr($bg_img);?>">
+    <div class=" container">
+        <div class="row">
 
+            <?php  if(!empty($breadcrumb_info_switch)) : ?>
+            <div class="col-12">
+                <div class="wrapper">
+
+                    <?php if(function_exists('bcn_display')) {
+	                           bcn_display();
+	                        } ?>
+                    <h2 class="mt-2"><?php echo roralex_kses( $title ); ?></h2>
+                </div>
+
+            </div>
+            <?php endif; ?>
+        </div>
+    </div>
+</section>
+<?php endif; ?>
+<!-- Bread Crumb End -->
+
+
+
+
+
+
+<?php if(!empty($breadcrumb_switch)) : ?>
+<section
+    class="d-none breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay <?php print esc_attr( $breadcrumb_class );?>"
+    data-background="<?php print esc_attr($bg_img);?>">
+    <div class="container">
+        <div class="row">
+            <?php if (!empty($breadcrumb_info_switch)) : ?>
+            <div class="col-xxl-12">
+                <div class="breadcrumb__content text-center p-relative z-index-1">
+                    <h3 class="breadcrumb__title"><?php echo wp_kses_post( $title ); ?></h3>
+                    <div class="breadcrumb__list">
+                        <?php if(function_exists('bcn_display')) {
+	                           bcn_display();
+	                        } ?>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Bread Crumb End -->
-
-
-
-
-
-
-        <?php if(!empty($breadcrumb_switch)) : ?>
-         <section class="d-none breadcrumb__area include-bg pt-150 pb-150 breadcrumb__overlay <?php print esc_attr( $breadcrumb_class );?>" data-background="<?php print esc_attr($bg_img);?>">
-            <div class="container">
-               <div class="row">
-               	<?php if (!empty($breadcrumb_info_switch)) : ?>
-                  <div class="col-xxl-12">
-                     <div class="breadcrumb__content text-center p-relative z-index-1">
-                        <h3 class="breadcrumb__title"><?php echo wp_kses_post( $title ); ?></h3>
-                        <div class="breadcrumb__list">
-                           <?php if(function_exists('bcn_display')) {
-	                           bcn_display();
-	                        } ?>
-                        </div>
-                     </div>
-                  </div>
-                  <?php endif; ?>
-               </div>
-            </div>
-         </section>
-         <?php endif; ?>
-         <!-- page title area end -->
-        <?php
+            <?php endif; ?>
+        </div>
+    </div>
+</section>
+<?php endif; ?>
+<!-- page title area end -->
+<?php
       }
 }
 
 add_action( 'roralex_before_main_content', 'roralex_breadcrumb_func' );
 
+
+
+
+
+
 // roralex_search_form
 function roralex_search_form() {
     ?>
-     <div class="search-wrapper p-relative transition-3 d-none">
-         <div class="search-form transition-3">
-             <form method="get" action="<?php print esc_url( home_url( '/' ) );?>" >
-                 <input type="search" name="s" value="<?php print esc_attr( get_search_query() )?>" placeholder="<?php print esc_attr__( 'Enter Your Keyword', 'roralex' );?>" >
-                 <button type="submit" class="search-btn"><i class="far fa-search"></i></button>
-             </form>
-             <a href="javascript:void(0);" class="search-close"><i class="far fa-times"></i></a>
-         </div>
-     </div>
-   <?php
+<div class="search-wrapper p-relative transition-3 d-none">
+    <div class="search-form transition-3">
+        <form method="get" action="<?php print esc_url( home_url( '/' ) );?>">
+            <input type="search" name="s" value="<?php print esc_attr( get_search_query() )?>"
+                placeholder="<?php print esc_attr__( 'Enter Your Keyword', 'roralex' );?>">
+            <button type="submit" class="search-btn"><i class="far fa-search"></i></button>
+        </form>
+        <a href="javascript:void(0);" class="search-close"><i class="far fa-times"></i></a>
+    </div>
+</div>
+<?php
 }
 
 add_action( 'roralex_before_main_content', 'roralex_search_form' );

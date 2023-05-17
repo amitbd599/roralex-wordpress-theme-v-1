@@ -33,94 +33,89 @@
 ?>
 
 
-    <!-- Top Intro Section Start -->
+<!-- Top Intro Section Start -->
 
 
 
-    <?php if(!empty($roralex_topbar_switch)) : ?>
-    <div class="top-header d-none d-lg-block">
-        <div class="container ">
-            <div class="row">
-                <div class="col-lg-8">
+<?php if(!empty($roralex_topbar_switch)) : ?>
+<div class="top-header d-none d-lg-block">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-8">
 
-                    <div class="left-wrapper">
-                        <div class="social-icon">
+                <div class="left-wrapper">
+                    <div class="social-icon">
+                        <?php roralex_header_social_profiles(); ?>
+                    </div>
+                    <div class="news-intro simple-marquee-container">
+                        <div id="topHeader" class="scroll-text">
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#">
+                                        Building structures are generally constructed on concrete foundations.
+                                    </a></li>
+                                <li><a href="#">
+                                        The superstructure is constructed once the substructure is complete.
+                                    </a></li>
+                                <li><a href="#">
+                                        Within this period, any defects found in building must be fixed
+                                        and replaced.
+                                    </a></li>
                             </ul>
-                        </div>
-                        <div class="news-intro simple-marquee-container">
-                            <div id="topHeader" class="scroll-text">
-                                <ul>
-                                    <li><a href="#">
-                                            Building structures are generally constructed on concrete foundations.
-                                        </a></li>
-                                    <li><a href="#">
-                                            The superstructure is constructed once the substructure is complete.
-                                        </a></li>
-                                    <li><a href="#">
-                                            Within this period, any defects found in building must be fixed
-                                            and replaced.
-                                        </a></li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4">
+            </div>
+            <div class="col-lg-4">
 
                 <?php if(!empty($roralex_top_menu)) : ?>
-                    <div class="right-wrapper">
-                        <div class="inner-menu">
-                            <div class="inner">
+                <div class="right-wrapper">
+                    <div class="inner-menu">
+                        <div class="inner">
 
                             <?php echo wp_kses_post($roralex_top_menu); ?>
 
-                            </div>
                         </div>
                     </div>
-                    <?php endif;?>
+                </div>
+                <?php endif;?>
 
 
+            </div>
+        </div>
+    </div>
+</div>
+<?php endif;?>
+
+<!-- Top Intro Section End -->
+
+<!-- header-area-start -->
+<header id="header-sticky" class="header-intro-version-two-area">
+    <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div class="col-xl-2 col-lg-2 col-md-6 col-6">
+                <div class="logo-area">
+                    <div class="logo">
+                        <?php roralex_header_logo(); ?>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-6 col-6 ">
+                <div class="menu-body">
+                    <div class="main-menu">
+                        <nav id="mobile-menu">
+                            <?php roralex_header_menu(); ?>
+                        </nav>
+                    </div>
+                </div>
+                <div class="side-menu-icon d-lg-none text-end">
+                    <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i
+                            class="fal fa-bars"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <?php endif;?>
-
-    <!-- Top Intro Section End -->
-
-    <!-- header-area-start -->
-    <header id="header-sticky" class="header-intro-version-two-area">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-xl-2 col-lg-2 col-md-6 col-6">
-                    <div class="logo-area">
-                        <div class="logo">
-                        <?php roralex_header_logo(); ?>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-10 col-lg-10 col-md-6 col-6 ">
-                    <div class="menu-body">
-                        <div class="main-menu">
-                            <nav id="mobile-menu">
-                            <?php roralex_header_menu(); ?>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="side-menu-icon d-lg-none text-end">
-                        <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i
-                                class="fal fa-bars"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- header-area-end -->
+</header>
+<!-- header-area-end -->
 
 
 

@@ -474,18 +474,10 @@ function _header_side_fields( $fields ) {
         'settings' => 'roralex_extra_about_text',
         'label'    => esc_html__( 'Side Description Text', 'roralex' ),
         'section'  => 'header_side_setting',
-        'default'  => esc_html__( 'But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and will give you a complete account of the system and expound the actual teachings of the great explore', 'roralex' ),
+        'default'  => esc_html__( 'Trusted Contraction service!', 'roralex' ),
         'priority' => 10,
     ];
 
-    $fields[] = [
-        'type'     => 'textarea',
-        'settings' => 'roralex_extra_map',
-        'label'    => esc_html__( 'Map Address Iframe', 'roralex' ),
-        'section'  => 'header_side_setting',
-        'default'  => esc_html__( '#', 'roralex' ),
-        'priority' => 10,
-    ];
 
     // contact
     $fields[] = [
@@ -496,31 +488,8 @@ function _header_side_fields( $fields ) {
         'default'  => esc_html__( 'Contact Title', 'roralex' ),
         'priority' => 10,
     ];
-    $fields[] = [
-        'type'     => 'textarea',
-        'settings' => 'roralex_extra_address',
-        'label'    => esc_html__( 'Office Address', 'roralex' ),
-        'section'  => 'header_side_setting',
-        'default'  => esc_html__( '12/A, Mirnada City Tower, NYC', 'roralex' ),
-        'priority' => 10,
-    ];
-    $fields[] = [
-        'type'     => 'textarea',
-        'settings' => 'roralex_extra_phone',
-        'label'    => esc_html__( 'Phone Number', 'roralex' ),
-        'section'  => 'header_side_setting',
-        'default'  => esc_html__( '+0989 7876 9865 9', 'roralex' ),
-        'priority' => 10,
-    ];
 
-    $fields[] = [
-        'type'     => 'textarea',
-        'settings' => 'roralex_extra_email',
-        'label'    => esc_html__( 'Email ID', 'roralex' ),
-        'section'  => 'header_side_setting',
-        'default'  => esc_html__( 'info@weblearnbd.net', 'roralex' ),
-        'priority' => 10,
-    ];
+
     return $fields;
 }
 add_filter( 'kirki/fields', '_header_side_fields' );
