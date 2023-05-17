@@ -40,20 +40,26 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-7 col-lg-6 col-md-6 col-6">
-                <div
-                    class="<?php echo $roralex_header_right ?  esc_attr__('main-menu', 'roralex')  :  esc_attr__('main-menu justify-content-end', 'roralex') ?>">
-                    <div class="main-menu">
+
+
+            <div class="<?php echo esc_attr($roralex_menu_col); ?>">
+
+                <div class="menu-body">
+                    <div
+                        class="<?php echo $roralex_header_right ?  esc_attr__('main-menu', 'roralex')  :  esc_attr__('main-menu justify-content-end', 'roralex') ?>">
                         <nav id="mobile-menu">
                             <?php roralex_header_menu(); ?>
                         </nav>
                     </div>
                 </div>
+
                 <div class="side-menu-icon d-lg-none text-end">
                     <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i
                             class="fal fa-bars"></i></a>
                 </div>
             </div>
+
+
             <?php if(!empty($roralex_header_right)) :  ?>
             <div class="col-xl-3 col-lg-4 d-none d-xl-block">
                 <div class="location-email-intro">

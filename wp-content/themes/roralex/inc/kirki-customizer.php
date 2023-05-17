@@ -448,13 +448,26 @@ function _header_side_fields( $fields ) {
             'off' => esc_html__( 'Disable', 'roralex' ),
         ],
     ];
+
+    $fields[] = [
+        'type'     => 'switch',
+        'settings' => 'roralex_search_hide',
+        'label'    => esc_html__( 'Search Info On/Off', 'roralex' ),
+        'section'  => 'header_side_setting',
+        'default'  => '0',
+        'priority' => 10,
+        'choices'  => [
+            'on'  => esc_html__( 'Enable', 'roralex' ),
+            'off' => esc_html__( 'Disable', 'roralex' ),
+        ],
+    ];
     $fields[] = [
         'type'        => 'image',
         'settings'    => 'roralex_side_logo',
         'label'       => esc_html__( 'Logo Side', 'roralex' ),
         'description' => esc_html__( 'Logo Side', 'roralex' ),
         'section'     => 'header_side_setting',
-        'default'     => get_template_directory_uri() . '/assets/img/logo/logo.png',
+        'default'     => get_template_directory_uri() . '/assets/img/common/Logo_White.png',
     ];
     $fields[] = [
         'type'     => 'textarea',

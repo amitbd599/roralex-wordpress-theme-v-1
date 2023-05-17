@@ -51,13 +51,14 @@ function roralex_header_lang_defualt() {
     $roralex_header_lang = get_theme_mod( 'roralex_header_lang', false );
     if ( $roralex_header_lang ): ?>
 
-    <ul>
-        <li><a href="javascript:void(0)" class="lang__btn"><?php print esc_html__( 'English', 'roralex' );?> <i class="fal fa-angle-down"></i></a>
+<ul>
+    <li><a href="javascript:void(0)" class="lang__btn"><?php print esc_html__( 'English', 'roralex' );?> <i
+                class="fal fa-angle-down"></i></a>
         <?php do_action( 'roralex_language' );?>
-        </li>
-    </ul>
+    </li>
+</ul>
 
-    <?php endif;?>
+<?php endif;?>
 <?php
 }
 
@@ -94,30 +95,30 @@ add_action( 'roralex_language', 'roralex_language_list' );
 
 // header logo
 function roralex_header_logo() { ?>
-      <?php
+<?php
         $roralex_logo = get_template_directory_uri() . '/assets/img/common/Logo_White.png';
 
         $roralex_site_logo = get_theme_mod( 'logo', $roralex_logo );
       ?>
 
-        <a href="<?php print esc_url( home_url( '/' ) );?>">
-             <img src="<?php print esc_url( $roralex_site_logo );?>" alt="<?php print esc_attr__( 'logo', 'roralex' );?>" />
-         </a>
+<a href="<?php print esc_url( home_url( '/' ) );?>">
+    <img src="<?php print esc_url( $roralex_site_logo );?>" alt="<?php print esc_attr__( 'logo', 'roralex' );?>" />
+</a>
 
 
-   <?php
+<?php
 }
 
 // header logo
 function roralex_header_sticky_logo() {?>
-    <?php
+<?php
         $roralex_logo_black = get_template_directory_uri() . '/assets/img/logo/logo-black.png';
         $roralex_secondary_logo = get_theme_mod( 'seconday_logo', $roralex_logo_black );
     ?>
-      <a class="sticky-logo" href="<?php print esc_url( home_url( '/' ) );?>">
-          <img src="<?php print esc_url( $roralex_secondary_logo );?>" alt="<?php print esc_attr__( 'logo', 'roralex' );?>" />
-      </a>
-    <?php
+<a class="sticky-logo" href="<?php print esc_url( home_url( '/' ) );?>">
+    <img src="<?php print esc_url( $roralex_secondary_logo );?>" alt="<?php print esc_attr__( 'logo', 'roralex' );?>" />
+</a>
+<?php
 }
 
 function roralex_mobile_logo() {
@@ -128,13 +129,13 @@ function roralex_mobile_logo() {
 
     ?>
 
-    <?php if ( !empty( $roralex_mobile_logo_hide ) ): ?>
-    <div class="side__logo mb-25">
-        <a class="sideinfo-logo" href="<?php print esc_url( home_url( '/' ) );?>">
-            <img src="<?php print esc_url( $roralex_site_logo );?>" alt="<?php print esc_attr__( 'logo', 'roralex' );?>" />
-        </a>
-    </div>
-    <?php endif;?>
+<?php if ( !empty( $roralex_mobile_logo_hide ) ): ?>
+<div class="side__logo mb-25">
+    <a class="sideinfo-logo" href="<?php print esc_url( home_url( '/' ) );?>">
+        <img src="<?php print esc_url( $roralex_site_logo );?>" alt="<?php print esc_attr__( 'logo', 'roralex' );?>" />
+    </a>
+</div>
+<?php endif;?>
 
 
 
@@ -151,27 +152,27 @@ function roralex_header_social_profiles() {
     $roralex_topbar_linkedin_url = get_theme_mod( 'roralex_topbar_linkedin_url', __( '#', 'roralex' ) );
     $roralex_topbar_youtube_url = get_theme_mod( 'roralex_topbar_youtube_url', __( '#', 'roralex' ) );
     ?>
-        <ul>
-        <?php if ( !empty( $roralex_topbar_fb_url ) ): ?>
-          <li><a href="<?php print esc_url( $roralex_topbar_fb_url );?>"><span><i class="fab fa-facebook-f"></i></span></a></li>
-        <?php endif;?>
+<ul>
+    <?php if ( !empty( $roralex_topbar_fb_url ) ): ?>
+    <li><a href="<?php print esc_url( $roralex_topbar_fb_url );?>"><i class="fab fa-facebook-f"></i></a></li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_topbar_twitter_url ) ): ?>
-            <li><a href="<?php print esc_url( $roralex_topbar_twitter_url );?>"><span><i class="fab fa-twitter"></i></span></a></li>
-        <?php endif;?>
+    <?php if ( !empty( $roralex_topbar_twitter_url ) ): ?>
+    <li><a href="<?php print esc_url( $roralex_topbar_twitter_url );?>"><i class="fab fa-twitter"></i></a></li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_topbar_instagram_url ) ): ?>
-            <li><a href="<?php print esc_url( $roralex_topbar_instagram_url );?>"><span><i class="fab fa-instagram"></i></span></a></li>
-        <?php endif;?>
+    <?php if ( !empty( $roralex_topbar_instagram_url ) ): ?>
+    <li><a href="<?php print esc_url( $roralex_topbar_instagram_url );?>"><i class="fab fa-instagram"></i></a></li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_topbar_linkedin_url ) ): ?>
-            <li><a href="<?php print esc_url( $roralex_topbar_linkedin_url );?>"><span><i class="fab fa-linkedin"></i></span></a></li>
-        <?php endif;?>
+    <?php if ( !empty( $roralex_topbar_linkedin_url ) ): ?>
+    <li><a href="<?php print esc_url( $roralex_topbar_linkedin_url );?>"><i class="fab fa-linkedin"></i></a></li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_topbar_youtube_url ) ): ?>
-            <li><a href="<?php print esc_url( $roralex_topbar_youtube_url );?>"><span><i class="fab fa-youtube"></i></span></a></li>
-        <?php endif;?>
-        </ul>
+    <?php if ( !empty( $roralex_topbar_youtube_url ) ): ?>
+    <li><a href="<?php print esc_url( $roralex_topbar_youtube_url );?>"><i class="fab fa-youtube"></i></a></li>
+    <?php endif;?>
+</ul>
 
 <?php
 }
@@ -184,47 +185,47 @@ function roralex_footer_social_profiles() {
     $roralex_footer_youtube_url = get_theme_mod( 'roralex_footer_youtube_url', __( '#', 'roralex' ) );
     ?>
 
-        <ul>
-        <?php if ( !empty( $roralex_footer_fb_url ) ): ?>
-            <li>
-                <a href="<?php print esc_url( $roralex_footer_fb_url );?>">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-            </li>
-        <?php endif;?>
+<ul>
+    <?php if ( !empty( $roralex_footer_fb_url ) ): ?>
+    <li>
+        <a href="<?php print esc_url( $roralex_footer_fb_url );?>">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_footer_twitter_url ) ): ?>
-            <li>
-                <a href="<?php print esc_url( $roralex_footer_twitter_url );?>">
-                    <i class="fab fa-twitter"></i>
-                </a>
-            </li>
-        <?php endif;?>
+    <?php if ( !empty( $roralex_footer_twitter_url ) ): ?>
+    <li>
+        <a href="<?php print esc_url( $roralex_footer_twitter_url );?>">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_footer_instagram_url ) ): ?>
-            <li>
-                <a href="<?php print esc_url( $roralex_footer_instagram_url );?>">
-                    <i class="fab fa-instagram"></i>
-                </a>
-            </li>
-        <?php endif;?>
+    <?php if ( !empty( $roralex_footer_instagram_url ) ): ?>
+    <li>
+        <a href="<?php print esc_url( $roralex_footer_instagram_url );?>">
+            <i class="fab fa-instagram"></i>
+        </a>
+    </li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_footer_linkedin_url ) ): ?>
-            <li>
-                <a href="<?php print esc_url( $roralex_footer_linkedin_url );?>">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </li>
-        <?php endif;?>
+    <?php if ( !empty( $roralex_footer_linkedin_url ) ): ?>
+    <li>
+        <a href="<?php print esc_url( $roralex_footer_linkedin_url );?>">
+            <i class="fab fa-linkedin"></i>
+        </a>
+    </li>
+    <?php endif;?>
 
-        <?php if ( !empty( $roralex_footer_youtube_url ) ): ?>
-            <li>
-                <a href="<?php print esc_url( $roralex_footer_youtube_url );?>">
-                    <i class="fab fa-youtube"></i>
-                </a>
-            </li>
-        <?php endif;?>
-        </ul>
+    <?php if ( !empty( $roralex_footer_youtube_url ) ): ?>
+    <li>
+        <a href="<?php print esc_url( $roralex_footer_youtube_url );?>">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </li>
+    <?php endif;?>
+</ul>
 <?php
 }
 
@@ -234,7 +235,7 @@ function roralex_footer_social_profiles() {
  */
 function roralex_header_menu() {
     ?>
-    <?php
+<?php
         wp_nav_menu( [
             'theme_location' => 'main-menu',
             'menu_class'     => '',
@@ -243,7 +244,7 @@ function roralex_header_menu() {
             'walker'         => new Roralex_Navwalker_Class,
         ] );
     ?>
-    <?php
+<?php
 }
 
 /**
@@ -252,7 +253,7 @@ function roralex_header_menu() {
  */
 function roralex_mobile_menu() {
     ?>
-    <?php
+<?php
         $roralex_menu = wp_nav_menu( [
             'theme_location' => 'main-menu',
             'menu_class'     => '',
@@ -264,7 +265,7 @@ function roralex_mobile_menu() {
     $roralex_menu = str_replace( "menu-item-has-children", "menu-item-has-children has-children", $roralex_menu );
         echo wp_kses_post( $roralex_menu );
     ?>
-    <?php
+<?php
 }
 
 /**
@@ -273,7 +274,7 @@ function roralex_mobile_menu() {
  */
 function roralex_header_search_menu() {
     ?>
-    <?php
+<?php
         wp_nav_menu( [
             'theme_location' => 'header-search-menu',
             'menu_class'     => '',
@@ -282,7 +283,7 @@ function roralex_header_search_menu() {
             'walker'         => new Roralex_Navwalker_Class,
         ] );
     ?>
-    <?php
+<?php
 }
 
 /**
