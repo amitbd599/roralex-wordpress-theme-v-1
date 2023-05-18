@@ -1618,14 +1618,14 @@ input[type=color] {
 .footer-section-version-one .footer-middle .wrapper-3 .gallery-item {
   margin-bottom: 5px !important;
 }
-.footer-section-version-one .footer-middle .wrapper-4 .text-file h3 {
+.footer-section-version-one .footer-middle .wrapper-4 .footer__widget-title {
   font-size: 18px;
   font-weight: 600;
   color: var(--bg_white);
   position: relative;
   display: inline-block;
 }
-.footer-section-version-one .footer-middle .wrapper-4 .text-file h3::after {
+.footer-section-version-one .footer-middle .wrapper-4 .footer__widget-title::after {
   position: absolute;
   content: "";
   width: 100%;
