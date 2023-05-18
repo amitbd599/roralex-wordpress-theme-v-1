@@ -357,7 +357,7 @@ function roralex_check_footer() {
 
 // roralex_copyright_text
 function roralex_copyright_text() {
-   print get_theme_mod( 'roralex_copyright', esc_html__( '© 2022 Roralex, All Rights Reserved. Design By Theme Pure', 'roralex' ) );
+   print get_theme_mod( 'roralex_copyright', esc_html__( '© 2023 Roralex, All Rights Reserved. Design By Themesoft69', 'roralex' ) );
 }
 
 
