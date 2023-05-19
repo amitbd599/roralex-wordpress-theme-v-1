@@ -53,6 +53,7 @@
   }
   .footer-middle {
     margin-top: 60px;
+    margin-bottom: 30px;
     .wrapper-1 {
       padding-right: 30px;
       @media #{$md, $sm, $xs} {
@@ -236,10 +237,12 @@
     }
   }
   .footer-bottom {
-    background: #333;
-    margin-top: 20px;
+    background: #000;
+
+    padding: 20px 0;
     text-align: center;
-    p {
+    p {  padding: 0;
+      margin: 0;
       font-size: 14px;
       color: var(--bg_white);
     }
@@ -551,12 +554,13 @@
 /* ================ Footer Section version three Start ================*/
 
 .footer-section-version-three {
-  background: var(--primary_color);
   position: relative;
-  padding-top: 30px;
   .footer-top {
+    background: var(--primary_color);
     margin-top: 60px;
-    .wrapper-one {
+    padding-top: 70px;
+    padding-bottom: 30px;
+    .wrapper-1 {
       padding-right: 30px;
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
@@ -617,12 +621,12 @@
         }
       }
     }
-    .wrapper-two {
+    .wrapper-2 {
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }
-      .text-file {
-        h3 {
+
+        .footer__widget-title {
           font-size: 18px;
           font-weight: 600;
           color: var(--bg_white);
@@ -638,14 +642,17 @@
             background: var(--text_color);
           }
         }
-      }
-      .list-items {
+
+      .list-items, .menu-our-service-container {
         ul {
           margin-top: 15px;
           li {
             color: var(--bg_white);
             padding: 2px 0;
             transition: all 0.2s linear;
+            a{
+              display: block;
+            }
             i {
               font-size: 12px;
               margin-right: 6px;
@@ -657,12 +664,12 @@
         }
       }
     }
-    .wrapper-three {
+    .wrapper-4 {
       @media #{$md, $sm, $xs} {
         margin-bottom: 20px;
       }
-      .text-file {
-        h3 {
+
+        .footer__widget-title {
           font-size: 18px;
           font-weight: 600;
           color: var(--bg_white);
@@ -678,7 +685,13 @@
             background: var(--text_color);
           }
         }
-      }
+        .gallery {
+          margin-top: 15px;
+        }
+        .gallery-item{
+          margin-bottom: 5px !important;
+        }
+
       .items {
         padding-right: 15px;
         margin-top: 15px;
@@ -695,14 +708,14 @@
         }
       }
     }
-    .wrapper-four {
+    .wrapper-3 {
       padding-left: 10px;
       @media #{$md, $sm, $xs} {
         padding-left: 0;
         margin-bottom: 40px;
       }
-      .text-file {
-        h3 {
+
+        .footer__widget-title {
           font-size: 18px;
           font-weight: 600;
           color: var(--bg_white);
@@ -718,7 +731,7 @@
             background: var(--text_color);
           }
         }
-      }
+
       .items {
         margin-top: 15px;
         ul {
@@ -738,9 +751,13 @@
     }
   }
   .footer-bottom {
-    margin-top: 20px;
     text-align: center;
+    text-align: center;
+    background: #000;
+    padding: 20px 0;
     p {
+      padding: 0;
+      margin: 0;
       font-size: 14px;
       color: var(--bg_white);
     }

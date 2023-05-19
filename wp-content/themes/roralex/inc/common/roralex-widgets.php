@@ -63,7 +63,7 @@ function roralex_widgets_init() {
                 'name'          => sprintf( esc_html__( 'Footer Style 3 : %1$s', 'roralex' ), $num ),
                 'id'            => 'footer-3-' . $num,
                 'description'   => sprintf( esc_html__( 'Footer Style 3 : %1$s', 'roralex' ), $num ),
-                'before_widget' => '<div id="%1$s" class="footer__widget footer__widget-3 footer-col-3-'.$num.' mb-50 %2$s">',
+                'before_widget' => '<div id="%1$s" class="footer__widget  wrapper-'.$num.' %2$s">',
                 'after_widget'  => '</div>',
                 'before_title'  => '<h3 class="footer__widget-title">',
                 'after_title'   => '</h3>',
@@ -71,19 +71,5 @@ function roralex_widgets_init() {
         }
     }
 
-    // footer 4
-    if ( $footer_style_4_switch ) {
-        for ( $num = 1; $num <= $footer_widgets; $num++ ) {
-            register_sidebar( [
-                'name'          => sprintf( esc_html__( 'Footer Style 4 : %1$s', 'roralex' ), $num ),
-                'id'            => 'footer-4-' . $num,
-                'description'   => sprintf( esc_html__( 'Footer Style 4 : %1$s', 'roralex' ), $num ),
-                'before_widget' => '<div id="%1$s" class="footer__widget footer-col-'.$num.' mb-50 %2$s">',
-                'after_widget'  => '</div>',
-                'before_title'  => '<h3 class="footer__widget-title">',
-                'after_title'   => '</h3>',
-            ] );
-        }
-    }
 }
 add_action( 'widgets_init', 'roralex_widgets_init' );
