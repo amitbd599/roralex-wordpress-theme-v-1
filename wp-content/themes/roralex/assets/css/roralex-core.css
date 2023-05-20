@@ -6556,7 +6556,7 @@ input[type=color] {
     padding-bottom: 100px;
   }
 }
-.blog-group-version-one .container .left-side .wrapper .blog-items {
+.blog-group-version-one .container article {
   margin-bottom: 50px;
 }
 .blog-group-version-one .container .left-side .wrapper .blog-items .main-img img {
