@@ -376,10 +376,7 @@
           }
           .main-btn {
             margin-top: 10px;
-            .btn-shape-normal-outline {
-              margin: 0;
-              width: 146px;
-            }
+
           }
         }
       }
@@ -471,11 +468,13 @@
         }
       }
       .tags {
-        margin-top: 40px;
+        margin-top: 30px;
         h4 {
           font-size: 20px;
           font-weight: 700;
           color: var(--heading_color);
+          margin-right: 20px;
+          float: left;
           @media #{$xs} {
             padding-top: 12px;
             font-size: 15px;
@@ -484,7 +483,7 @@
         }
         display: flex;
         align-items: center;
-        gap: 15px;
+
         @media #{$xs} {
           align-items: start;
         }
@@ -519,8 +518,8 @@
           color: var(--heading_color);
         }
         .inner-comment-section {
-          .root-comment,
-          .child-comment {
+          .root-comment
+          {
             margin-top: 30px;
             display: flex;
             gap: 20px;
@@ -558,7 +557,7 @@
               }
             }
           }
-          .child-comment {
+          .children {
             padding-left: 80px;
             &.rtl {
               padding-left: 0;

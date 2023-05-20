@@ -17,22 +17,42 @@ $roralex_blog_cat = get_theme_mod( 'roralex_blog_cat', false );
 ?>
 
 
-<div class="postbox__meta">
+
+<div class="admin-intro">
     <?php if ( !empty($roralex_blog_author) ): ?>
-    <span><a href="<?php print esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) );?>"><i class="fal fa-user"></i> <?php print get_the_author();?></a></span>
+    <div class="name">
+        <a href="<?php print esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) );?>"><span><i
+                    class="fa-solid fa-user"></i></span>
+            <span><?php print get_the_author();?></span></a>
+
+    </div>
     <?php endif;?>
 
     <?php if ( !empty($roralex_blog_cat) ): ?>
     <?php if ( !empty( $categories[0]->name ) ): ?>
-    <span><i class="icon_tag_alt"></i> <a href="<?php print esc_url(get_category_link($categories[0]->term_id)); ?>"><?php echo esc_html($categories[0]->name); ?></a> </span>
+
+    <div class="date">
+        <a href="<?php print esc_url(get_category_link($categories[0]->term_id)); ?>">
+            <span><i class="fa-solid fa-folder"></i></span>
+            <span><?php echo esc_html($categories[0]->name); ?></span></a>
+
+    </div>
     <?php endif;?>
     <?php endif;?>
 
     <?php if ( !empty($roralex_blog_date) ): ?>
-    <span><i class="fal fa-calendar-check"></i> <?php the_time( get_option('date_format') ); ?> </span>
+    <div class="date">
+        <span><i class="fa-solid fa-timer"></i></span>
+        <span><?php the_time( get_option('date_format') ); ?></span>
+    </div>
     <?php endif;?>
 
     <?php if ( !empty($roralex_blog_comments) ): ?>
-    <span><a href="<?php comments_link();?>"><i class="fal fa-comments-alt"></i> <?php comments_number();?></a></span>
+    <div class="comment">
+        <a href="<?php comments_link();?>">
+            <span><i class="fa-solid fa-comment"></i></span>
+            <span><?php comments_number();?> </span></a>
+
+    </div>
     <?php endif;?>
 </div>

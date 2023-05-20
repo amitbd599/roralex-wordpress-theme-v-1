@@ -15,7 +15,7 @@ if ( post_password_required() ) {
 ?>
 
 <?php if ( have_comments() || comments_open()) : ?>
-<div id="comments" class="blog-post-comment">
+<div id="comments" class="comments">
 
     <?php if ( get_comments_number() >= 1 ): ?>
     <div class="post-comments mb-70">
@@ -24,14 +24,15 @@ if ( post_password_required() ) {
             <?php
                 $comment_no = number_format_i18n( get_comments_number() );
                 $comment_text = ( !empty( $comment_no ) AND ( $comment_no > 1 ) ) ? esc_html__( ' Comments', 'roralex' ) : esc_html__( ' Comment ', 'roralex' );
-                $comment_no = ( !empty( $comment_no ) AND ( $comment_no > 0 ) ) ? '<h2>' . esc_html( $comment_no . $comment_text ) . '</h2>' : ' ';
+                $comment_no = ( !empty( $comment_no ) AND ( $comment_no > 0 ) ) ? '<h4>' . esc_html( $comment_no . $comment_text ) . '</h4>' : ' ';
                 print sprintf( "%s", $comment_no );
             ?>
 
         </div>
-        <div class="latest-comments mb-65">
-            <ul>
-                <?php
+        <div class="inner-comment-section">
+            <div class="root-comment">
+                <ul>
+                    <?php
                     wp_list_comments( [
                         'style'       => 'ul',
                         'callback'    => 'roralex_comment',
@@ -39,26 +40,28 @@ if ( post_password_required() ) {
                         'short_ping'  => true,
                     ] );
                 ?>
-            </ul>
+                </ul>
+            </div>
         </div>
     </div>
     <?php endif;?>
 
     <?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ): ?>
-        <div class="comment-pagination mb-50 d-none">
-            <nav id="comment-nav-below" class="comment-navigation" role="navigation">
-                <h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'roralex' );?></h1>
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="nav-previous "><?php previous_comments_link( esc_html__( '&larr; Older ', 'roralex' ) );?></div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="nav-next "><?php next_comments_link( esc_html__( 'Newer &rarr;', 'roralex' ) );?></div>
-                    </div>
+    <div class="comment-pagination mb-50 d-none">
+        <nav id="comment-nav-below" class="comment-navigation" role="navigation">
+            <h1 class="screen-reader-text"><?php esc_html_e( 'Comment navigation', 'roralex' );?></h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="nav-previous ">
+                        <?php previous_comments_link( esc_html__( '&larr; Older ', 'roralex' ) );?></div>
                 </div>
-                <div class="clearfix"></div>
-            </nav><!-- #comment-nav-below -->
-        </div>
+                <div class="col-md-6">
+                    <div class="nav-next "><?php next_comments_link( esc_html__( 'Newer &rarr;', 'roralex' ) );?></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </nav><!-- #comment-nav-below -->
+    </div>
     <?php endif; // check for comment navigation ?>
 
 

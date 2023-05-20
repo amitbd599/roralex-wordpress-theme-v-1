@@ -728,18 +728,6 @@ function _header_footer_fields( $fields ) {
         ],
     ];
 
-    $fields[] = [
-        'type'     => 'switch',
-        'settings' => 'footer_style_4_switch',
-        'label'    => esc_html__( 'Footer Style 4 On/Off', 'roralex' ),
-        'section'  => 'footer_setting',
-        'default'  => '0',
-        'priority' => 10,
-        'choices'  => [
-            'on'  => esc_html__( 'Enable', 'roralex' ),
-            'off' => esc_html__( 'Disable', 'roralex' ),
-        ],
-    ];
 
     $fields[] = [
         'type'     => 'text',

@@ -14,7 +14,15 @@ $roralex_blog_btn_switch = get_theme_mod( 'roralex_blog_btn_switch', true );
 ?>
 
 <?php if ( !empty( $roralex_blog_btn_switch ) ): ?>
-<div class="postbox__read-more">
-    <a href="<?php the_permalink();?>" class="tp-btn"><?php print esc_html( $roralex_blog_btn );?></a>
+
+
+<div class="main-btn">
+    <a href="<?php the_permalink();?>">
+        <button class="btn-shape-normal-outline">
+            <span class="button-content"><?php print esc_html( $roralex_blog_btn );?></span>
+        </button>
+
+
+    </a>
 </div>
 <?php endif;?>

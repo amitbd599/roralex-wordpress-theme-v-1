@@ -33,6 +33,49 @@ img {
   height: auto;
 }
 
+.comments .root-comment{
+ margin-top: 0px !important;
+}
+.comments .root-comment>ul>li{
+ margin-top: 20px;
+}
+.comments .comments-text .avatar-name h5{
+  font-size: 22px;
+    font-weight: 700;
+    color: var(--heading_color);
+    margin: 0;
+}
+.comments .comments-text .avatar-name span{
+  color: var(--theme_color);
+}
+.comments .comments-text  p{
+  margin-top: 10px;
+}
+.comments .comments-text  .comments-replay {
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border_color);
+}
+.comments .comments-text  .comments-replay a{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--heading_color);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.comments .comments-text  .comments-replay a:hover{
+  color: var(--theme_color);
+}
+.comments .children li{
+margin-top: 20px;
+}
+
+.comments-avatar img{
+  width: 60px;
+  border-radius: 50%;
+}
+
+
+
 /*comments list */
 .blog-coment-title h2 {
   font-size: 26px;

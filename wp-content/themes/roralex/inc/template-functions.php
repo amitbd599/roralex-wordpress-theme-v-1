@@ -36,10 +36,23 @@ add_filter( 'body_class', 'roralex_body_classes' );
 /**
  * Get tags.
  */
+
+
+//  <div class="tags">
+//                                     <h4>POST TAGS :</h4>
+//                                     <div class="tag-inner">
+//                                         <a href="#">Contractor</a>
+//                                         <a href="#">Appliances</a>
+//                                         <a href="#">Power</a>
+//                                         <a href="#">Electrical</a>
+//                                     </div>
+//                                 </div>
+
+
 function roralex_get_tag() {
     $html = '';
     if ( has_tag() ) {
-        $html .= '<div class="tp-post-tag"><span>' . esc_html__( 'Post Tags : ', 'roralex' ) . '</span>';
+        $html .= '<div class="tags"> <div><h4>' . esc_html__( 'Post Tags : ', 'roralex' ) . '</h4></div>';
         $html .= get_the_tag_list( '', ' ', '' );
         $html .= '</div>';
     }
