@@ -18,9 +18,9 @@ function roralex_widgets_init() {
         'name'          => esc_html__( 'Blog Sidebar', 'roralex' ),
         'id'            => 'blog-sidebar',
         'description'          => esc_html__( 'Set Your Blog Widget', 'roralex' ),
-        'before_widget' => '<div id="%1$s" class="sidebar__widget mb-60 %2$s">',
+        'before_widget' => '<div id="%1$s" class="sidebar-widget mb-15 %2$s"> ',
         'after_widget'  => '</div>',
-        'before_title'  => '<div class="sidebar__widget-head mb-35"><h3 class="sidebar__widget-title">',
+        'before_title'  => '<div class="sidebar__widget-head"><h3 class="sidebar__widget-title">',
         'after_title'   => '</h3></div>',
     ] );
 

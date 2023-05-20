@@ -225,25 +225,25 @@ if ( !function_exists( 'roralex_comment' ) ) {
         $args['reply_text'] = 'Reply';
         $replayClass = 'comment-depth-' . esc_attr( $depth );
         ?>
-            <li id="comment-<?php comment_ID();?>">
-                <div class="comments-box grey-bg-2">
-                    <div class="comments-avatar">
-                        <?php print get_avatar( $comment, 102, null, null, [ 'class' => [] ] );?>
-                    </div>
-                    <div class="comments-text">
-                        <div class="avatar-name">
-                            <h5><?php print get_comment_author_link();?></h5>
-                            <span><?php comment_time( get_option( 'date_format' ) );?></span>
-                        </div>
-                        <?php comment_text();?>
+<li id="comment-<?php comment_ID();?>">
+    <div class="comments-box grey-bg-2">
+        <div class="comments-avatar">
+            <?php print get_avatar( $comment, 102, null, null, [ 'class' => [] ] );?>
+        </div>
+        <div class="comments-text">
+            <div class="avatar-name">
+                <h5><?php print get_comment_author_link();?></h5>
+                <span><?php comment_time( get_option( 'date_format' ) );?></span>
+            </div>
+            <?php comment_text();?>
 
-                        <div class="comments-replay">
-                            <?php comment_reply_link( array_merge( $args, [ 'depth' => $depth, 'max_depth' => $args['max_depth'] ] ) );?>
-                        </div>
+            <div class="comments-replay">
+                <?php comment_reply_link( array_merge( $args, [ 'depth' => $depth, 'max_depth' => $args['max_depth'] ] ) );?>
+            </div>
 
-                    </div>
-                </div>
-        <?php
+        </div>
+    </div>
+    <?php
     }
 }
 
@@ -273,15 +273,19 @@ function roralex_shortcode_extra_content_remove( $content ) {
 
 }
 
+
 // roralex_search_filter_form
 if ( !function_exists( 'roralex_search_filter_form' ) ) {
     function roralex_search_filter_form( $form ) {
 
         $form = sprintf(
-            '<div class="sidebar__widget-px"><div class="search-px"><form class="sidebar__search p-relative" action="%s" method="get">
-      	<input type="text" value="%s" required name="s" placeholder="%s">
-      	<button type="submit"> <i class="far fa-search"></i>  </button>
-		</form></div></div>',
+            '<div class="search"><form class="input" action="%s" method="get">
+            <div class="input">
+            <input type="text" value="%s" required name="s" placeholder="%s">
+            <button type="submit"> <span><i class="fa-sharp fa-solid fa-magnifying-glass"></i></span>  </button>
+            </div>
+
+		</form></div> ',
             esc_url( home_url( '/' ) ),
             esc_attr( get_search_query() ),
             esc_html__( 'Search', 'roralex' )

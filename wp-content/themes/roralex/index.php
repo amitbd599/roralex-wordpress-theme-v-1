@@ -58,7 +58,7 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
 
             <?php if ( is_active_sidebar( 'blog-sidebar' ) ): ?>
             <div class="col-lg-4">
-                <div class="blog__sidebar pl-70">
+                <div class="blog__sidebar">
                     <?php get_sidebar();?>
                 </div>
             </div>

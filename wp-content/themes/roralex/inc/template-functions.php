@@ -38,15 +38,7 @@ add_filter( 'body_class', 'roralex_body_classes' );
  */
 
 
-//  <div class="tags">
-//                                     <h4>POST TAGS :</h4>
-//                                     <div class="tag-inner">
-//                                         <a href="#">Contractor</a>
-//                                         <a href="#">Appliances</a>
-//                                         <a href="#">Power</a>
-//                                         <a href="#">Electrical</a>
-//                                     </div>
-//                                 </div>
+
 
 
 function roralex_get_tag() {

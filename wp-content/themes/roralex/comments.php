@@ -80,10 +80,18 @@ if ( post_password_required() ) {
     $req         = get_option( 'require_name_email' );
     $aria_req    = ( $req ? " aria-required='true'" : '' );
 
+
+
+
     $fields = array(
-        'author' => '<div class="row"><div class="col-md-6"><div class="postbox__comment-input"><input placeholder="'.  esc_attr__('Enter Name', 'roralex').'" id="author" class="tp-form-control" name="author" type="text" value="' . esc_attr( $commenter[ 'comment_author' ] ) . '" size="30"' . $aria_req . ' /></div></div>',
+        'author' => '<div class="row">
+        <div class="col-md-6">
+        <div class="postbox__comment-input">
+        <input placeholder="'.  esc_attr__('Enter Name', 'roralex').'" id="author" class="tp-form-control" name="author" type="text" value="' . esc_attr( $commenter[ 'comment_author' ] ) . '" size="30"' . $aria_req . ' />
+        </div>
+        </div>',
         'email'  => '<div class="col-md-6"><div class="postbox__comment-input"><input placeholder="'.  esc_attr__('Enter Email', 'roralex').'" id="email" name="email" class="tp-form-control" type="email" value="' . esc_attr( $commenter[ 'comment_author_email' ] ) . '" size="30"' . $aria_req . ' /></div></div>',
-        'url'    => '<div class="col-md-12"><div class="postbox__comment-input"><input placeholder="'.  esc_attr__('Enter Website', 'roralex').'" id="url" name="url" class="tp-form-control" type="url" value="' . esc_attr( $commenter[ 'comment_author_url' ] ) . '" size="30" /></div></div></div>'
+        'url'    => '<div class="col-md-12"><div class="postbox__comment-input mt-20"><input placeholder="'.  esc_attr__('Enter Website', 'roralex').'" id="url" name="url" class="tp-form-control" type="url" value="' . esc_attr( $commenter[ 'comment_author_url' ] ) . '" size="30" /></div></div></div>'
     );
 
     if ( is_user_logged_in() ) {
@@ -96,12 +104,14 @@ if ( post_password_required() ) {
         'comment_field'      => '
             <div class="row post-input">
                 <div class="col-md-12 ' . $cl . '">
-                    <div class="postbox__comment-input"><textarea class="tp-form-control msg-box" placeholder="'.  esc_attr__('Enter Your Comments', 'roralex').'" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+                    <div class="postbox__comment-input mt-30"><textarea class="tp-form-control msg-box comment-box" placeholder="'.  esc_attr__('Enter Your Comments', 'roralex').'" id="comment" name="comment" cols="50" rows="8" aria-required="true"></textarea>
                 </div></div>
                 <div class="clearfix"></div>
             </div>
         ',
-        'submit_button'    => '<div class="col-xl-12"><button class="tp-btn" type="submit">' . esc_html__( 'Post Comment', 'roralex' ) . ' </button></div>',
+        'submit_button'    => '<div class="col-xl-12 mb-20"><button class="btn-shape-normal-outline" type="submit"> <span class="button-content">' . esc_html__( 'Post Comment', 'roralex' ) . '</span> </button></div>',
+
+
         /** This filter is documented in wp-includes/link-template.php */
         'must_log_in'        => '
             <p class="must-log-in">

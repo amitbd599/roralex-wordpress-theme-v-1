@@ -96,7 +96,8 @@ class WP_Widget_Categories extends WP_Widget {
 			?>
 
 <script<?php echo $type_attr; ?>>
-/* <![CDATA[ */
+    /*
+    <![CDATA[ */
 (function() {
 	var dropdown = document.getElementById( "<?php echo esc_js( $dropdown_id ); ?>" );
 	function onCatChange() {
@@ -107,9 +108,9 @@ class WP_Widget_Categories extends WP_Widget {
 	dropdown.onchange = onCatChange;
 })();
 /* ]]> */
-</script>
+    </script>
 
-			<?php
+    <?php
 		} else {
 			$format = current_theme_supports( 'html5', 'navigation-widgets' ) ? 'html5' : 'xhtml';
 
@@ -124,8 +125,8 @@ class WP_Widget_Categories extends WP_Widget {
 			}
 			?>
 
-			<ul>
-				<?php
+    <ul>
+        <?php
 				$cat_args['title_li'] = '';
 
 				/**
@@ -139,9 +140,9 @@ class WP_Widget_Categories extends WP_Widget {
 				 */
 				wp_list_categories( apply_filters( 'widget_categories_args', $cat_args, $instance ) );
 				?>
-			</ul>
+    </ul>
 
-			<?php
+    <?php
 			if ( 'html5' === $format ) {
 				echo '</nav>';
 			}
@@ -184,24 +185,29 @@ class WP_Widget_Categories extends WP_Widget {
 		$hierarchical = isset( $instance['hierarchical'] ) ? (bool) $instance['hierarchical'] : false;
 		$dropdown     = isset( $instance['dropdown'] ) ? (bool) $instance['dropdown'] : false;
 		?>
-		<p>
-			<label for="<?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
-			<input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>" name="<?php echo $this->get_field_name( 'title' ); ?>" type="text" value="<?php echo esc_attr( $instance['title'] ); ?>" />
-		</p>
+    <p>
+        <label for=" <?php echo $this->get_field_id( 'title' ); ?>"><?php _e( 'Title:' ); ?></label>
+        <input class="widefat" id="<?php echo $this->get_field_id( 'title' ); ?>"
+            name="<?php echo $this->get_field_name( 'title' ); ?>" type="text"
+            value="<?php echo esc_attr( $instance['title'] ); ?>" />
+    </p>
 
-		<p>
-			<input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id( 'dropdown' ); ?>" name="<?php echo $this->get_field_name( 'dropdown' ); ?>"<?php checked( $dropdown ); ?> />
-			<label for="<?php echo $this->get_field_id( 'dropdown' ); ?>"><?php _e( 'Display as dropdown' ); ?></label>
-			<br />
+    <p>
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id( 'dropdown' ); ?>"
+            name="<?php echo $this->get_field_name( 'dropdown' ); ?>" <?php checked( $dropdown ); ?> />
+        <label for="<?php echo $this->get_field_id( 'dropdown' ); ?>"><?php _e( 'Display as dropdown' ); ?></label>
+        <br />
 
-			<input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id( 'count' ); ?>" name="<?php echo $this->get_field_name( 'count' ); ?>"<?php checked( $count ); ?> />
-			<label for="<?php echo $this->get_field_id( 'count' ); ?>"><?php _e( 'Show post counts' ); ?></label>
-			<br />
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id( 'count' ); ?>"
+            name="<?php echo $this->get_field_name( 'count' ); ?>" <?php checked( $count ); ?> />
+        <label for="<?php echo $this->get_field_id( 'count' ); ?>"><?php _e( 'Show post counts' ); ?></label>
+        <br />
 
-			<input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id( 'hierarchical' ); ?>" name="<?php echo $this->get_field_name( 'hierarchical' ); ?>"<?php checked( $hierarchical ); ?> />
-			<label for="<?php echo $this->get_field_id( 'hierarchical' ); ?>"><?php _e( 'Show hierarchy' ); ?></label>
-		</p>
-		<?php
+        <input type="checkbox" class="checkbox" id="<?php echo $this->get_field_id( 'hierarchical' ); ?>"
+            name="<?php echo $this->get_field_name( 'hierarchical' ); ?>" <?php checked( $hierarchical ); ?> />
+        <label for="<?php echo $this->get_field_id( 'hierarchical' ); ?>"><?php _e( 'Show hierarchy' ); ?></label>
+    </p>
+    <?php
 	}
 
 }
