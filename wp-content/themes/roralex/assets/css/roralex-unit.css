@@ -479,6 +479,19 @@ div.postbox__details .wp-block-cover-text {
 .wp-block-media-text.alignfull.has-media-on-the-right.has-background.is-stacked-on-mobile {
   margin-bottom: 20px;
 }
+.wp-caption {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+}
+.wp-caption .wp-caption-text {
+  margin: 0.8075em 0;
+  font-size: 14px;
+  font-style: italic;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*tp unit css */
 
