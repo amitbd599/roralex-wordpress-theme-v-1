@@ -100,7 +100,7 @@ h4,
 h5,
 h6 {
   font-family: "Josefin Sans", sans-serif;
-  color: var(--header_color);
+  color: var(--heading_color);
   margin-top: 0px;
   font-weight: 600;
   line-height: 1.2;
