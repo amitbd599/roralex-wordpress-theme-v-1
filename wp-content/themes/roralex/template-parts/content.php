@@ -17,7 +17,8 @@ if ( is_single() ) : ?>
         </div>
 
         <!-- blog meta -->
-        <?php get_template_part( 'template-parts/blog/blog-meta' ); ?>
+        <div class="mb-20"><?php get_template_part( 'template-parts/blog/blog-meta' ); ?></div>
+
 
         <?php if ( has_post_thumbnail() ): ?>
         <div class="postbox__thumb mb-30">
@@ -63,8 +64,7 @@ if ( is_single() ) : ?>
             <?php endif; ?>
 
 
-            <!-- blog meta -->
-            <?php get_template_part( 'template-parts/blog/blog-meta' ); ?>
+
 
 
             <div class="main-heading">
@@ -73,6 +73,9 @@ if ( is_single() ) : ?>
                     <h2><?php the_title();?></h2>
                 </a>
             </div>
+            <!-- blog meta -->
+            <?php get_template_part( 'template-parts/blog/blog-meta' ); ?>
+
             <div class="inner-section">
                 <p><?php the_excerpt();?></p>
 

@@ -138,7 +138,6 @@ h6 {
 ul {
   margin: 0px;
   padding: 0px;
-  list-style: none;
 }
 
 p {
@@ -6591,7 +6590,6 @@ input[type=color] {
   border-radius: 8px;
 }
 .blog-group-version-one .container .left-side .wrapper .blog-items .admin-intro {
-  padding: 15px 0;
   display: flex;
   align-items: center;
   gap: 25px;
@@ -6632,6 +6630,7 @@ input[type=color] {
   font-weight: 700;
   color: var(--heading_color);
   text-transform: capitalize;
+  margin-top: 25px;
 }
 @media only screen and (max-width: 576px) {
   .blog-group-version-one .container .left-side .wrapper .blog-items .main-heading h2 {
@@ -6673,6 +6672,39 @@ input[type=color] {
   background: var(--theme_color);
   color: var(--bg_white);
 }
+.blog-group-version-one .admin-intro {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.blog-group-version-one .admin-intro .name,
+.blog-group-version-one .admin-intro .date,
+.blog-group-version-one .admin-intro .comment {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
+  .blog-group-version-one .admin-intro {
+    display: block;
+  }
+  .blog-group-version-one .admin-intro .name,
+  .blog-group-version-one .admin-intro .date,
+  .blog-group-version-one .admin-intro .comment {
+    display: inline-block;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    font-weight: 600;
+  }
+  .blog-group-version-one .admin-intro .name i,
+  .blog-group-version-one .admin-intro .date i,
+  .blog-group-version-one .admin-intro .comment i {
+    margin-right: 5px;
+  }
+}
+.blog-group-version-one .admin-intro span:first-child {
+  color: var(--theme_color);
+}
 
 /* ============= Blog Details version one start =============*/
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
@@ -6701,7 +6733,6 @@ input[type=color] {
   }
 }
 .blog-details-version-one .left-side .wrapper .admin-intro {
-  padding: 15px 0;
   display: flex;
   align-items: center;
   gap: 25px;
@@ -6734,8 +6765,6 @@ input[type=color] {
 }
 .blog-details-version-one .left-side .wrapper .tags {
   margin-top: 30px;
-  display: flex;
-  align-items: center;
 }
 .blog-details-version-one .left-side .wrapper .tags h4 {
   font-size: 20px;
@@ -6743,6 +6772,8 @@ input[type=color] {
   color: var(--heading_color);
   margin-right: 20px;
   float: left;
+  padding-top: 5px;
+  margin-bottom: 0;
 }
 @media only screen and (max-width: 576px) {
   .blog-details-version-one .left-side .wrapper .tags h4 {

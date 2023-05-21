@@ -163,7 +163,7 @@ margin-top: 20px;
   padding: 30px;
 }
 .postbox__details ul{
-  list-style: unset;
+
   padding-left: 20px;
 }
 .postbox__details ul li{
@@ -522,6 +522,10 @@ img {
 }
  .comments-text > ul, .comments-text > ol {
   margin-bottom: 20px !important;
+}
+
+.post_format-post-format-image .admin-intro{
+  padding: 15px 0;
 }
 /*tp unit css */
 
