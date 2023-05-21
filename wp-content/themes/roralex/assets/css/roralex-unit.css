@@ -295,8 +295,8 @@ margin-top: 20px;
 }
 
 .page-links > span {
-    border: 2px solid #2b4eff;
-    color: #2b4eff;
+    border: 2px solid var(--theme_color);
+    color: var(--theme_color);
 }
 .comment-form-cookies-consent{
   margin-top: 10px;
@@ -492,7 +492,26 @@ img {
   max-width: 100%;
   height: auto;
 }
+.post-password-form label {
+  width: 100%;
+}
 
+.post-password-form input[type="password"] {
+  background:#F5F6F8;
+  border: 0;
+  height: 50px;
+  width: 100%;
+  padding: 0 15px;
+}
+.post-password-form input[type="submit"] {
+  width: 120px;
+  height: 50px;
+  background: var(--theme_color);
+  color: #fff;
+  border: 0;
+  margin-top: 10px;
+  transition: .3s;
+}
 /*tp unit css */
 
 
