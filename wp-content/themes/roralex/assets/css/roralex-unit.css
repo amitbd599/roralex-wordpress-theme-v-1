@@ -379,9 +379,7 @@ blockquote cite::before {
 	display: inline-block;
 }
 
-.comments-box blockquote {
-	background: #fff;
-}
+
 .wp-block-column .wp-block-quote {
 	padding: 10px;
 }
@@ -496,6 +494,9 @@ img {
   width: 100%;
 }
 
+.comments-text {
+  overflow: hidden;
+}
 .post-password-form input[type="password"] {
   background:#F5F6F8;
   border: 0;
@@ -511,6 +512,16 @@ img {
   border: 0;
   margin-top: 10px;
   transition: .3s;
+}
+
+.postbox__details .root-comment {
+  display: block !important;
+}
+.postbox__details .root-comment>ul{
+  list-style: none;
+}
+ .comments-text > ul, .comments-text > ol {
+  margin-bottom: 20px !important;
 }
 /*tp unit css */
 
