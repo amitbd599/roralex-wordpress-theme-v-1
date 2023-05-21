@@ -86,44 +86,7 @@ if ( is_single() ) : ?>
 
         </div>
     </div>
-    <div class="pagination d-none">
-        <div class="item">
-            <span>
-                <i class="fa-light fa-angles-left"></i>
-            </span>
-        </div>
-        <div class="item active">
-            <span>
-                1
-            </span>
-        </div>
-        <div class="item">
-            <span>
-                2
-            </span>
-        </div>
-        <div class="item">
-            <span>
-                3
-            </span>
-        </div>
-        <div class="item">
-            <span>
-                4
-            </span>
-        </div>
-        <div class="item">
-            <span>
-                5
-            </span>
-        </div>
 
-        <div class="item">
-            <span>
-                <i class="fa-light fa-angles-right"></i>
-            </span>
-        </div>
-    </div>
 
 </article>
 

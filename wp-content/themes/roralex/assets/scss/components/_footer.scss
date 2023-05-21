@@ -350,6 +350,7 @@
 
       .list-items,.menu-our-service-container {
         ul {
+          list-style: none;
           margin-top: 15px;
           li {
             color: var(--bg_white);
@@ -442,6 +443,7 @@
       .social-icon {
         margin-top: 15px;
         ul {
+          list-style: none;
           display: flex;
           gap: 10px;
           align-items: center;
@@ -529,6 +531,7 @@
         }
       }
       ul {
+        list-style: none;
         display: flex;
         align-items: center;
         gap: 10px;

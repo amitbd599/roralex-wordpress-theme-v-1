@@ -1796,6 +1796,7 @@ input[type=color] {
   background: var(--text_color);
 }
 .footer-section-version-two .footer-top .wrapper-2 .list-items ul, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul {
+  list-style: none;
   margin-top: 15px;
 }
 .footer-section-version-two .footer-top .wrapper-2 .list-items ul li, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li {
@@ -1882,6 +1883,7 @@ input[type=color] {
   margin-top: 15px;
 }
 .footer-section-version-two .footer-top .wrapper-3 .social-icon ul {
+  list-style: none;
   display: flex;
   gap: 10px;
   align-items: center;
@@ -1963,6 +1965,7 @@ input[type=color] {
   }
 }
 .footer-section-version-two .footer-bottom .inner ul {
+  list-style: none;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -6672,6 +6675,41 @@ input[type=color] {
   background: var(--theme_color);
   color: var(--bg_white);
 }
+.blog-group-version-one .container .left-side .basic-pagination ul {
+  padding-left: 0;
+}
+.blog-group-version-one .container .left-side .basic-pagination ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.blog-group-version-one .container .left-side .basic-pagination ul li a, .blog-group-version-one .container .left-side .basic-pagination ul li span {
+  position: relative;
+  overflow: hidden;
+  background: transparent;
+  display: inline-block;
+  width: 40px;
+  height: 38px;
+  line-height: 36px;
+  text-align: center;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+  -ms-border-radius: 4px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  border: 2px solid #eef0f6;
+}
+.blog-group-version-one .container .left-side .basic-pagination ul li span.current {
+  background: var(--theme_color);
+  color: var(--bg_white);
+  border: 2px solid var(--theme_color);
+}
+.blog-group-version-one .container .left-side .basic-pagination ul li:hover a {
+  background: var(--theme_color);
+  color: var(--bg_white);
+  border: 2px solid var(--theme_color);
+}
 .blog-group-version-one .admin-intro {
   display: flex;
   align-items: center;
@@ -7771,6 +7809,10 @@ input[type=color] {
   border-radius: 10px;
   border: 2px solid var(--border_color);
   margin-left: 30px;
+}
+.sidebar-widget.widget_categories ul,
+.sidebar-widget.widget_nav_menu ul {
+  list-style: none;
 }
 .sidebar-widget.widget_categories ul li,
 .sidebar-widget.widget_nav_menu ul li {

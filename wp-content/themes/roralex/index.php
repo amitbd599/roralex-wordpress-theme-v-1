@@ -45,8 +45,13 @@ $blog_column = is_active_sidebar( 'blog-sidebar' ) ? 8 : 12;
                         <?php
 							endwhile;
 						?>
-                        <div class="basic-pagination mb-40 pagination justify-content-left">
-                            <?php roralex_pagination( '<i class="fal fa-arrow-left"></i>', '<i class="fal fa-arrow-right"></i>', '', ['class' => ''] );?>
+
+
+
+
+
+                        <div class="basic-pagination mb-40 pagination ">
+                            <?php roralex_pagination( '<i class="fa-light fa-angles-left"></i>', '<i class="fa-light fa-angles-right"></i>', '', ['class' => ''] );?>
                         </div>
                         <?php
 						else:
