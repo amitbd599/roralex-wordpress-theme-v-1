@@ -42,7 +42,6 @@
 /*  01. Variable Implementation
 /*----------------------------------------*/
 /* ======== Font Includes ======== */
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 :root {
   /* ======== Color scheme ======== */
   --primary_color: #343a40;
@@ -1517,9 +1516,6 @@ input[type=color] {
   margin-top: 60px;
   margin-bottom: 30px;
 }
-.footer-section-version-one .footer-middle .wrapper-1 {
-  padding-right: 30px;
-}
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-one .footer-middle .wrapper-1 {
     margin-bottom: 40px;
@@ -1544,20 +1540,22 @@ input[type=color] {
 .footer-section-version-one .footer-middle .wrapper-1 p {
   font-size: 16px;
   margin-top: 16px;
-  color: var(--bg_white);
+  color: #d7d7d7;
   font-weight: normal;
   text-align: justify;
 }
 .footer-section-version-one .footer-middle .wrapper-1 .social-icon {
-  margin-top: 5px;
+  margin-top: 15px;
 }
 .footer-section-version-one .footer-middle .wrapper-1 .social-icon ul {
   display: flex;
   gap: 10px;
+  list-style: none;
 }
 .footer-section-version-one .footer-middle .wrapper-1 .social-icon ul li a {
   padding: 2px;
   font-size: 20px;
+  color: #fff;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-one .footer-middle .wrapper-1 .social-icon ul li a {
@@ -1579,6 +1577,9 @@ input[type=color] {
 }
 .footer-section-version-one .footer-middle .wrapper-1 .social-icon ul li a:hover .fa-linkedin {
   color: var(--linkedin);
+}
+.footer-section-version-one .footer-middle .wrapper-2 {
+  margin-left: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-one .footer-middle .wrapper-2 {
@@ -1685,7 +1686,7 @@ input[type=color] {
   color: var(--theme_color);
 }
 .footer-section-version-one .footer-middle .wrapper-4 .items ul li span {
-  color: var(--bg_white);
+  color: #d7d7d7;
 }
 .footer-section-version-one .footer-bottom {
   background: #000;
@@ -1997,9 +1998,6 @@ input[type=color] {
   padding-top: 70px;
   padding-bottom: 30px;
 }
-.footer-section-version-three .footer-top .wrapper-1 {
-  padding-right: 30px;
-}
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-three .footer-top .wrapper-1 {
     margin-bottom: 40px;
@@ -2024,7 +2022,7 @@ input[type=color] {
 .footer-section-version-three .footer-top .wrapper-1 p {
   font-size: 16px;
   margin-top: 16px;
-  color: var(--bg_white);
+  color: #d7d7d7;
   font-weight: normal;
   text-align: justify;
 }
@@ -2034,10 +2032,12 @@ input[type=color] {
 .footer-section-version-three .footer-top .wrapper-1 .social-icon ul {
   display: flex;
   gap: 10px;
+  list-style: none;
 }
 .footer-section-version-three .footer-top .wrapper-1 .social-icon ul li a {
   padding: 2px;
   font-size: 20px;
+  color: #fff;
 }
 .footer-section-version-three .footer-top .wrapper-1 .social-icon ul li a i {
   transition: all 0.2s linear;
@@ -2053,6 +2053,9 @@ input[type=color] {
 }
 .footer-section-version-three .footer-top .wrapper-1 .social-icon ul li a:hover .fa-linkedin {
   color: var(--linkedin);
+}
+.footer-section-version-three .footer-top .wrapper-2 {
+  margin-left: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-three .footer-top .wrapper-2 {
@@ -2171,10 +2174,10 @@ input[type=color] {
   padding: 3px 0;
 }
 .footer-section-version-three .footer-top .wrapper-3 .items ul li i {
-  color: var(--theme_color);
+  color: #d7d7d7;
 }
 .footer-section-version-three .footer-top .wrapper-3 .items ul li span {
-  color: var(--bg_white);
+  color: #d7d7d7;
 }
 .footer-section-version-three .footer-bottom {
   text-align: center;
@@ -3007,7 +3010,7 @@ input[type=color] {
   overflow: hidden;
 }
 .bread-crumb .wrapper {
-  padding: 60px 0;
+  padding: 130px 0;
   text-align: center;
 }
 .bread-crumb .wrapper h2 {

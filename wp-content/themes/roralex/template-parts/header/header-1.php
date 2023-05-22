@@ -37,63 +37,68 @@
 
 <!-- header area start -->
 
-  <!-- header-area-start -->
-  <header id="header-sticky" class="header-intro-version-one-area">
-      <div class="container">
-         <div class="row align-items-center">
+<!-- header-area-start -->
+<header id="header-sticky" class="header-intro-version-one-area">
+    <div class="container">
+        <div class="row align-items-center">
             <div class="col-xl-2 col-lg-2 col-md-6 col-6">
-               <div class="logo-area">
-                  <div class="logo">
-                     <?php roralex_header_logo(); ?>
-                  </div>
-               </div>
+                <div class="logo-area">
+                    <div class="logo">
+                        <?php roralex_header_logo(); ?>
+                    </div>
+                </div>
             </div>
             <div class="<?php echo esc_attr($roralex_menu_col); ?>">
-               <div class="menu-body">
-                  <div class="<?php echo $roralex_header_right ?  esc_attr__('main-menu', 'roralex')  :  esc_attr__('main-menu justify-content-end', 'roralex') ?>">
-                     <nav id="mobile-menu">
-                        <?php roralex_header_menu(); ?>
+                <div class="menu-body">
+                    <div
+                        class="<?php echo esc_attr($roralex_header_right) ?  esc_attr__('main-menu', 'roralex')  :  esc_attr__('main-menu justify-content-end', 'roralex') ?>">
+                        <nav id="mobile-menu">
+                            <?php roralex_header_menu(); ?>
 
-                     </nav>
-                  </div>
-               </div>
-               <div class="side-menu-icon d-lg-none text-end">
-                  <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i
-                        class="fal fa-bars"></i></a>
-               </div>
+                        </nav>
+                    </div>
+                </div>
+                <div class="side-menu-icon d-lg-none text-end">
+                    <a href="javascript:void(0)" class="info-toggle-btn f-right sidebar-toggle-btn"><i
+                            class="fal fa-bars"></i></a>
+                </div>
             </div>
 
 
             <?php if(!empty($roralex_header_right)) :  ?>
             <div class="col-xl-3 col-lg-4 d-none d-xl-block">
-               <div class="location-email-intro">
+                <div class="location-email-intro">
 
-                  <?php if(!empty($roralex_phone_num)) : ?>
-                  <div class="inner-location-email-intro">
-                     <div class="inner">
-                        <span><i class="fa-solid fa-phone"></i></span>
-                        <span class="text"><?php echo esc_html__('Phone', 'roralex'); ?></span>
-                     </div>
-                     <h5><a href="tel: <?php echo esc_attr($roralex_phone_num) ?>"><?php echo esc_html($roralex_phone_num); ?></a></h5>
-                  </div>
-                  <?php endif;?>
+                    <?php if(!empty($roralex_phone_num)) : ?>
+                    <div class="inner-location-email-intro">
+                        <div class="inner">
+                            <span><i class="fa-solid fa-phone"></i></span>
+                            <span class="text"><?php echo esc_html__('Phone', 'roralex'); ?></span>
+                        </div>
+                        <h5><a
+                                href="tel: <?php echo esc_attr($roralex_phone_num) ?>"><?php echo esc_html($roralex_phone_num); ?></a>
+                        </h5>
+                    </div>
+                    <?php endif;?>
 
-                  <?php if(!empty($roralex_mail_id)) : ?>
-                  <div class="inner-location-email-intro">
-                     <div class="inner">
-                        <span><i class="fa-solid fa-envelope"></i></span>
-                        <span class="text"><?php echo esc_html__('Get In Touch', 'roralex'); ?></span>
-                     </div>
-                     <h5><a href="mailto:<?php echo esc_attr($roralex_mail_id);?>"><?php echo esc_html($roralex_mail_id);?></a></h5>
-                  </div>
-                  <?php endif;?>
-               </div>
+                    <?php if(!empty($roralex_mail_id)) : ?>
+                    <div class="inner-location-email-intro">
+                        <div class="inner">
+                            <span><i class="fa-solid fa-envelope"></i></span>
+                            <span class="text"><?php echo esc_html__('Get In Touch', 'roralex'); ?></span>
+                        </div>
+                        <h5><a
+                                href="mailto:<?php echo esc_attr($roralex_mail_id);?>"><?php echo esc_html($roralex_mail_id);?></a>
+                        </h5>
+                    </div>
+                    <?php endif;?>
+                </div>
             </div>
             <?php endif;?>
-         </div>
-      </div>
-   </header>
-   <!-- header-area-end -->
+        </div>
+    </div>
+</header>
+<!-- header-area-end -->
 
 
 

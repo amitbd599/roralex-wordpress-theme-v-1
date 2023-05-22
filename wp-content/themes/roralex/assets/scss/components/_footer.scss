@@ -55,7 +55,6 @@
     margin-top: 60px;
     margin-bottom: 30px;
     .wrapper-1 {
-      padding-right: 30px;
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }
@@ -79,20 +78,22 @@
         p {
           font-size: 16px;
           margin-top: 16px;
-          color: var(--bg_white);
+          color: #d7d7d7;
           font-weight: normal;
           text-align: justify;
         }
 
       .social-icon {
-        margin-top: 5px;
+        margin-top: 15px;
         ul {
           display: flex;
           gap: 10px;
+          list-style: none;
           li {
             a {
               padding: 2px;
               font-size: 20px;
+              color: #fff;
               @media #{$sm, $xs} {
                 padding: 4px;
                 font-size: 30px;
@@ -119,6 +120,7 @@
       }
     }
     .wrapper-2 {
+      margin-left: 20px;
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }
@@ -229,7 +231,7 @@
               color: var(--theme_color);
             }
             span {
-              color: var(--bg_white);
+              color: #d7d7d7;
             }
           }
         }
@@ -564,7 +566,6 @@
     padding-top: 70px;
     padding-bottom: 30px;
     .wrapper-1 {
-      padding-right: 30px;
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }
@@ -587,7 +588,7 @@
         p {
           font-size: 16px;
           margin-top: 16px;
-          color: var(--bg_white);
+          color: #d7d7d7;
           font-weight: normal;
           text-align: justify;
         }
@@ -597,10 +598,12 @@
         ul {
           display: flex;
           gap: 10px;
+          list-style: none;
           li {
             a {
               padding: 2px;
               font-size: 20px;
+              color: #fff;
 
               i {
                 transition: all 0.2s linear;
@@ -623,6 +626,7 @@
       }
     }
     .wrapper-2 {
+      margin-left: 20px;
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }
@@ -741,10 +745,10 @@
             gap: 8px;
             padding: 3px 0;
             i {
-              color: var(--theme_color);
+              color: #d7d7d7;
             }
             span {
-              color: var(--bg_white);
+              color:#d7d7d7;
             }
           }
         }

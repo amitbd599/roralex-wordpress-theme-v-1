@@ -46,7 +46,7 @@
 
                 <div class="menu-body">
                     <div
-                        class="<?php echo $roralex_header_right ?  esc_attr__('main-menu', 'roralex')  :  esc_attr__('main-menu justify-content-end', 'roralex') ?>">
+                        class="<?php echo esc_attr($roralex_header_right) ?  esc_attr__('main-menu', 'roralex')  :  esc_attr__('main-menu justify-content-end', 'roralex') ?>">
                         <nav id="mobile-menu">
                             <?php roralex_header_menu(); ?>
                         </nav>

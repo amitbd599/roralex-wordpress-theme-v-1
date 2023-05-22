@@ -87,7 +87,7 @@ function roralex_fonts_url() {
     by chosen font(s), translate this to 'off'. Do not translate into your own language.
      */
     if ( 'off' !== _x( 'on', 'Google font: on or off', 'roralex' ) ) {
-        $font_url = 'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap';
+        $font_url = 'https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap';
     }
     return $font_url;
 }

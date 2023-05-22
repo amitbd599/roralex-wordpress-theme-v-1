@@ -930,8 +930,13 @@ margin-bottom: 15px;
   display: none;
 }
 
+.gallery-caption {
+	display: block;
+}
 
-
+.bypostauthor {
+	display: block;
+}
 
 
 /* Text meant only for screen readers. */
