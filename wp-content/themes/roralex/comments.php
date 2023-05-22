@@ -119,7 +119,7 @@ if ( post_password_required() ) {
             </p>',
         /** This filter is documented in wp-includes/link-template.php */
         'logged_in_as'       => '
-            <p class="logged-in-as">
+            <p class="logged-in-as m-0">
             '.esc_html__('Logged in as','roralex').' <a href="'.esc_url(get_edit_user_link()).'">'.esc_html($user_identity).'</a>. <a href="'.esc_url(wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) )).'" title="'.esc_attr__('Log out of this account','roralex').'">'.esc_html__('Log out?','roralex').'</a>
             </p>',
         'id_form'            => 'commentform',

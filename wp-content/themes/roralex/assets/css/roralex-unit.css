@@ -528,12 +528,214 @@ img {
   padding: 15px 0;
 }
 
-
+.root-comment ul .children {
+  list-style: none;
+}
 /*tp unit css */
 
 
 /*tp-page-content*/
+.tp-page-content .tp-page-post > p {
+  margin: 32px 0;
+  margin-top: 0;
+}
 
+.tp-page-content .size-full.alignright {
+  margin-bottom: 35px;
+  margin-top: 20px;
+  clear: both;
+}
+.tp-page-content .comments {
+  clear: both;
+  overflow: hidden;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.tp-page-content table {
+  margin-bottom: 30px;
+}
+
+.tp-page-content table{
+	margin-bottom: 30px;
+}
+.tp-page-content table, .tp-page-content th, .tp-page-content td {
+	border: 1px solid #d1d1d1;
+}
+.tp-page-content table th {
+	padding: 12px 12px;
+	font-size: 15px;
+	border-color: #ddd;
+	text-align: center;
+	font-weight: 500;
+}
+.tp-page-content table tbody td {
+	text-align: center;
+}
+.tp-page-content table td {
+	border-color: #ddd;
+	padding: 12px 12px;
+}
+.tp-page-content table a {
+	color: var(--theme_color);
+}
+
+
+.tp-page-content .blog-post-comment {
+	clear: both;
+	overflow: hidden;
+	margin-top: 30px;
+	padding-top: 30px;
+}
+.tp-page-content ol, .tp-page-content ul {
+	padding-left: 25px;
+	margin-bottom: 25px;
+}
+.tp-page-content ol li, .tp-page-content ul li {
+	margin-bottom: 7px;
+}
+.tp-page-content ol li ol, .tp-page-content ul li ul {
+	margin-top: 7px;
+}
+.tp-page-content ol ol, .tp-page-content ol ul, .tp-page-content ul ol, .tp-page-content ul ul {
+	margin-bottom: 0;
+}
+.tp-page-content .size-full.alignright {
+	margin-bottom: 35px;
+	margin-top: 20px;
+	clear: both;
+}
+.tp-page-content .tp-page-post > p {
+	margin: 32px 0;
+	margin-top: 0;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+	margin-top: 10px;
+	padding-top: 30px;
+}
+.page-links > span.page-links-title {
+	border: 0;
+	color: inherit;
+}
+.wp-block-archives-list.extraclass.wp-block-archives li a {
+	color: var(--tp-text-body);
+}
+.wp-block-archives-dropdown .nice-select {
+	margin-bottom: 15px;
+}
+.postbox__text .nice-select {
+	float: none;
+	margin-bottom: 20px;
+}
+
+ol.wp-block-latest-comments {
+	margin-left: 0;
+	padding-left: 0;
+}
+.postbox__details p:last-child{
+	margin-bottom: 0;
+}
+.postbox__text ul li a,dl a {
+	text-underline-offset: 3px;
+	text-decoration-skip-ink: all;
+	text-decoration: underline;
+}
+.postbox__text ul li a:hover,dl a:hover {
+	text-decoration-style: dotted;
+	text-decoration-skip-ink: none;
+}
+.wp-block-button {
+	margin-bottom: 10px;
+}
+.is-style-squared .wp-block-button__link {
+	border-radius: 0;
+}
+div.postbox__details .wp-block-cover-text {
+	color: #fff;
+}
+.wp-block-cover {
+	margin-bottom: 30px;
+}
+.wp-block-gallery .blocks-gallery-grid {
+	padding-left: 0;
+	margin-bottom: 0;
+}
+.blocks-gallery-caption {
+	margin-bottom: 40px;
+}
+.wp-block-group.has-background {
+	margin-bottom: 25px;
+}
+.postbox__text p.has-large-font-size {
+	font-size: 24px !important;
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+.wp-block-media-text.alignfull.has-media-on-the-right.has-background.is-stacked-on-mobile {
+	margin-bottom: 20px;
+}
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+	margin-top: 30px;
+}
+.page-links a, .page-links > span {
+	border: 2px solid #ddd;
+	display: inline-block;
+	min-width: 35px;
+	text-align: center;
+	margin-left: 2px;
+	height: 33px;
+	line-height: 30px;
+	margin-right: 3px;
+	color: #444;
+}
+.page-links > span {
+	border: 2px solid var(--theme_color);
+	color: var(--theme_color);
+}
+pre {
+	display: block;
+	font-size: 87.5%;
+	color: #212529;
+	border: 1px solid #ddd;
+	padding: 15px;
+}
+.wp-block-preformatted {
+	margin: 30px 0;
+}
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+	font-size: 14px;
+	font-style: italic;
+}
+
+.tp-page-content .comments .root-comment >ul{
+  list-style: none;
+}
+
+.sidebar-widget ul li ul {
+  padding-left: 15px;
+  padding-top: 6px;
+}
+.sidebar-widget ul li ul.children li{
+  margin-bottom: 7px !important;
+}
+
+.sidebar-widget ul li a:hover {
+  color: var(--theme_color);
+}
+
+.sidebar-widget.widget_recent_comments .recentcomments .comment-author-link {
+  color: var(--theme_color);
+  font-weight: 600;
+}
 
 /*block quote*/
 

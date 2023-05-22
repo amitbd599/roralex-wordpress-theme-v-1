@@ -125,7 +125,7 @@
   ul {
     list-style: none;
     li {
-      margin-bottom: 5px;
+      margin-bottom: 7px;
       a {
         font-weight: 600;
         text-transform: capitalize;
@@ -152,6 +152,9 @@
         margin-bottom: 0;
       }
     }
+  }
+  .nice-select{
+    float: none;
   }
 }
 
@@ -186,6 +189,111 @@
   border-radius: 10px;
   border: 2px solid var(--border_color);
   margin-left: 30px;
+
+}
+.sidebar-widget.widget_calendar {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+
+}
+.sidebar-widget.widget_pages {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+  ul{
+    padding-left: 23px;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+
+}
+.sidebar-widget.widget_meta {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+
+  ul{
+    padding-left: 23px;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+}
+.sidebar-widget.widget_recent_comments {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+
+  ul{
+    padding-left: 23px;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+}
+.sidebar-widget.widget_recent_entries {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+
+  ul{
+    padding-left: 23px;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+}
+.sidebar-widget.widget_rss {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+
+  ul{
+    padding-left: 23px;
+    li{
+      margin-bottom: 5px;
+      .rsswidget{
+        font-weight: 700;
+      }
+    }
+  }
+}
+.sidebar-widget.widget_archive {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+  ul{
+    padding-left: 23px;
+    li{
+      margin-bottom: 5px;
+    }
+  }
+  .nice-select{
+    float: none !important;
+  }
+
+}
+.sidebar-widget.widget_text {
+  padding: 30px 25px;
+  border-radius: 10px;
+  border: 2px solid var(--border_color);
+  margin-left: 30px;
+
+  .nice-select{
+    float: none !important;
+    ul{
+      width: 100%;
+    }
+  }
 
 }
 
