@@ -47,8 +47,8 @@ case '3':
     $footer_class[3] = 'col-xl-4 col-lg-6';
     break;
 case '4':
-    $footer_class[1] = 'col-lg-4 col-md-6';
-    $footer_class[2] = 'col-lg-2 col-md-6';
+    $footer_class[1] = 'col-lg-3 col-md-6';
+    $footer_class[2] = 'col-lg-3 col-md-6';
     $footer_class[3] = 'col-lg-3 col-md-6';
     $footer_class[4] = 'col-lg-3 col-md-6';
     break;
@@ -71,11 +71,11 @@ default:
 
                 <?php
                     if ( $footer_columns < 4 ) {
-                    print '<div class="col-lg-4 col-md-6">';
+                    print '<div class="col-lg-3 col-md-6">';
                     dynamic_sidebar( 'footer-1' );
                     print '</div>';
 
-                    print '<div class="col-lg-2 col-md-6">';
+                    print '<div class="col-lg-3 col-md-6">';
                     dynamic_sidebar( 'footer-2' );
                     print '</div>';
 

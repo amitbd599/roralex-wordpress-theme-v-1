@@ -264,7 +264,6 @@
     background: var(--primary_color);
 
     .wrapper-1 {
-      padding-right: 30px;
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }
@@ -290,7 +289,7 @@
         p {
           font-size: 16px;
           margin-top: 16px;
-          color: var(--bg_white);
+          color: #d7d7d7;
           font-weight: normal;
           text-align: justify;
         }
@@ -326,6 +325,7 @@
       }
     }
     .wrapper-2 {
+      margin-left: 20px;
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }
@@ -353,7 +353,7 @@
           list-style: none;
           margin-top: 15px;
           li {
-            color: var(--bg_white);
+            color: #d7d7d7;
             padding: 2px 0;
             transition: all 0.2s linear;
             position: relative;
@@ -368,7 +368,7 @@
               width: 0;
               height: 2px;
               border-radius: 5px;
-              background: var(--bg_white);
+              background: #d7d7d7;
               transition: all 0.2s linear;
             }
             &:hover {
@@ -500,10 +500,10 @@
             gap: 8px;
             padding: 3px 0;
             i {
-              color: var(--bg_white);
+              color: #d7d7d7;
             }
             span {
-              color: var(--bg_white);
+              color: #d7d7d7;
             }
           }
         }

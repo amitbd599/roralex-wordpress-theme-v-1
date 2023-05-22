@@ -1715,7 +1715,6 @@ input[type=color] {
   background: var(--primary_color);
 }
 .footer-section-version-two .footer-top .wrapper-1 {
-  padding-right: 30px;
   margin-top: 16px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
@@ -1743,7 +1742,7 @@ input[type=color] {
 .footer-section-version-two .footer-top .wrapper-1 p {
   font-size: 16px;
   margin-top: 16px;
-  color: var(--bg_white);
+  color: #d7d7d7;
   font-weight: normal;
   text-align: justify;
 }
@@ -1773,6 +1772,9 @@ input[type=color] {
 .footer-section-version-two .footer-top .wrapper-1 .social-icon ul li a:hover .fa-linkedin {
   color: var(--linkedin);
 }
+.footer-section-version-two .footer-top .wrapper-2 {
+  margin-left: 20px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), only screen and (max-width: 576px) {
   .footer-section-version-two .footer-top .wrapper-2 {
     margin-bottom: 40px;
@@ -1800,7 +1802,7 @@ input[type=color] {
   margin-top: 15px;
 }
 .footer-section-version-two .footer-top .wrapper-2 .list-items ul li, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li {
-  color: var(--bg_white);
+  color: #d7d7d7;
   padding: 2px 0;
   transition: all 0.2s linear;
   position: relative;
@@ -1816,7 +1818,7 @@ input[type=color] {
   width: 0;
   height: 2px;
   border-radius: 5px;
-  background: var(--bg_white);
+  background: #d7d7d7;
   transition: all 0.2s linear;
 }
 .footer-section-version-two .footer-top .wrapper-2 .list-items ul li:hover, .footer-section-version-two .footer-top .wrapper-2 .menu-our-service-container ul li:hover {
@@ -1934,10 +1936,10 @@ input[type=color] {
   padding: 3px 0;
 }
 .footer-section-version-two .footer-top .wrapper-4 .items ul li i {
-  color: var(--bg_white);
+  color: #d7d7d7;
 }
 .footer-section-version-two .footer-top .wrapper-4 .items ul li span {
-  color: var(--bg_white);
+  color: #d7d7d7;
 }
 .footer-section-version-two .footer-bottom {
   text-align: center;
