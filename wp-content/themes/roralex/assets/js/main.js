@@ -19,6 +19,11 @@
     meanExpand: ['<i class="fal fa-plus"></i>'],
   });
 
+
+  // =========== Menu last Item =========== //
+
+  $('.main-menu nav > ul > li ').slice(-4).addClass('menu-last');
+
   // ============= Mobile Menu 2 =============
   $("#mobile-menu-2").meanmenu({
     meanMenuContainer: ".mobile-menu-2",

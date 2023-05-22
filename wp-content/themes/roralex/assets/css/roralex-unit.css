@@ -913,7 +913,24 @@ margin-bottom: 15px;
   color: var(--theme_color);
 }
 
-/*footer block widget*/
+/* Menu  */
+
+.menu-body .main-menu ul li.menu-last .sub-menu{
+  left: auto;
+  right: 0;
+
+}
+
+.menu-body .main-menu ul li.menu-last .sub-menu li > .sub-menu {
+  left: auto;
+ right: 100%;
+}
+
+.menu-body .main-menu ul li.menu-last .sub-menu  a::after {
+  display: none;
+}
+
+
 
 
 
