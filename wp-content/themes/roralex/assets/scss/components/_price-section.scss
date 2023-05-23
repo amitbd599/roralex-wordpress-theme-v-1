@@ -62,6 +62,7 @@
         }
         .inner-list {
           ul {
+            list-style: none;
             li {
               padding: 5px 0;
               i {
@@ -74,10 +75,7 @@
             margin-bottom: 10px;
             display: flex;
             justify-content: center;
-            .btn-shape-normal-outline {
-              padding: 10px;
-              width: 126px;
-            }
+
           }
         }
         &:hover {
@@ -132,6 +130,7 @@
         .inner-list {
           margin-top: 10px;
           ul {
+            list-style: none;
             li {
               padding: 7px 0;
               i {
@@ -150,10 +149,7 @@
             justify-content: center;
             margin-bottom: 10px;
             margin-top: 20px;
-            .btn-shape-normal-outline {
-              width: 200px;
-              padding: 14px;
-            }
+
           }
         }
       }
@@ -189,10 +185,7 @@
               justify-content: center;
               margin-bottom: 10px;
               margin-top: 20px;
-              .btn-shape-normal-outline {
-                width: 200px;
-                padding: 14px;
-              }
+
             }
           }
         }
@@ -247,6 +240,7 @@
         margin-top: 15px;
         text-align: center;
         ul {
+          list-style: none;
           li {
             padding: 5px 0;
             i {
@@ -266,11 +260,8 @@
           margin-bottom: 10px;
           display: flex;
           justify-content: center;
-          .btn-shape-normal-outline {
-            padding: 10px;
-            width: 126px;
+          .btn-shape {
             @media #{$sm, $xs} {
-              padding: 16px;
               margin-bottom: 20px;
             }
           }

@@ -109,7 +109,7 @@ if ( post_password_required() ) {
                 <div class="clearfix"></div>
             </div>
         ',
-        'submit_button'    => '<div class="col-xl-12 mb-20"><button class="btn-shape-normal-outline" type="submit"> <span class="button-content">' . esc_html__( 'Post Comment', 'roralex' ) . '</span> </button></div>',
+        'submit_button'    => '<div class="col-xl-12 mb-20"><button class="btn-shape" type="submit"> <span class="button-content">' . esc_html__( 'Post Comment', 'roralex' ) . '</span> </button></div>',
 
 
         /** This filter is documented in wp-includes/link-template.php */

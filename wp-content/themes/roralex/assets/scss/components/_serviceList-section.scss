@@ -58,9 +58,7 @@
     @media #{$md, $sm, $xs} {
       padding-top: 30px;
     }
-    .btn-shape-normal-outline {
-      width: 165px;
-    }
+
   }
 }
 
@@ -108,12 +106,11 @@
               display: flex;
               justify-content: center;
               margin-bottom: 5px;
-              .btn-shape-normal-outline {
+              .btn-shape {
                 background: var(--bg_white);
                 color: var(--heading_color);
-                width: 135px;
-                padding: 10px 14px;
                 font-weight: 600;
+
               }
             }
           }
@@ -270,9 +267,7 @@
   }
   .btn-section {
     padding-top: 60px;
-    .btn-shape-normal-outline {
-      width: 165px;
-    }
+
   }
 }
 

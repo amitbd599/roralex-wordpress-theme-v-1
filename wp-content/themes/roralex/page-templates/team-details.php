@@ -21,7 +21,9 @@
                     <div class="col-lg-5">
                         <div class="left-side">
                             <div class="img-file">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-14.png" alt="">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-14.png"
+                                    alt="">
                             </div>
                         </div>
 
@@ -65,9 +67,9 @@
                                 </div>
                                 <div>
                                     <a href="contact.html">
-                                        <span class="btn-shape-normal-outline">
-                                            <span>Get In Touch</span>
-                                        </span>
+                                        <button class="btn-shape">
+                                            Get in touch
+                                        </button>
                                     </a>
                                 </div>
 
@@ -268,32 +270,38 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
                         </div>
                     </div>
                 </div>

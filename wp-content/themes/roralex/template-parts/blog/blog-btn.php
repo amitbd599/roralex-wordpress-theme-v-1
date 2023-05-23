@@ -18,8 +18,9 @@ $roralex_blog_btn_switch = get_theme_mod( 'roralex_blog_btn_switch', true );
 
 <div class="main-btn">
     <a href="<?php the_permalink();?>">
-        <button class="btn-shape-normal-outline">
-            <span class="button-content"><?php print esc_html( $roralex_blog_btn );?></span>
+
+        <button class="btn-shape">
+            <?php print esc_html( $roralex_blog_btn );?>
         </button>
 
 

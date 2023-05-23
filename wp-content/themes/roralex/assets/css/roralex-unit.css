@@ -28,10 +28,7 @@ body {
   word-wrap: break-word;
   overflow-x: hidden;
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .comments .root-comment{
  margin-top: 0px !important;
@@ -486,7 +483,11 @@ div.postbox__details .wp-block-cover-text {
   font-size: 14px;
   font-style: italic;
 }
-img {
+.blog-post-items img {
+  max-width: 100%;
+  height: auto;
+}
+.postbox__details img {
   max-width: 100%;
   height: auto;
 }

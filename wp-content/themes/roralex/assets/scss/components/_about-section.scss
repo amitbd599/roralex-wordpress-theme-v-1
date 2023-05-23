@@ -169,6 +169,7 @@
           margin-top: 10px;
         }
         ul {
+          list-style: none;
           padding-left: 20px;
           li {
             padding: 2px 0;
@@ -211,9 +212,7 @@
         }
         .btn-section {
           margin-top: 25px;
-          .btn-shape-normal-outline {
-            width: 175px;
-          }
+
         }
       }
     }
@@ -301,7 +300,8 @@
       }
       .list-data {
         margin-top: 16px;
-        ul {
+
+        ul { list-style: none;
           padding-left: 20px;
           li {
             padding: 2px 0;
@@ -317,9 +317,7 @@
           margin-top: 16px;
           display: flex;
           justify-content: flex-start;
-          .btn-shape-normal-outline {
-            width: 152px;
-          }
+
         }
       }
     }
@@ -387,6 +385,7 @@
         ul {
           margin-top: 20px;
           padding-left: 20px;
+          list-style: none;
           li {
             padding: 5px 0;
 
@@ -434,9 +433,7 @@
         }
         .btn-section {
           margin-top: 25px;
-          .btn-shape-normal-outline {
-            width: 175px;
-          }
+
         }
       }
     }

@@ -320,9 +320,9 @@
                                 </div>
                                 <a href="about.html">
                                     <div class="btn-section">
-                                        <span class="btn-shape-normal-outline">
-                                            <span>More About Us</span>
-                                        </span>
+                                        <button class="btn-shape">
+                                            More About Us
+                                        </button>
                                     </div>
                                 </a>
 
@@ -454,9 +454,11 @@
 
         <!-- Button Section -->
         <div class="btn-section text-center">
-            <a href="services.html"><span class="btn-shape-normal-outline">
-                    <span>More Services</span>
-                </span></a>
+            <a href="services.html">
+                <button class="btn-shape">
+                    View All Services
+                </button>
+            </a>
 
         </div>
 
@@ -934,9 +936,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -962,9 +964,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -990,9 +992,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -1018,9 +1020,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -1046,9 +1048,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -1074,9 +1076,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -1102,9 +1104,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -1130,9 +1132,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>View Info</span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -1520,17 +1522,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <div class="btn-section">
-                            <a href="blog.html">
-                                <span class="btn-shape-normal-outline">
-                                    <span>View More News</span>
-                                </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </div>
     </section>
@@ -1601,7 +1593,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                        <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -1640,7 +1634,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                        <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -1680,7 +1676,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                        <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -1707,8 +1705,8 @@
                             <input type="text" placeholder="Email Address...">
                         </div>
                         <div class="btn-section">
-                            <button class="btn-shape-normal-outline">
-                                <span>Subscribe</span>
+                            <button class="btn-shape">
+                                Read More
                             </button>
                         </div>
                     </div>

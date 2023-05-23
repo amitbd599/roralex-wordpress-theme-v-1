@@ -189,6 +189,7 @@
         .tabs {
           border: 1px solid var(--border_color);
           display: inline-block;
+          list-style: none;
           @media #{$xs} {
             display: none;
           }

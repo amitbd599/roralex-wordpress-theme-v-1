@@ -10,139 +10,167 @@
 
 <main>
 
-    <!-- Bread Crumb Start -->
-    <section class="bread-crumb" data-background="<?php echo get_template_directory_uri(); ?>/assets/img/bg-overlay/bg-overlay-7.png">
-        <div class=" container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="wrapper">
-                        <h2>About</h2>
-                        <p><a href="/index-1.html">Home</a> / <span>About Us</span></p>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Bread Crumb End -->
 
-    <!-- About Section version one start -->
-    <section class="about-section-version-one  py-80">
+    <!-- Service Details Inner Section version One start -->
+    <section class="service-details-inner-section-one bg-white py-80">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-8">
                     <div class="left-side">
                         <div class="wrapper">
-                            <div class="img-shape">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-1.png" alt="">
+                            <h2>Include how the company began and the changes and developments.</h2>
+
+                            <div class="main-img mt-20">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-1.png"
+                                    alt="">
                             </div>
-                            <div class="pop-img">
-                                <div class="inner">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-2.png" alt="">
-                                    <div class="vide-button">
-                                        <a href="https://www.youtube.com/watch?v=o4GuSJYSzrY" class="popup-video"><i
-                                                class="fa-solid fa-play"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="project-count">
-                                <div><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-5.png" alt=""></div>
+                            <br>
+
+                            <div class="d-md-flex gap-4 mt-10">
                                 <div>
-                                    <h3><span class="counter">5000</span>+</h3>
-                                    <p>Projects Done</p>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-2.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-4 mt-md-0">
+                                    <h3>Construction structures</h3>
+                                    <p>Besides FAR, Maximum Ground Coverage (MGC) is also another remarkable issue
+                                        because any building code has a chart of it. In the MGC, there are specified
+                                        how much land a builder can leave for constructing a building according to
+                                        the total size of the land area. Before doing the construction works, the
+                                        builder needs to decide on his project following the legal steps like FAR
+                                        and MGC. Buildings are surrounded by the roads as per the building code and
+                                        any building.</p>
+                                    <p>Builder needs to decide on his project following the legal steps like FAR</p>
                                 </div>
                             </div>
-                            <div class="team-count">
-                                <h3>EXPERT TEAM</h3>
-                                <h2><span class="counter">30</span>k+</h2>
-                                <p>Top 50 Country Base</p>
+                            <div class="mt-4">
+                                <h3 class="theme-color">ABOUT PROJECT</h3>
+                                <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+                                    mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
+                                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
+                                    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
+                                    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.
+                                    Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente
+                                    officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias
+                                    error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem!
+                                    Officiis iure rerum voluptates a cumque velit</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo</p>
+                            </div>
+                            <div class="d-md-flex gap-4 mt-25">
+                                <div>
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-3.png"
+                                        alt="">
+                                </div>
+                                <div class="mt-3 mt-lg-0">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-4.png"
+                                        alt="">
+                                </div>
+
+                            </div>
+                            <div class="mt-15">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                    optio, eaque rerum! Provident similique accusantium nemo</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
-                    <div class="right-side">
-                        <div class="wrapper">
-                            <div class="intro-header">
-                                <h3>More About Company</h3>
-                            </div>
-                            <div class="inner-intro">
-                                <h2>Make your business <span class="theme-color">Stronger</span> with modern
-                                    technology.</h2>
-                                <p>If your Comprehensive Car Insurance mentions ‘Agency Repair’ then your car is
-                                    going to be
-                                    repaired at the dealership from where you purchased the car. This service is
-                                    safe and
-                                    reliable but can be expensive too.</p>
-
+                <div class="col-lg-4">
+                    <!-- Widget Section -->
+                    <div class="widget">
+                        <!-- Widget One -->
+                        <div class="widget-one">
+                            <div class="wrapper">
+                                <h3>Initial Documents</h3>
                                 <ul>
                                     <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        <span>Reliable and safe service.</span>
+                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
+                                        <div>
+                                            <span class="d-block">Company Information</span>
+                                            <button class="d-block">Download</button>
+                                        </div>
                                     </li>
                                     <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        <span>Genuine spare parts are used for repair..</span>
+                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
+                                        <div>
+                                            <span class="d-block">Established Information</span>
+                                            <button class="d-block">Download</button>
+                                        </div>
                                     </li>
                                     <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        <span>Detailed and thorough inspection.</span>
+                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
+                                        <div>
+                                            <span class="d-block">Physical address</span>
+                                            <button class="d-block">Download</button>
+                                        </div>
                                     </li>
-
                                     <li>
-                                        <i class="fa-solid fa-circle-check"></i>
-                                        <span>This service comes with an additional cost.</span>
+                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
+                                        <div>
+                                            <span class="d-block">About the company's</span>
+                                            <button class="d-block">Download</button>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
+                                        <div>
+                                            <span class="d-block">Working History</span>
+                                            <button class="d-block">Download</button>
+                                        </div>
                                     </li>
                                 </ul>
-                                <hr>
-                                <div class="hub-show">
-                                    <div class="inner-hub">
-                                        <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-6.png" alt=""></div>
-                                        <p>Powerful workflow
-                                            attractive design</p>
-                                    </div>
-                                    <div class="inner-hub">
-                                        <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-7.png" alt=""></div>
-                                        <p>Process of constructing
-                                            building infrastructure</p>
-                                    </div>
+                                <button class="btn-shape-normal-outline">
+                                    <span>Download All</span>
+                                </button>
+                            </div>
+                        </div>
 
-                                </div>
-                                <div class="btn-section">
-                                    <a href="javascript:void(0)"><span class="btn-shape-normal-outline">
-                                            <span>More About Us</span>
-                                        </span></a>
-
-                                </div>
+                        <!-- Widget Three -->
+                        <div class="widget-three mt-40">
+                            <div class="wrapper">
+                                <h3>Company Details :</h3>
+                                <ul>
+                                    <li><i class="fa-sharp fa-solid fa-buildings"></i><span>Project Name:</span>
+                                        Inhouse Building</li>
+                                    <li><i class="fa-sharp fa-solid fa-location-dot"></i><span>Location:</span>
+                                        Twin House, new york</li>
+                                    <li><i class="fa-solid fa-timer"></i><span>Published Date:</span>
+                                        23-01-2023</li>
+                                    <li><i class="fa-solid fa-user"></i><span>
+                                            Architecture:</span>
+                                        Amit Biswas</li>
+                                    <li><i class="fa-sharp fa-solid fa-dollar-sign"></i><span>Value:</span>
+                                        $ 596,52,360</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="overlay-shape-img">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union.png" alt="">
-        </div>
     </section>
-    <!-- About Section version one end -->
+    <!-- Service Details Inner Section version One End -->
 
-    <!-- Why Choose Us Section version Four start -->
-    <section class="whyChooseUs-section-version-four bg-gray py-100 ">
-        <!-- Header Intro Version One -->
-        <div class="header-intro-version-one">
+
+    <!-- Service List Section version three start -->
+    <section class="serviceList-section-version-three bg-gray py-80 ">
+        <!-- Header Intro Version Three -->
+        <div class="header-intro-version-three">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-lg-10 col-xl-7">
+                    <div class="col-12">
                         <div class="wrapper">
                             <div class="pop-text">
-                                <h3>WHY CHOOSE US</h3>
-                                <div class="shape-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union-1.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="inner-text">
-                                <h2>We Providing Best <br> construction <span class="theme-color">Feature</span>
-                                </h2>
+                                <h2>More Related Services</h2>
                             </div>
                         </div>
                     </div>
@@ -154,367 +182,111 @@
         <div class="inner-card-items">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-7">
-                        <div class="left-side">
-                            <div class="tabs-inner">
-                                <ul class="tabs">
-                                    <li><a href="#tab1">Administrator</a></li>
-                                    <li><a href="#tab2">Services</a></li>
-                                    <li><a href="#tab3">Features</a></li>
-                                </ul>
-                                <section class="tab_content_wrapper">
-                                    <div class="tab_content" id="tab1">
-                                        <div class="wrapper">
-                                            <div class="left">
-                                                <div class="img-file">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-7.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="right">
-                                                <h2>Best Feature Of Building construction </h2>
-                                                <ul>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Design Details and
-                                                        Full Feasibility Study.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Incorporation of
-                                                        Permits into Design.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Choosing General
-                                                        Contractor & Construction.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Research, Surveys,
-                                                        and Sketches.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab_content" id="tab2">
-                                        <div class="wrapper">
-                                            <div class="left">
-                                                <div class="img-file">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-8.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="right">
-                                                <h2>Egyptian stone diffused the eastern.</h2>
-                                                <ul>
-                                                    <li><i class="fa-solid fa-badge-check"></i>The first surviving
-                                                        construction drawings.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>In contrast to stone
-                                                        technology remained.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Developed the final
-                                                        of columns and moldings.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>A technique borrowed
-                                                        from stone construction.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="tab_content" id="tab3">
-                                        <div class="wrapper">
-                                            <div class="left">
-                                                <div class="img-file">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-9.png" alt="">
-                                                </div>
-                                            </div>
-                                            <div class="right">
-                                                <h2>Although stone technology confined. </h2>
-                                                <ul>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Perhaps the
-                                                        spectacular building achievement.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>It was a huge stone
-                                                        tower nearly as the Great.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Another example of a
-                                                        new stone technology.</li>
-                                                    <li><i class="fa-solid fa-badge-check"></i>Thus it does not take
-                                                        full advantage of the great.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-xl-5">
-                        <div class="right-side">
-                            <div class="intro">
-                                <h2>Construction and Culture Travel - Producing Memories for a Lifetime</h2>
-                                <h3>Construction</h3>
-                            </div>
-                            <ul>
-                                <li>
-                                    <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-8.svg" alt=""></div>
-                                    <div>
-                                        <span>Process 01</span>
-                                        <span>Coordination and Interpretation</span>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-9.svg" alt=""></div>
-                                    <div>
-                                        <span>Process 02</span>
-                                        <span>Design Details Full Feasibility</span>
-                                    </div>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-    <!-- Why Choose Us Section version Four End -->
-
-    <!-- Project Background Overlay Section version one start -->
-    <section class="projectBackgroundOverlay bg-white mb-100"
-        data-background="<?php echo get_template_directory_uri(); ?>/assets/img/bg-overlay/bg-overlay-1.png">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="wrapper">
-
-                        <div class="main-text">
-                            <h3>Gaining Community Exposure</h3>
-                            <h2>Targeting Multiple Markets</h2>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a metus pellentesque,
-                                scelerisque
-                                ex sed, volutpat nisi. Curabitur tortor mi, eleifend ornare lobortis non. Nulla
-                                porta purus
-                                quis iaculis ultrices. Proin aliquam sem at nibh hendrerit sagittis. Nullam ornare
-                                odio eu
-                                lacus tincidunt malesuada.
-                            </p>
-                        </div>
-                        <!-- Shape Text -->
-                        <div class="shape-text">
-                            <h2>AWESOME FACTS</h2>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </div>
-
-        <!-- Box Text -->
-        <div class="box-text">
-
-            <div>
-                <div class="wrapper-left">
-                    <h2>Expert & Professional</h2>
-                    <div class="icon-file">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-20.svg" alt="">
-                    </div>
-                    <p>Uisque molestie, arcu et iaculis mollis orci lacus facilisis pede</p>
-                </div>
-            </div>
-            <div>
-                <div class="wrapper-middle">
-                    <h2>Licensed Professionals</h2>
-                    <div class="icon-file">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-21.svg" alt="">
-                    </div>
-                    <p>Uisque molestie, arcu et iaculis mollis orci lacus facilisis pede</p>
-                </div>
-            </div>
-            <div>
-                <div class="wrapper-right">
-                    <h2>Optimized Renovation</h2>
-                    <div class="icon-file">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-22.svg" alt="">
-                    </div>
-                    <p>Uisque molestie, arcu et iaculis mollis orci lacus facilisis pede</p>
-                </div>
-            </div>
-        </div>
-
-
-    </section>
-    <!-- Project Background Overlay Section version one End -->
-
-    <!-- Our Team Section version three start -->
-    <section class="ourTeam-section-version-three bg-gray py-100">
-        <!-- Header Intro Version Three -->
-        <div class="header-intro-version-three">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
                         <div class="wrapper">
-                            <div class="pop-text">
-                                <h3>Our Team</h3>
-                                <h2>Meet the Leaders and <br> get <span class="theme-color">solution</span></h2>
+                            <div class="inner">
+                                <div class="count-file">
+                                    <div class="hip">
+                                        <h2>01</h2>
+                                    </div>
+                                </div>
+                                <div class="text-file">
+                                    <h3>Development and Planning Phase</h3>
+                                    <p>The most critical phase of a commercial construction project is the
+                                        development
+                                        and planning stage.</p>
+                                </div>
+                                <div class="btn-hold">
+                                    <a href="services-details.html">
+                                        <span>Read More</span>
+                                        <i class="fa-regular fa-arrow-right-to-line"></i>
+                                    </a>
+                                </div>
                             </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="wrapper">
+                            <div class="inner">
+                                <div class="count-file">
+                                    <div class="hip">
+                                        <h2>02</h2>
+                                    </div>
+                                </div>
+                                <div class="text-file">
+                                    <h3>Planning the budget for construction</h3>
+                                    <p>The most critical phase of a commercial construction project is the
+                                        development
+                                        and planning stage.</p>
+                                </div>
+                                <div class="btn-hold">
+                                    <a href="services-details.html">
+                                        <span>Read More</span>
+                                        <i class="fa-regular fa-arrow-right-to-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="wrapper">
+                            <div class="inner">
+                                <div class="count-file">
+                                    <div class="hip">
+                                        <h2>03</h2>
+                                    </div>
+                                </div>
+                                <div class="text-file">
+                                    <h3>The pre-design phase development</h3>
+                                    <p>The most critical phase of a commercial construction project is the
+                                        development
+                                        and planning stage.</p>
+                                </div>
+                                <div class="btn-hold">
+                                    <a href="services-details.html">
+                                        <span>Read More</span>
+                                        <i class="fa-regular fa-arrow-right-to-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="wrapper">
+                            <div class="inner">
+                                <div class="count-file">
+                                    <div class="hip">
+                                        <h2>04</h2>
+                                    </div>
+                                </div>
+                                <div class="text-file">
+                                    <h3>Preparation actual construction turns</h3>
+                                    <p>The most critical phase of a commercial construction project is the
+                                        development
+                                        and planning stage.</p>
+                                </div>
+                                <div class="btn-hold">
+                                    <a href="services-details.html">
+                                        <span>Read More</span>
+                                        <i class="fa-regular fa-arrow-right-to-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="overlay"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- Our Team Section Card Items -->
 
-        <div class="inner-card-items-slider">
-            <div class="container">
-                <div class="row">
-                    <div class="swiper swiper-container team-version-three">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="inner-wrapper ">
 
-                                    <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png" alt="">
-                                    </div>
-                                    <div class="intro">
-                                        <a href="team-details.html">
-                                            <h2 class="name">Michael V. Fournier</h2>
-                                        </a>
-
-                                        <p class="position">Civil Engineer</p>
-                                        <div class="social-icon">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="inner-wrapper ">
-
-                                    <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-7.png" alt="">
-                                    </div>
-                                    <div class="intro">
-                                        <a href="team-details.html">
-                                            <h2 class="name">George Skertchly</h2>
-                                        </a>
-
-                                        <p class="position">Building Inspector</p>
-                                        <div class="social-icon">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="inner-wrapper ">
-
-                                    <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-8.png" alt="">
-                                    </div>
-                                    <div class="intro">
-                                        <a href="team-details.html">
-                                            <h2 class="name">Dakota Budd</h2>
-                                        </a>
-
-                                        <p class="position">Architecture</p>
-                                        <div class="social-icon">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="inner-wrapper ">
-
-                                    <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-9.png" alt="">
-                                    </div>
-                                    <div class="intro">
-                                        <a href="team-details.html">
-                                            <h2 class="name">Betty O. Werner</h2>
-                                        </a>
-
-                                        <p class="position">Architect</p>
-                                        <div class="social-icon">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="inner-wrapper ">
-
-                                    <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png" alt="">
-                                    </div>
-                                    <div class="intro">
-                                        <a href="team-details.html">
-                                            <h2 class="name">Michael V. Fournier</h2>
-                                        </a>
-
-                                        <p class="position">Civil Engineer</p>
-                                        <div class="social-icon">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="inner-wrapper ">
-
-                                    <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-10.png" alt="">
-                                    </div>
-                                    <div class="intro">
-                                        <a href="team-details.html">
-                                            <h2 class="name">Betty R. Reis</h2>
-                                        </a>
-
-                                        <p class="position">Stereotyper</p>
-                                        <div class="social-icon">
-                                            <ul>
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="overlay"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- If we need pagination -->
-                    <div class="team-version-three-pagination"></div>
-                </div>
-            </div>
-        </div>
     </section>
-    <!-- Our Team Section version three End -->
+    <!-- Service List Section version three End -->
+
 
     <!-- Our Client version one Start -->
     <section class="ourclient-section-version-one bg-white py-100">
@@ -537,32 +309,38 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -571,7 +349,6 @@
 
     </section>
     <!-- Our Client version one End -->
-
 
 
 </main>

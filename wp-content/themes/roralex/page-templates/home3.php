@@ -14,7 +14,9 @@
         <div class="swiper hero-slider-three">
             <div class="swiper-wrapper">
                 <div class="inner-item swiper-slide">
-                    <div class="slide-bg" data-background="assets/img/slider-bg/slider-bg-1.png"></div>
+                    <div class="slide-bg"
+                        data-background="<?php echo get_template_directory_uri(); ?>/assets/img/slider-bg/slider-bg-1.png">
+                    </div>
                     <div class="body-data">
                         <div class="container">
                             <div class="row ">
@@ -30,8 +32,9 @@
                                                 gravida commodo viverra Sit amet consectetur adipiscing elit sed do
                                                 eiusmod tem porincididunt.</p>
 
-                                            <button class="btn-shape-normal-outline">
-                                                <span>Learn More</span>
+
+                                            <button class="btn-shape">
+                                                Learn More
                                             </button>
 
                                         </div>
@@ -40,7 +43,8 @@
                                 <div class="col-xl-4 col-lg-12">
                                     <div class="right-content">
                                         <div class="img-file">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-1.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-1.png"
+                                                alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -50,7 +54,9 @@
 
                 </div>
                 <div class="inner-item swiper-slide">
-                    <div class="slide-bg" data-background="assets/img/slider-bg/slider-bg-2.png"></div>
+                    <div class="slide-bg"
+                        data-background="<?php echo get_template_directory_uri(); ?>/assets/img/slider-bg/slider-bg-2.png">
+                    </div>
                     <div class="body-data">
                         <div class="container">
                             <div class="row ">
@@ -65,8 +71,8 @@
                                                 ut labore et dolore magna aliqua. Quis psum suspendisse ultrices
                                                 gravida commodo viverra Sit amet consectetur adipiscing elit sed do
                                                 eiusmod tem porincididunt.</p>
-                                            <button class="btn-shape-normal-outline">
-                                                <span>Learn More</span>
+                                            <button class="btn-shape">
+                                                Learn More
                                             </button>
 
                                         </div>
@@ -75,7 +81,8 @@
                                 <div class="col-xl-4 col-lg-12">
                                     <div class="right-content">
                                         <div class="img-file">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-2.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-2.png"
+                                                alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +91,9 @@
                     </div>
                 </div>
                 <div class="inner-item swiper-slide">
-                    <div class="slide-bg" data-background="assets/img/slider-bg/slider-bg-3.png"></div>
+                    <div class="slide-bg"
+                        data-background="<?php echo get_template_directory_uri(); ?>/assets/img/slider-bg/slider-bg-3.png">
+                    </div>
                     <div class="body-data">
                         <div class="container">
                             <div class="row ">
@@ -99,8 +108,8 @@
                                                 ut labore et dolore magna aliqua. Quis psum suspendisse ultrices
                                                 gravida commodo viverra Sit amet consectetur adipiscing elit sed do
                                                 eiusmod tem porincididunt.</p>
-                                            <button class="btn-shape-normal-outline">
-                                                <span>Learn More</span>
+                                            <button class="btn-shape">
+                                                Learn More
                                             </button>
 
                                         </div>
@@ -109,7 +118,8 @@
                                 <div class="col-xl-4 col-lg-12">
                                     <div class="right-content">
                                         <div class="img-file">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-3.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-3.png"
+                                                alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -118,7 +128,9 @@
                     </div>
                 </div>
                 <div class="inner-item swiper-slide">
-                    <div class="slide-bg" data-background="assets/img/slider-bg/slider-bg-4.png"></div>
+                    <div class="slide-bg"
+                        data-background="<?php echo get_template_directory_uri(); ?>/assets/img/slider-bg/slider-bg-4.png">
+                    </div>
                     <div class="body-data">
                         <div class="container">
                             <div class="row ">
@@ -133,8 +145,8 @@
                                                 ut labore et dolore magna aliqua. Quis psum suspendisse ultrices
                                                 gravida commodo viverra Sit amet consectetur adipiscing elit sed do
                                                 eiusmod tem porincididunt.</p>
-                                            <button class="btn-shape-normal-outline">
-                                                <span>Learn More</span>
+                                            <button class="btn-shape">
+                                                Learn More
                                             </button>
 
                                         </div>
@@ -143,7 +155,8 @@
                                 <div class="col-xl-4 col-lg-12">
                                     <div class="right-content">
                                         <div class="img-file">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-4.png" alt="">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/worker/bg-worker-4.png"
+                                                alt="">
                                         </div>
                                     </div>
                                 </div>
@@ -228,9 +241,11 @@
 
                                 </div>
                                 <div class="btn-section">
-                                    <a href="about.html"><span class="btn-shape-normal-outline">
-                                            <span>More About Us</span>
-                                        </span></a>
+                                    <a href="about.html">
+                                        <button class="btn-shape">
+                                            More About Us
+                                        </button>
+                                    </a>
 
                                 </div>
                             </div>
@@ -241,14 +256,19 @@
                     <div class="right-side">
                         <div class="wrapper">
                             <div class="top-img">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-4.png" alt="">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-4.png"
+                                    alt="">
                             </div>
                             <div class="mid-img">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-5.png" alt="">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-5.png"
+                                    alt="">
                             </div>
                             <div class="pop-img">
                                 <div class="inner">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-6.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-6.png"
+                                        alt="">
                                     <div class="vide-button">
                                         <a href="https://www.youtube.com/watch?v=LXsdt6RMNfY" class="popup-video"><i
                                                 class="fa-solid fa-play"></i></a>
@@ -388,9 +408,11 @@
 
         <!-- Button Section -->
         <div class="btn-section text-center">
-            <a href="services.html"><span class="btn-shape-normal-outline">
-                    <span>More Services</span>
-                </span></a>
+            <a href="services.html">
+                <button class="btn-shape">
+                    More Service
+                </button>
+            </a>
 
         </div>
 
@@ -423,7 +445,8 @@
                         <div class="wrapper">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-12.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-12.svg"
+                                        alt="">
                                 </div>
                                 <h2>Creative branding plan</h2>
                                 <p>The dry materials shall be mixed in the mixing drum for at least four turns of
@@ -439,7 +462,8 @@
                         <div class="wrapper">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-13.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-13.svg"
+                                        alt="">
                                 </div>
                                 <h2>Significant of industrial</h2>
                                 <p>The dry materials shall be mixed in the mixing drum for at least four turns of
@@ -455,7 +479,8 @@
                         <div class="wrapper">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-14.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-14.svg"
+                                        alt="">
                                 </div>
                                 <h2>Tent creates membrane</h2>
                                 <p>The dry materials shall be mixed in the mixing drum for at least four turns of
@@ -471,7 +496,8 @@
                         <div class="wrapper">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-15.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-15.svg"
+                                        alt="">
                                 </div>
                                 <h2>Evidence of composite</h2>
                                 <p>The dry materials shall be mixed in the mixing drum for at least four turns of
@@ -487,7 +513,8 @@
                         <div class="wrapper">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-16.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-16.svg"
+                                        alt="">
                                 </div>
                                 <h2>Early urban cultures</h2>
                                 <p>The dry materials shall be mixed in the mixing drum for at least four turns of
@@ -503,7 +530,8 @@
                         <div class="wrapper">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-17.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-17.svg"
+                                        alt="">
                                 </div>
                                 <h2>Long tradition of brick</h2>
                                 <p>The dry materials shall be mixed in the mixing drum for at least four turns of
@@ -537,9 +565,11 @@
                         </div>
                         <!-- Button Section -->
                         <div class="btn-section text-center">
-                            <a href="services.html"><span class="btn-shape-normal-outline">
-                                    <span>More Services</span>
-                                </span></a>
+                            <a href="services.html">
+                                <button class="btn-shape">
+                                    More Services
+                                </button>
+                            </a>
 
                         </div>
                         <!-- Hip Slider -->
@@ -672,7 +702,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -696,7 +728,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-7.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-7.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -720,7 +754,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-8.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-8.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -744,7 +780,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-9.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-9.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -768,7 +806,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -792,7 +832,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-10.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-10.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -850,7 +892,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-9.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-9.png"
+                                        alt="">
                                     <div class="date">
                                         <span>25 Jan</span>
                                     </div>
@@ -887,7 +931,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-10.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-10.png"
+                                        alt="">
                                     <div class="date">
                                         <span>30 Jan</span>
                                     </div>
@@ -925,7 +971,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-11.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-11.png"
+                                        alt="">
                                     <div class="date">
                                         <span>12 Jan</span>
                                     </div>
@@ -962,7 +1010,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-12.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-12.png"
+                                        alt="">
                                     <div class="date">
                                         <span>10 Feb</span>
                                     </div>
@@ -999,7 +1049,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-13.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-13.png"
+                                        alt="">
                                     <div class="date">
                                         <span>18 Feb</span>
                                     </div>
@@ -1036,7 +1088,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-14.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-14.png"
+                                        alt="">
                                     <div class="date">
                                         <span>21 Feb</span>
                                     </div>
@@ -1077,9 +1131,9 @@
                     <div class="col-12">
                         <div class="btn-section">
                             <a href="blog.html">
-                                <span class="btn-shape-normal-outline">
-                                    <span>View All Project</span>
-                                </span>
+                                <button class="btn-shape">
+                                    View All Project
+                                </button>
                             </a>
                         </div>
                     </div>
@@ -1122,11 +1176,13 @@
                                         <div class="no-inner">
                                             <div class="inner-two">
                                                 <div class="img-file active" data-filter=".pro1"><span>
-                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-7.png"
+                                                        <img class="img-fluid"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-7.png"
                                                             alt="">
                                                     </span></div>
                                                 <div class="img-file" data-filter=".pro2"><span>
-                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-8.png"
+                                                        <img class="img-fluid"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-8.png"
                                                             alt="">
                                                     </span></div>
 
@@ -1138,15 +1194,18 @@
                                         <div class="have-inner">
                                             <div class="inner">
                                                 <div class="img-file" data-filter=".pro3"><span>
-                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-9.png"
+                                                        <img class="img-fluid"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-9.png"
                                                             alt="">
                                                     </span></div>
                                                 <div class="img-file" data-filter=".pro4"><span>
-                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-10.png"
+                                                        <img class="img-fluid"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-10.png"
                                                             alt="">
                                                     </span></div>
                                                 <div class="img-file" data-filter=".pro5"><span>
-                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-11.png"
+                                                        <img class="img-fluid"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-11.png"
                                                             alt="">
                                                     </span></div>
 
@@ -1157,11 +1216,13 @@
                                         <div class="no-inner">
                                             <div class="inner-two">
                                                 <div class="img-file" data-filter=".pro6"><span>
-                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-12.png"
+                                                        <img class="img-fluid"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-12.png"
                                                             alt="">
                                                     </span></div>
                                                 <div class="img-file" data-filter=".pro7"><span>
-                                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-13.png"
+                                                        <img class="img-fluid"
+                                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-13.png"
                                                             alt="">
                                                     </span></div>
                                             </div>
@@ -1330,7 +1391,9 @@
                             <div class="swiper-slide">
                                 <div class="wrapper shadow">
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-1.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-1.png"
+                                            alt="">
 
                                     </div>
                                     <div class="inner-file">
@@ -1362,7 +1425,9 @@
                             <div class="swiper-slide">
                                 <div class="wrapper shadow">
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-2.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-2.png"
+                                            alt="">
 
                                     </div>
                                     <div class="inner-file">
@@ -1394,7 +1459,9 @@
                             <div class="swiper-slide">
                                 <div class="wrapper shadow">
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-3.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-3.png"
+                                            alt="">
 
                                     </div>
                                     <div class="inner-file">
@@ -1426,7 +1493,9 @@
                             <div class="swiper-slide">
                                 <div class="wrapper shadow">
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-4.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-4.png"
+                                            alt="">
 
                                     </div>
                                     <div class="inner-file">
@@ -1458,7 +1527,9 @@
                             <div class="swiper-slide">
                                 <div class="wrapper shadow">
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-5.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/blog/blog-5.png"
+                                            alt="">
 
                                     </div>
                                     <div class="inner-file">
@@ -1529,7 +1600,8 @@
                         <div class="wrapper shadow">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg"
+                                        alt="">
                                 </div>
                                 <div class="heading-intro">
                                     <h2>Basic Plan</h2>
@@ -1564,7 +1636,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                        <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -1574,7 +1648,8 @@
                         <div class="wrapper shadow">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg"
+                                        alt="">
                                 </div>
                                 <div class="heading-intro">
                                     <h2>Standard Plan</h2>
@@ -1609,7 +1684,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                        <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -1619,7 +1696,8 @@
                         <div class="wrapper shadow">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg"
+                                        alt="">
                                 </div>
                                 <div class="heading-intro">
                                     <h2>Professional</h2>
@@ -1654,7 +1732,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                        <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -1667,7 +1747,8 @@
     <!-- Our Plan Price  version three End -->
 
     <!-- News Letter version three Start -->
-    <section class="newsletter-section-version-three  py-80" data-background="<?php echo get_template_directory_uri(); ?>/assets/img/bg-overlay/bg-overlay-6.png">
+    <section class="newsletter-section-version-three  py-80"
+        data-background="<?php echo get_template_directory_uri(); ?>/assets/img/bg-overlay/bg-overlay-6.png">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
@@ -1680,7 +1761,8 @@
 
                         <div class="profile-hold">
                             <div class="img-file">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-7.png" alt="">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/client/profile-7.png"
+                                    alt="">
                             </div>
                             <div class="text-file">
                                 <h3>William B. Hunt</h3>
@@ -1693,7 +1775,9 @@
                     <div class="left-side">
                         <div class="input-section">
                             <input type="text" placeholder="Email Address">
-                            <button class="btn-shape-normal-outline"><span>Subscribe</span></button>
+                            <button class="btn-shape">
+                                Subscribe
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -1729,32 +1813,38 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
                         </div>
                     </div>
                 </div>

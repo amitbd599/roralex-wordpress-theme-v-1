@@ -244,9 +244,13 @@
       margin-top: 15px;
       display: flex;
       justify-content: center;
-      .btn-shape-normal-outline {
-        width: 148px;
+      .btn-shape {
+        background: var(--bg_white);
+        color: var(--heading_color);
+        font-weight: 600;
+
       }
+
     }
   }
 }
@@ -301,9 +305,8 @@
       @media #{$md, $sm, $xs} {
         padding-bottom: 60px;
       }
-      .btn-shape-normal-outline {
-        width: 170px;
-      }
+
+
     }
     .hip-slider {
       position: absolute;

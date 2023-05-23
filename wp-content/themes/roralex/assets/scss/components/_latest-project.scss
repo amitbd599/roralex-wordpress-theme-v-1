@@ -143,9 +143,7 @@
               @media #{$sm, $xs} {
                 bottom: 26px;
               }
-              .btn-shape-normal-outline {
-                padding: 10px 10px;
-                width: 130px;
+              .btn-shape {
                 visibility: hidden;
                 opacity: 0;
                 transform: translateY(20px);
@@ -181,7 +179,7 @@
                 visibility: visible;
                 opacity: 1;
               }
-              .btn-section .btn-shape-normal-outline {
+              .btn-section .btn-shape {
                 transform: translateY(0);
                 visibility: visible;
                 opacity: 1;
@@ -323,9 +321,7 @@
               @media #{$sm, $xs} {
                 bottom: 30px;
               }
-              .btn-shape-normal-outline {
-                padding: 10px 10px;
-                width: 130px;
+              .btn-shape {
                 visibility: hidden;
                 opacity: 0;
                 transform: translateY(20px);
@@ -357,7 +353,7 @@
                 visibility: visible;
                 opacity: 1;
               }
-              .btn-section .btn-shape-normal-outline {
+              .btn-section .btn-shape {
                 transform: translateY(0);
                 visibility: visible;
                 opacity: 1;
@@ -579,9 +575,7 @@
       margin-top: 20px;
       display: flex;
       justify-content: center;
-      .btn-shape-normal-outline {
-        width: 182px;
-      }
+
     }
   }
 }

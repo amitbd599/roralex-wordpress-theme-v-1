@@ -10,21 +10,7 @@
 
 <main>
 
-    <!-- Bread Crumb Start -->
-    <section class="bread-crumb" data-background="<?php echo get_template_directory_uri(); ?>/assets/img/bg-overlay/bg-overlay-7.png">
-        <div class=" container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="wrapper">
-                        <h2>About</h2>
-                        <p><a href="/index-1.html">Home</a> / <span>About Us</span></p>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Bread Crumb End -->
 
     <!-- About Section version one start -->
     <section class="about-section-version-one  py-80">
@@ -34,11 +20,14 @@
                     <div class="left-side">
                         <div class="wrapper">
                             <div class="img-shape">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-1.png" alt="">
+                                <img class="img-fluid"
+                                    src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-1.png"
+                                    alt="">
                             </div>
                             <div class="pop-img">
                                 <div class="inner">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-2.png" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-2.png"
+                                        alt="">
                                     <div class="vide-button">
                                         <a href="https://www.youtube.com/watch?v=o4GuSJYSzrY" class="popup-video"><i
                                                 class="fa-solid fa-play"></i></a>
@@ -46,7 +35,9 @@
                                 </div>
                             </div>
                             <div class="project-count">
-                                <div><img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-5.png" alt=""></div>
+                                <div><img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-5.png"
+                                        alt=""></div>
                                 <div>
                                     <h3><span class="counter">5000</span>+</h3>
                                     <p>Projects Done</p>
@@ -97,21 +88,29 @@
                                 <hr>
                                 <div class="hub-show">
                                     <div class="inner-hub">
-                                        <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-6.png" alt=""></div>
+                                        <div><img
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-6.png"
+                                                alt=""></div>
                                         <p>Powerful workflow
                                             attractive design</p>
                                     </div>
                                     <div class="inner-hub">
-                                        <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-7.png" alt=""></div>
+                                        <div><img
+                                                src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-7.png"
+                                                alt=""></div>
                                         <p>Process of constructing
                                             building infrastructure</p>
                                     </div>
 
                                 </div>
                                 <div class="btn-section">
-                                    <a href="javascript:void(0)"><span class="btn-shape-normal-outline">
-                                            <span>More About Us</span>
-                                        </span></a>
+
+
+                                    <a href="#">
+                                        <button class="btn-shape">
+                                            More About Us
+                                        </button>
+                                    </a>
 
                                 </div>
                             </div>
@@ -137,7 +136,8 @@
                             <div class="pop-text">
                                 <h3>WHY CHOOSE US</h3>
                                 <div class="shape-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union-1.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union-1.svg"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="inner-text">
@@ -167,7 +167,8 @@
                                         <div class="wrapper">
                                             <div class="left">
                                                 <div class="img-file">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-7.png" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-7.png"
+                                                        alt="">
                                                 </div>
                                             </div>
                                             <div class="right">
@@ -189,7 +190,8 @@
                                         <div class="wrapper">
                                             <div class="left">
                                                 <div class="img-file">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-8.png" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-8.png"
+                                                        alt="">
                                                 </div>
                                             </div>
                                             <div class="right">
@@ -211,7 +213,8 @@
                                         <div class="wrapper">
                                             <div class="left">
                                                 <div class="img-file">
-                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-9.png" alt="">
+                                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/about-us/about-9.png"
+                                                        alt="">
                                                 </div>
                                             </div>
                                             <div class="right">
@@ -242,14 +245,18 @@
                             </div>
                             <ul>
                                 <li>
-                                    <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-8.svg" alt=""></div>
+                                    <div><img
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-8.svg"
+                                            alt=""></div>
                                     <div>
                                         <span>Process 01</span>
                                         <span>Coordination and Interpretation</span>
                                     </div>
                                 </li>
                                 <li>
-                                    <div><img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-9.svg" alt=""></div>
+                                    <div><img
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-9.svg"
+                                            alt=""></div>
                                     <div>
                                         <span>Process 02</span>
                                         <span>Design Details Full Feasibility</span>
@@ -365,7 +372,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -389,7 +398,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-7.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-7.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -413,7 +424,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-8.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-8.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -437,7 +450,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-9.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-9.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -461,7 +476,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -485,7 +502,9 @@
                                 <div class="inner-wrapper ">
 
                                     <div class="img-file">
-                                        <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-10.png" alt="">
+                                        <img class="img-fluid"
+                                            src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-10.png"
+                                            alt="">
                                     </div>
                                     <div class="intro">
                                         <a href="team-details.html">
@@ -537,32 +556,38 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
                         </div>
                     </div>
                 </div>

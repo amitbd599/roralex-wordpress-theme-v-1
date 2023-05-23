@@ -78,8 +78,13 @@ default:
                 </div>
                 <div class="col-lg-4">
                     <div class="wrapper-right">
-                        <a class="btn-shape-normal-outline"
-                            href="#"><span><?php echo esc_html__('More About', 'roralex'); ?></span></a>
+                        <a class="btn-shape-normal-outline" href="#">
+
+
+                            <button class="btn-shape">
+                                <?php echo esc_html__('More About', 'roralex'); ?>
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

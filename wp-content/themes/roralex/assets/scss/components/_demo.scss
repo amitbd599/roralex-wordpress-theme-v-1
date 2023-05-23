@@ -87,12 +87,10 @@
             margin-top: 30px;
             display: flex;
             gap: 10px;
-            .btn-shape-normal-outline.left {
-              width: 172px;
+            .btn-shape.left {
               border: 2px solid var(--theme_color);
             }
-            .btn-shape-normal-outline.right {
-              width: 208px;
+            .btn-shape.right {
               background: transparent;
               border: 2px solid var(--theme_color);
             }
@@ -168,9 +166,7 @@
           visibility: hidden;
           opacity: 0;
           transition: all 0.4s linear;
-          .btn-shape-normal-outline {
-            width: 172px;
-          }
+
         }
         &::after {
           background: rgb(52 58 64 / 45%);
@@ -281,8 +277,7 @@
         }
       }
     }
-    .btn-shape-normal-outline {
-      width: 186px;
+    .btn-shape {
       margin: 0;
     }
   }

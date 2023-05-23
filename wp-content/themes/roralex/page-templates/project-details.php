@@ -12,69 +12,179 @@
 
 
 
-    <!-- Service Details Inner Section version One start -->
-    <section class="service-details-inner-section-one bg-white py-80">
+
+    <!-- Project Details Inner Section version One start -->
+    <section class="project-details-inner-section-one bg-white py-80">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
                     <div class="left-side">
                         <div class="wrapper">
-                            <h2>Include how the company began and the changes and developments.</h2>
+                            <h2>Basic Concepts in the Development of Construction Plans.</h2>
 
                             <div class="main-img mt-20">
-                                <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-1.png" alt="">
+                                <img class="img-fluid" src="./assets/img/project/project-15.png" alt="">
                             </div>
                             <br>
 
-                            <div class="d-md-flex gap-4 mt-10">
+                            <div class="d-flex gap-4 mt-10">
                                 <div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-2.png" alt="">
-                                </div>
-                                <div class="mt-4 mt-md-0">
-                                    <h3>Construction structures</h3>
-                                    <p>Besides FAR, Maximum Ground Coverage (MGC) is also another remarkable issue
-                                        because any building code has a chart of it. In the MGC, there are specified
-                                        how much land a builder can leave for constructing a building according to
-                                        the total size of the land area. Before doing the construction works, the
-                                        builder needs to decide on his project following the legal steps like FAR
-                                        and MGC. Buildings are surrounded by the roads as per the building code and
-                                        any building.</p>
-                                    <p>Builder needs to decide on his project following the legal steps like FAR</p>
+
+                                    <p>Construction planning is a fundamental and challenging activity in the
+                                        management and execution of construction projects. It involves the choice of
+                                        technology, the definition of work tasks, the estimation of the required
+                                        resources and durations for individual tasks, and the identification of any
+                                        interactions among the different work tasks.</p>
                                 </div>
                             </div>
-                            <div class="mt-4">
-                                <h3 class="theme-color">ABOUT PROJECT</h3>
-                                <p class="mt-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                                    mollitia,
-                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                    optio, eaque rerum! Provident similique accusantium nemo autem. Veritatis
-                                    obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam
-                                    nihil, eveniet aliquid culpa officia aut! Impedit sit sunt quaerat, odit,
-                                    tenetur error, harum nesciunt ipsum debitis quas aliquid. Reprehenderit, quia.
-                                    Quo neque error repudiandae fuga? Ipsa laudantium molestias eos sapiente
-                                    officiis modi at sunt excepturi expedita sint? Sed quibusdam recusandae alias
-                                    error harum maxime adipisci amet laborum. Perspiciatis minima nesciunt dolorem!
-                                    Officiis iure rerum voluptates a cumque velit</p>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                    optio, eaque rerum! Provident similique accusantium nemo</p>
+                            <div class="mt-10">
+                                <h3 class="theme-color">Construction Plans</h3>
+                                <p class="mt-10">Like a detective, a planner begins with a result (i.e. a facility
+                                    design) and must synthesize the steps required to yield this result. Essential
+                                    aspects of construction planning include the generation of required activities,
+                                    analysis of the implications of these activities, and choice among the various
+                                    alternative means of performing activities. In contrast to a detective
+                                    discovering a single train of events, however, construction planners also face
+                                    the normative problem of choosing the best among numerous alternative plans.
+                                    Moreover, a detective is faced with an observable result, whereas a planner must
+                                    imagine the final facility as described in the plans and specifications. Like a
+                                    detective, a planner begins with a result (i.e. a facility design) and must
+                                    synthesize the steps required to yield this result. Essential aspects of
+                                    construction planning include the generation of required activities, analysis of
+                                    the implications of these activities, and choice among the various alternative
+                                    means of performing activities. In contrast to a detective discovering a single
+                                    train of events, however, construction planners also face the normative problem
+                                    of choosing the best among numerous alternative plans. Moreover, a detective is
+                                    faced with an observable result, whereas a planner must imagine the final
+                                    facility as described in the plans and specifications.</p>
                             </div>
-                            <div class="d-md-flex gap-4 mt-25">
+                            <div class="d-flex gap-4 mt-25">
                                 <div>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-3.png" alt="">
+                                    <img class="img-fluid" src="./assets/img/project/project-16.png" alt="">
                                 </div>
-                                <div class="mt-3 mt-lg-0">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/service/service-4.png" alt="">
+                                <div>
+                                    <img class="img-fluid" src="./assets/img/project/project-17.png" alt="">
                                 </div>
 
                             </div>
-                            <div class="mt-15">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                                    optio, eaque rerum! Provident similique accusantium nemo</p>
+                            <div class="mt-20">
+                                <h3 class="theme-color">Reporting and Cost Control</h3>
+                                <p class="mt-10">Essential aspects of
+                                    construction planning include the generation of required activities, analysis of
+                                    the implications of these activities, and choice among the various alternative
+                                    means of performing activities. In contrast to a detective discovering a single
+                                    train of events, however, construction planners also face the normative problem
+                                    of choosing the best among numerous alternative plans. Moreover, a detective is
+                                    faced with an observable result, whereas a planner must imagine the final
+                                    facility as described in the plans and specifications.</p>
+                            </div>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Aenean suscipit eget mi act fermentum phasellus vulputate.
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Residential buildings, like single and multi-family homes. Commercial
+                                            buildings, such as offices or warehouses. Industrial facilities, like
+                                            factories or large-scale production facilities. Infrastructure projects,
+                                            such as roads, bridges, airports, or wastewater systems. Essential
+                                            aspects of construction planning include the generation of required
+                                            activities, analysis of the implications of these activities, and choice
+                                            among the various alternative means of performing activities. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Wooden frame buildings have been around for many years and in fact.
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Residential buildings, like single and multi-family homes. Commercial
+                                            buildings, such as offices or warehouses. Industrial facilities, like
+                                            factories or large-scale production facilities. Infrastructure projects,
+                                            such as roads, bridges, airports, or wastewater systems. Essential
+                                            aspects of construction planning include the generation of required
+                                            activities, analysis of the implications of these activities, and choice
+                                            among the various alternative means of performing activities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Once the plan is in hand, the finance and total cost is estimated.
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Residential buildings, like single and multi-family homes. Commercial
+                                            buildings, such as offices or warehouses. Industrial facilities, like
+                                            factories or large-scale production facilities. Infrastructure projects,
+                                            such as roads, bridges, airports, or wastewater systems. Essential
+                                            aspects of construction planning include the generation of required
+                                            activities, analysis of the implications of these activities, and choice
+                                            among the various alternative means of performing activities. </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Before starting a building construction, the owner must make sure
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                        <p>Residential buildings, like single and multi-family homes. Commercial
+                                            buildings, such as offices or warehouses. Industrial facilities, like
+                                            factories or large-scale production facilities. Infrastructure projects,
+                                            such as roads, bridges, airports, or wastewater systems. Essential
+                                            aspects of construction planning include the generation of required
+                                            activities, analysis of the implications of these activities, and choice
+                                            among the various alternative means of performing activities.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mission-vision mt-40">
+                            <div class="mission">
+                                <h2>
+                                    <span>01.</span>
+                                    <span>Our Mission</span>
+                                </h2>
+                                <p>Known as an IT managed services provider, an IT support company is comprised of
+                                    professional IT specialists who make up the company's core IT team. The team
+                                    provides your. business with expert guidance and management for a variety of
+                                    information technology needs. A solution is an implementation of people,
+                                    processes.</p>
+                            </div>
+                            <div class="vision mt-4 mt-sm-0">
+                                <h2>
+                                    <span>02.</span>
+                                    <span>Our Vision</span>
+                                </h2>
+                                <p>Known as an IT managed services provider, an IT support company is comprised of
+                                    professional IT specialists who make up the company's core IT team. The team
+                                    provides your. business with expert guidance and management for a variety of
+                                    information technology needs. A solution is an implementation of people,
+                                    processes.</p>
                             </div>
                         </div>
                     </div>
@@ -82,86 +192,52 @@
                 <div class="col-lg-4">
                     <!-- Widget Section -->
                     <div class="widget">
-                        <!-- Widget One -->
-                        <div class="widget-one">
+                        <!-- Widget four -->
+                        <div class="widget-four">
                             <div class="wrapper">
-                                <h3>Initial Documents</h3>
-                                <ul>
-                                    <li>
-                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
-                                        <div>
-                                            <span class="d-block">Company Information</span>
-                                            <button class="d-block">Download</button>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
-                                        <div>
-                                            <span class="d-block">Established Information</span>
-                                            <button class="d-block">Download</button>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
-                                        <div>
-                                            <span class="d-block">Physical address</span>
-                                            <button class="d-block">Download</button>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
-                                        <div>
-                                            <span class="d-block">About the company's</span>
-                                            <button class="d-block">Download</button>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div><span><i class="fa-solid fa-file-pdf"></i></span></div>
-                                        <div>
-                                            <span class="d-block">Working History</span>
-                                            <button class="d-block">Download</button>
-                                        </div>
-                                    </li>
-                                </ul>
-                                <button class="btn-shape-normal-outline">
-                                    <span>Download All</span>
+                                <h3>Want To Tell Something</h3>
+                                <div class="input-inner">
+                                    <div class="input">
+                                        <span><i class="fa-solid fa-user"></i></span>
+                                        <input type="text" placeholder="Enter Your Name">
+                                    </div>
+                                    <div class="input">
+                                        <span><i class="fa-solid fa-envelope"></i></span>
+                                        <input type="text" placeholder="Enter Your Email ID">
+                                    </div>
+                                    <div class="text-area">
+                                        <span><i class="fa-solid fa-message-text"></i></span>
+                                        <textarea name="comment" rows="4" cols="35"></textarea>
+                                    </div>
+                                </div>
+                                <button class="btn-shape w-100">
+                                    Get A Quote
                                 </button>
                             </div>
                         </div>
-                        <!-- Widget Two -->
-                        <div class="widget-two mt-40">
-                            <div class="wrapper">
-                                <h3>Watch Demo</h3>
-                                <div class="img-file">
-                                    <div class="pop-img">
-                                        <div class="inner">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/widgets/img-1.png" alt="">
-                                            <div class="vide-button">
-                                                <a href="https://www.youtube.com/watch?v=o4GuSJYSzrY"
-                                                    class="popup-video"><i class="fa-solid fa-play"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
 
-                            </div>
-                        </div>
-                        <!-- Widget Three -->
-                        <div class="widget-three mt-40">
+                        <!-- Widget Five -->
+                        <div class="widget-five mt-40">
                             <div class="wrapper">
-                                <h3>Company Details :</h3>
+                                <h3>Project Details :</h3>
                                 <ul>
-                                    <li><i class="fa-sharp fa-solid fa-buildings"></i><span>Project Name:</span>
-                                        Inhouse Building</li>
-                                    <li><i class="fa-sharp fa-solid fa-location-dot"></i><span>Location:</span>
-                                        Twin House, new york</li>
-                                    <li><i class="fa-solid fa-timer"></i><span>Published Date:</span>
-                                        23-01-2023</li>
-                                    <li><i class="fa-solid fa-user"></i><span>
-                                            Architecture:</span>
-                                        Amit Biswas</li>
-                                    <li><i class="fa-sharp fa-solid fa-dollar-sign"></i><span>Value:</span>
-                                        $ 596,52,360</li>
+                                    <li><span>Client:</span>
+                                        Alex Johan</li>
+                                    <li><span>Category:</span>
+                                        roadway rehabilitation</li>
+                                    <li><span>Values:</span>
+                                        $ 3,63,630.86</li>
+                                    <li><span>
+                                            Country:</span>
+                                        USA</li>
+                                    <li><span>Total Worker:</span>
+                                        1205 Person</li>
+                                    <li><span>Duration:</span>
+                                        2 years</li>
+                                    <li><span>Project Start:</span>
+                                        2-02-2020</li>
+                                    <li><span>Project End:</span>
+                                        2-04-2022</li>
                                 </ul>
                             </div>
                         </div>
@@ -170,138 +246,168 @@
             </div>
         </div>
     </section>
-    <!-- Service Details Inner Section version One End -->
+    <!-- Project Details Inner Section version One End -->
 
 
-    <!-- Service List Section version three start -->
-    <section class="serviceList-section-version-three bg-gray py-80 ">
-        <!-- Header Intro Version Three -->
-        <div class="header-intro-version-three">
+
+    <!-- Latest Projects Section version two start -->
+    <section class="latest-project-version-two bg-gray py-60">
+        <!-- Header Intro Version Two -->
+        <div class="header-intro-version-two">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
                         <div class="wrapper">
                             <div class="pop-text">
-                                <h2>More Related Services</h2>
+                                <h2>More Latest Projects</h2>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <!-- Inner Card Items -->
-        <div class="inner-card-items">
+        <!-- Inner Items Data -->
+        <div class="project-body">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="wrapper">
-                            <div class="inner">
-                                <div class="count-file">
-                                    <div class="hip">
-                                        <h2>01</h2>
+                <!-- Start Project Filter Items Area -->
+                <div id="project-version-two" class="row project-version-two">
+                    <div class="col-xl-3 col-lg-4 col-md-6 pro5 pro2">
+                        <div class="project-item">
+                            <div class="project-wrapper">
+                                <div class="img-file">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-1.png"
+                                        alt="">
+                                    <div class="text-overlay">
+                                        <div class="text">
+                                            <h2>construction site</h2>
+                                            <p>civil engineer and construction worker manager holding digital tablet
+                                                and blueprints talking</p>
+                                            <div class="location">
+                                                <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                                                <span>North America</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-section">
+                                        <a href="project-details.html">
+                                            <button class="btn-shape">
+
+                                                View Info
+
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="text-file">
-                                    <h3>Development and Planning Phase</h3>
-                                    <p>The most critical phase of a commercial construction project is the
-                                        development
-                                        and planning stage.</p>
-                                </div>
-                                <div class="btn-hold">
-                                    <a href="services-details.html">
-                                        <span>Read More</span>
-                                        <i class="fa-regular fa-arrow-right-to-line"></i>
-                                    </a>
-                                </div>
                             </div>
-                            <div class="overlay"></div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="wrapper">
-                            <div class="inner">
-                                <div class="count-file">
-                                    <div class="hip">
-                                        <h2>02</h2>
+                    <div class="col-xl-3 col-lg-4 col-md-6 pro3 pro4">
+                        <div class="project-item">
+                            <div class="project-wrapper">
+                                <div class="img-file">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-2.png"
+                                        alt="">
+                                    <div class="text-overlay">
+                                        <div class="text">
+                                            <h2>Integrating Digital</h2>
+                                            <p>civil engineer and construction worker manager holding digital tablet
+                                                and blueprints talking</p>
+                                            <div class="location">
+                                                <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                                                <span>Zappia Drive</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-section">
+                                        <a href="project-details.html">
+                                            <button class="btn-shape">
+
+                                                View Info
+
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="text-file">
-                                    <h3>Planning the budget for construction</h3>
-                                    <p>The most critical phase of a commercial construction project is the
-                                        development
-                                        and planning stage.</p>
-                                </div>
-                                <div class="btn-hold">
-                                    <a href="services-details.html">
-                                        <span>Read More</span>
-                                        <i class="fa-regular fa-arrow-right-to-line"></i>
-                                    </a>
-                                </div>
                             </div>
-                            <div class="overlay"></div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="wrapper">
-                            <div class="inner">
-                                <div class="count-file">
-                                    <div class="hip">
-                                        <h2>03</h2>
+                    <div class="col-xl-3 col-lg-4 col-md-6 pro1 pro5 pro2">
+                        <div class="project-item">
+                            <div class="project-wrapper">
+                                <div class="img-file">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-3.png"
+                                        alt="">
+                                    <div class="text-overlay">
+                                        <div class="text">
+                                            <h2>Building Plan</h2>
+                                            <p>civil engineer and construction worker manager holding digital tablet
+                                                and blueprints talking</p>
+                                            <div class="location">
+                                                <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                                                <span>Meadowcrest Lane</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-section">
+                                        <a href="project-details.html">
+                                            <button class="btn-shape">
+
+                                                View Info
+
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="text-file">
-                                    <h3>The pre-design phase development</h3>
-                                    <p>The most critical phase of a commercial construction project is the
-                                        development
-                                        and planning stage.</p>
-                                </div>
-                                <div class="btn-hold">
-                                    <a href="services-details.html">
-                                        <span>Read More</span>
-                                        <i class="fa-regular fa-arrow-right-to-line"></i>
-                                    </a>
-                                </div>
                             </div>
-                            <div class="overlay"></div>
                         </div>
                     </div>
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <div class="wrapper">
-                            <div class="inner">
-                                <div class="count-file">
-                                    <div class="hip">
-                                        <h2>04</h2>
+                    <div class="col-xl-3 col-lg-4 col-md-6 pro4 pro3">
+                        <div class="project-item">
+                            <div class="project-wrapper">
+                                <div class="img-file">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-4.png"
+                                        alt="">
+                                    <div class="text-overlay">
+                                        <div class="text">
+                                            <h2>Insurance Building</h2>
+                                            <p>civil engineer and construction worker manager holding digital tablet
+                                                and blueprints talking</p>
+                                            <div class="location">
+                                                <span><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                                                <span>Passaic Street</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="btn-section">
+                                        <a href="project-details.html">
+                                            <button class="btn-shape">
+
+                                                View Info
+
+                                            </button>
+                                        </a>
                                     </div>
                                 </div>
-                                <div class="text-file">
-                                    <h3>Preparation actual construction turns</h3>
-                                    <p>The most critical phase of a commercial construction project is the
-                                        development
-                                        and planning stage.</p>
-                                </div>
-                                <div class="btn-hold">
-                                    <a href="services-details.html">
-                                        <span>Read More</span>
-                                        <i class="fa-regular fa-arrow-right-to-line"></i>
-                                    </a>
-                                </div>
                             </div>
-                            <div class="overlay"></div>
                         </div>
                     </div>
+
+
+
                 </div>
+                <!-- End Project Filter Items Area -->
             </div>
         </div>
-
-
-
     </section>
-    <!-- Service List Section version three End -->
+    <!-- Latest Projects Section version two End -->
 
 
     <!-- Our Client version one Start -->
-    <section class="ourclient-section-version-one bg-white py-100">
+    <section class="ourclient-section-version-one bg-white py-80">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -321,32 +427,38 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -355,6 +467,7 @@
 
     </section>
     <!-- Our Client version one End -->
+
 
 
 </main>

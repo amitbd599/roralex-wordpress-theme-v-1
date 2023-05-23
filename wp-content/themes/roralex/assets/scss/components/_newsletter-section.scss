@@ -64,10 +64,7 @@
       margin-top: 20px;
       display: flex;
       justify-content: center;
-      .btn-shape-normal-outline {
-        padding: 12px;
-        width: 140px;
-      }
+
     }
   }
 }
@@ -123,9 +120,8 @@
         display: flex;
         align-items: center;
       }
-      .btn-shape-normal-outline {
+      .btn-shape {
         padding: 12px;
-        width: 130px;
       }
     }
   }
@@ -237,9 +233,7 @@
         border: 2px solid #fff;
         color: #ddd;
       }
-      .btn-shape-normal-outline {
-        padding: 12px;
-        width: 130px;
+      .btn-shape {
         margin: 0;
         margin-top: 15px;
       }

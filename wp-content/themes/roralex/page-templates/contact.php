@@ -23,7 +23,8 @@
                             <div class="pop-text">
                                 <h3>GET IN TOUCH</h3>
                                 <div class="shape-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union-1.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union-1.svg"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="inner-text">
@@ -72,8 +73,8 @@
                                                         placeholder="Enter Details..." required></textarea>
                                                 </div>
                                                 <div class="main-btn">
-                                                    <button type="submit" class="btn-shape-normal-outline">
-                                                        <span>Send Massage</span>
+                                                    <button class="btn-shape">
+                                                        Send Massage
                                                     </button>
                                                 </div><br>
                                                 <p id="emailjs-response" class=" text-danger"></p>

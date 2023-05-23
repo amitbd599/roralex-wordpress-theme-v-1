@@ -115,9 +115,7 @@
     .btn-section {
       display: flex;
       justify-content: center;
-      .btn-shape-normal-outline {
-        width: 190px;
-      }
+
     }
   }
 }
@@ -682,17 +680,15 @@
 
             .main-btn {
               margin-top: 10px;
-              .btn-shape-normal-outline {
+              .btn-shape {
                 margin: 0;
-                width: 172px;
               }
             }
           }
           .main-btn {
             margin-top: 20px;
-            .btn-shape-normal-outline {
+            .btn-shape {
               margin: 0;
-              width: 192px;
             }
           }
         }

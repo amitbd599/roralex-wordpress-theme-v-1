@@ -287,7 +287,7 @@
                     <!-- Widget Section -->
                     <div class="widget">
                         <!-- Widget four -->
-                        <div class="widget-four">
+                        <div class="widget-4">
                             <div class="wrapper">
                                 <h3>Want To Tell Something</h3>
                                 <div class="input-inner">
@@ -304,26 +304,10 @@
                                         <textarea name="comment" rows="4" cols="35"></textarea>
                                     </div>
                                 </div>
-                                <button class="btn-shape-normal-outline">
-                                    <span>Get A Quote</span>
+
+                                <button class="btn-shape">
+                                    Get A Quote
                                 </button>
-                            </div>
-                        </div>
-                        <!-- Widget Two -->
-                        <div class="widget-two mt-40">
-                            <div class="wrapper">
-                                <h3>Watch Demo</h3>
-                                <div class="img-file">
-                                    <div class="pop-img">
-                                        <div class="inner">
-                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/widgets/img-1.png" alt="">
-                                            <div class="vide-button">
-                                                <a href="https://www.youtube.com/watch?v=o4GuSJYSzrY"
-                                                    class="popup-video"><i class="fa-solid fa-play"></i></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -359,7 +343,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-1.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-1.png"
+                                        alt="">
                                     <div class="text-overlay">
                                         <div class="text">
                                             <h2>construction site</h2>
@@ -373,11 +359,10 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>
-                                                    View Info
-                                                </span>
-                                            </span>
+
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -388,7 +373,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-2.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-2.png"
+                                        alt="">
                                     <div class="text-overlay">
                                         <div class="text">
                                             <h2>Integrating Digital</h2>
@@ -402,11 +389,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>
-                                                    View Info
-                                                </span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -417,7 +402,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-3.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-3.png"
+                                        alt="">
                                     <div class="text-overlay">
                                         <div class="text">
                                             <h2>Building Plan</h2>
@@ -431,11 +418,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>
-                                                    View Info
-                                                </span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -446,7 +431,9 @@
                         <div class="project-item">
                             <div class="project-wrapper">
                                 <div class="img-file">
-                                    <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-4.png" alt="">
+                                    <img class="img-fluid"
+                                        src="<?php echo get_template_directory_uri(); ?>/assets/img/project/project-4.png"
+                                        alt="">
                                     <div class="text-overlay">
                                         <div class="text">
                                             <h2>Insurance Building</h2>
@@ -460,11 +447,9 @@
                                     </div>
                                     <div class="btn-section">
                                         <a href="project-details.html">
-                                            <span class="btn-shape-normal-outline">
-                                                <span>
-                                                    View Info
-                                                </span>
-                                            </span>
+                                            <button class="btn-shape">
+                                                Read More
+                                            </button>
                                         </a>
                                     </div>
                                 </div>
@@ -502,32 +487,38 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
                         </div>
                     </div>
                 </div>

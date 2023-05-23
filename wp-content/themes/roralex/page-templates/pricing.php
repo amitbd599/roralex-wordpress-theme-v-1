@@ -59,7 +59,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                    <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -104,7 +106,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                    <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -149,7 +153,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                    <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -226,7 +232,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                    <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -265,7 +273,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                    <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -305,7 +315,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape-normal-outline"><span>Purchase</span></button>
+                                    <button class="btn-shape">
+                                            Purchase
+                                        </button>
                                     </div>
                                 </div>
                             </div>
