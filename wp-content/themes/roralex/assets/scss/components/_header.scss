@@ -577,7 +577,7 @@
   .inner-location-email-intro {
     display: grid;
     gap: -5px;
-  
+
     .inner {
       display: flex;
       align-items: center;
@@ -637,6 +637,7 @@
     gap: 40px;
     .social-icon {
       ul {
+        list-style: none;
         display: flex;
         gap: 15px;
         align-items: center;

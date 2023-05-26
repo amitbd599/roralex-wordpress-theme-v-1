@@ -1349,6 +1349,7 @@ input[type=color] {
   gap: 40px;
 }
 .top-header .left-wrapper .social-icon ul {
+  list-style: none;
   display: flex;
   gap: 15px;
   align-items: center;
