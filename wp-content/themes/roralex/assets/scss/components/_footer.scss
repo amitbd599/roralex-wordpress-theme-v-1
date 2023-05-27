@@ -635,7 +635,7 @@
           font-weight: 600;
           color: var(--bg_white);
           position: relative;
-          display: inline-block;
+          display: inline-block;margin-bottom: 25px;
           &::after {
             position: absolute;
             content: "";
