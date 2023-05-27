@@ -37,6 +37,8 @@
 
 
 
+
+
 <?php if(!empty($roralex_topbar_switch)) : ?>
 <div class="top-header d-none d-lg-block">
     <div class="container ">
@@ -49,18 +51,21 @@
                     </div>
                     <div class="news-intro simple-marquee-container">
                         <div id="topHeader" class="scroll-text">
+                            <?php
+                            // wp-query to get all published posts without pagination
+                          $allPostsWPQuery = new WP_Query(array('post_type'=>'post', 'post_status'=>'publish', 'posts_per_page'=>-1)); ?>
+
+                            <?php if ( $allPostsWPQuery->have_posts() ) : ?>
+
                             <ul>
-                                <li><a href="#">
-                                        Building structures are generally constructed on concrete foundations.
-                                    </a></li>
-                                <li><a href="#">
-                                        The superstructure is constructed once the substructure is complete.
-                                    </a></li>
-                                <li><a href="#">
-                                        Within this period, any defects found in building must be fixed
-                                        and replaced.
-                                    </a></li>
+                                <?php while ( $allPostsWPQuery->have_posts() ) : $allPostsWPQuery->the_post(); ?>
+                                <li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+                                <?php endwhile; ?>
                             </ul>
+                            <?php wp_reset_postdata(); ?>
+                            <?php else : ?>
+                            <p><?php esc_html__( 'There no posts to display.' ); ?></p>
+                            <?php endif; ?>
                         </div>
                     </div>
                 </div>
