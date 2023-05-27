@@ -1545,6 +1545,7 @@ input[type=color] {
   color: var(--bg_white);
   position: relative;
   display: inline-block;
+  margin-bottom: 25px;
 }
 .footer-section-version-one .footer-middle .wrapper-2 .footer__widget-title::after {
   position: absolute;
