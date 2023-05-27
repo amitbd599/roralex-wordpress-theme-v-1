@@ -725,6 +725,10 @@ pre {
 .tp-page-content .comments .root-comment >ul{
   list-style: none;
 }
+.sidebar-widget.widget_text .textwidget img{
+  width: 100%;
+  height: auto;
+}
 
 .sidebar-widget ul li ul {
   padding-left: 15px;
@@ -773,6 +777,11 @@ float: none;
 list-style: none;
 color: #d7d7d7;
 }
+.footer__widget.widget_text .textwidget img{
+  width: 100%;
+  height: auto;
+}
+
 
 .footer__widget #wp-calendar thead th {
   color: #d7d7d7;
@@ -919,6 +928,11 @@ margin-bottom: 15px;
 }
 .footer__widget.widget_nav_menu ul li a:hover{
   color: var(--theme_color);
+}
+
+.footer-logo img{
+  width: 180px !important;
+  height: auto;
 }
 
 /* Menu  */

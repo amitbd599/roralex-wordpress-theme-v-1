@@ -10,7 +10,7 @@
 
 	// info
     $roralex_topbar_switch = get_theme_mod( 'roralex_topbar_switch', false );
-    $roralex_phone_num = get_theme_mod( 'roralex_phone_num', __( '(88-0212-2500)', 'roralex' ) );
+    $roralex_phone_num = get_theme_mod( 'roralex_phone_num', __( '(8802122500)', 'roralex' ) );
 
 
 
@@ -76,7 +76,7 @@
                             <span class="text"><?php echo esc_html__('Phone', 'roralex'); ?></span>
                         </div>
                         <h5><a
-                                href="tel: <?php echo esc_attr($roralex_phone_num) ?>"><?php echo esc_html($roralex_phone_num); ?></a>
+                                href="tel:<?php echo esc_attr($roralex_phone_num) ?>"><?php echo esc_html($roralex_phone_num); ?></a>
                         </h5>
                     </div>
                     <?php endif;?>

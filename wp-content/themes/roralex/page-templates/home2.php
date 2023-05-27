@@ -32,9 +32,9 @@
                                                 evolved into such highly refined forms as the igloo.</p>
 
                                             <div class="btn-section">
-                                                <button class="btn-shape">
+                                                <span class="btn-shape">
                                                     Read More
-                                                </button>
+                                                </span>
                                             </div>
 
                                         </div>
@@ -63,9 +63,9 @@
                                                 evolved into such highly refined forms as the igloo.</p>
 
                                             <div class="btn-section">
-                                                <button class="btn-shape">
+                                                <span class="btn-shape">
                                                     Read more
-                                                </button>
+                                                </span>
                                             </div>
 
                                         </div>
@@ -94,9 +94,9 @@
                                                 evolved into such highly refined forms as the igloo.</p>
 
                                             <div class="btn-section">
-                                                <button class="btn-shape">
+                                                <span class="btn-shape">
                                                     Read More
-                                                </button>
+                                                </span>
                                             </div>
 
                                         </div>
@@ -161,10 +161,10 @@
                                     </li>
                                 </ul>
                                 <div class="btn-section">
-                                    <a href="about.html">
-                                        <button class="btn-shape">
+                                    <a href="https://themesoft69.com/wp/roralex/about/">
+                                        <span class="btn-shape">
                                             Read More
-                                        </button>
+                                        </span>
                                     </a>
                                 </div>
                             </div>
@@ -217,10 +217,10 @@
                                             the erection</p>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="services-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/service-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
 
                                     </div>
@@ -240,10 +240,10 @@
                                             the erection</p>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="services-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/service-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -262,10 +262,10 @@
                                             the erection</p>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="services-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/service-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -284,10 +284,10 @@
                                             the erection</p>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="services-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/service-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -306,10 +306,10 @@
                                             the erection</p>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="services-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/service-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -328,10 +328,10 @@
                                             the erection</p>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="services-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/service-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -506,9 +506,9 @@
                             Nullam ornare odio eu lacus tincidunt malesuada.</p>
 
                         <div class="btn-section">
-                            <button class="btn-shape">
+                            <span class="btn-shape">
                                 Read More
-                            </button>
+                            </span>
 
                         </div>
                     </div>
@@ -554,7 +554,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -579,7 +579,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">George Skertchly</h2>
                                         </a>
 
@@ -606,7 +606,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Dakota Budd</h2>
                                         </a>
 
@@ -633,7 +633,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty O. Werner</h2>
                                         </a>
 
@@ -660,7 +660,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -687,7 +687,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty R. Reis</h2>
                                         </a>
 
@@ -779,10 +779,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -809,10 +809,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -839,10 +839,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -869,10 +869,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -899,10 +899,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -929,10 +929,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -959,10 +959,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -989,10 +989,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
 
                                         </a>
                                     </div>
@@ -1157,7 +1157,8 @@
                                     </h2>
                                     <p>Home renovations, especially those involving plentiful of demolition can be a
                                         very dusty affair.</p>
-                                    <a href="blog-details.html">
+                                    <a
+                                        href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                         <div class="inner">
                                             <span>Read More</span>
                                             <i class="fa-sharp fa-solid fa-arrow-right">
@@ -1193,7 +1194,8 @@
                                     </h2>
                                     <p>Home renovations, especially those involving plentiful of demolition can be a
                                         very dusty affair.</p>
-                                    <a href="blog-details.html">
+                                    <a
+                                        href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                         <div class="inner">
                                             <span>Read More</span>
                                             <i class="fa-sharp fa-solid fa-arrow-right">
@@ -1229,7 +1231,8 @@
                                     </h2>
                                     <p>Home renovations, especially those involving plentiful of demolition can be a
                                         very dusty affair.</p>
-                                    <a href="blog-details.html">
+                                    <a
+                                        href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                         <div class="inner">
                                             <span>Read More</span>
                                             <i class="fa-sharp fa-solid fa-arrow-right">
@@ -1265,7 +1268,8 @@
                                     </h2>
                                     <p>Home renovations, especially those involving plentiful of demolition can be a
                                         very dusty affair.</p>
-                                    <a href="blog-details.html">
+                                    <a
+                                        href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                         <div class="inner">
                                             <span>Read More</span>
                                             <i class="fa-sharp fa-solid fa-arrow-right">
@@ -1301,7 +1305,8 @@
                                     </h2>
                                     <p>Home renovations, especially those involving plentiful of demolition can be a
                                         very dusty affair.</p>
-                                    <a href="blog-details.html">
+                                    <a
+                                        href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                         <div class="inner">
                                             <span>Read More</span>
                                             <i class="fa-sharp fa-solid fa-arrow-right">
@@ -1337,7 +1342,8 @@
                                     </h2>
                                     <p>Home renovations, especially those involving plentiful of demolition can be a
                                         very dusty affair.</p>
-                                    <a href="blog-details.html">
+                                    <a
+                                        href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                         <div class="inner">
                                             <span>Read More</span>
                                             <i class="fa-sharp fa-solid fa-arrow-right">
@@ -1422,10 +1428,10 @@
                                     </ul>
                                     <div class="btn-section">
 
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Get Started
                                             Today
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1475,10 +1481,10 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Get Started
                                             Today
-                                        </button>
+                                        </span>
 
 
                                     </div>
@@ -1530,10 +1536,10 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Get Started
                                             Today
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1562,9 +1568,9 @@
                             slightly different properties.</p>
                         <div class="input-section">
                             <input type="text" placeholder="Email Address">
-                            <button class="btn-shape">
+                            <span class="btn-shape">
                                 Subscribe
-                            </button>
+                            </span>
                         </div>
                     </div>
                 </div>

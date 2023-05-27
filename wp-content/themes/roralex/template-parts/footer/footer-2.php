@@ -81,9 +81,9 @@ default:
                         <a class="btn-shape-normal-outline" href="#">
 
 
-                            <button class="btn-shape">
+                            <span class="btn-shape">
                                 <?php echo esc_html__('More About', 'roralex'); ?>
-                            </button>
+                            </span>
                         </a>
                     </div>
                 </div>

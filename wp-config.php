@@ -51,10 +51,11 @@ define( 'DB_COLLATE', '' );
 define( 'AUTH_KEY',         'K]&4*T+}RB2NvB.E :<~o*;(_yz.nht0a$0>!2d_IYCElEj2)tu*xl V(e:|BDaP' );
 define( 'SECURE_AUTH_KEY',  '6Oasf9h$lbz1:&c(!|FSwFV^2{pz9y{{Jg@3Us1T0h< ,R^!b`+qJI?iRQYY-js)' );
 define( 'LOGGED_IN_KEY',    'oKQ-EkUopVfya(njbv^NN5dl~2U_o0,N$*3>Ps]w%WDH@U`$ClkqnSv4<D#f?>pH' );
-define( 'NONCE_KEY',        '=71^22Sl:KtsG?)5Z7^53*WZmwLH0]zbRphtjx#`f%XsjA!A8,uO(b>E&_%0h[f|' );
-define( 'AUTH_SALT',        'bO_$l{k.E>}R_jM8i0|gnD%WpVm~>azq$n4m9u!k.p8#udGjx}bF7]xA%PYw32J`' );
+define( 'NONCE_KEY', '=71^22Sl:KtsG?)5Z7^53*WZmwLH0]zbRphtjx#`f%XsjA!A8,uO(b>E&_%0h[f|' );
+define( 'AUTH_SALT', 'bO_$l{k.E>}R_jM8i0|gnD%WpVm~>azq$n4m9u!k.p8#udGjx}bF7]xA%PYw32J`' );
 define( 'SECURE_AUTH_SALT', '_NmP/ho1*4Q_I6lc#EXXW~_oKCw$]/Em/)?VaB-AgE|^JSCZB)yf4aEgXZ Gn&}d' );
-define( 'LOGGED_IN_SALT',   'TXO3Q9FUC!kDNW[hidN%uK96XgDjLneaV^wtI8Z&$=S/=SV7{>SI<?b_ 75+u_!,' );
+define( 'LOGGED_IN_SALT', 'TXO3Q9FUC!kDNW[hidN%uK96XgDjLneaV^wtI8Z&$=S/=SV7{>SI
+<?b_ 75+u_!,' );
 define( 'NONCE_SALT',       '@C=(LU&p%p+h-74i:1n4j2L;%5E`:0tB[d+S_4t%^Ibr!;A(qTd%=FdT+i;&*7Gl' );
 
 /**#@-*/
@@ -80,6 +81,9 @@ $table_prefix = 'wp_5';
  * @link https://wordpress.org/documentation/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', true );
+
+define('WP_SITEURL', 'http://localhost/roralex');
+define('WP_HOME', 'http://localhost/roralex');
 
 /* Add any custom values between this line and the "stop editing" line. */
 

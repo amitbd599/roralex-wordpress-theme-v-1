@@ -24,7 +24,8 @@
                         <div class="wrapper shadow">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg"
+                                        alt="">
                                 </div>
                                 <div class="heading-intro">
                                     <h2>Basic Plan</h2>
@@ -59,9 +60,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                    <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -71,7 +72,8 @@
                         <div class="wrapper shadow">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg"
+                                        alt="">
                                 </div>
                                 <div class="heading-intro">
                                     <h2>Standard Plan</h2>
@@ -106,9 +108,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                    <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -118,7 +120,8 @@
                         <div class="wrapper shadow">
                             <div class="inner">
                                 <div class="icon-file">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icons/icon-31.svg"
+                                        alt="">
                                 </div>
                                 <div class="heading-intro">
                                     <h2>Professional</h2>
@@ -153,9 +156,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                    <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -178,7 +181,8 @@
                             <div class="pop-text">
                                 <h3>Our Plan Price</h3>
                                 <div class="shape-img">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union-1.svg" alt="">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/shape/Union-1.svg"
+                                        alt="">
                                 </div>
                             </div>
                             <div class="inner-text">
@@ -232,9 +236,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                    <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -273,9 +277,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                    <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -315,9 +319,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                    <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -351,32 +355,38 @@
                 <div class="row">
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image3.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image4.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image5.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image6.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image7.png" alt="">
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-4 col-6">
                         <div class="wrapper">
-                            <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
+                            <img class="img-fluid"
+                                src="<?php echo get_template_directory_uri(); ?>/assets/img/brand/image8.png" alt="">
                         </div>
                     </div>
                 </div>

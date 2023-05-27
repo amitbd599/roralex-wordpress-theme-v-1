@@ -266,6 +266,7 @@
     background: var(--primary_color);
 
     .wrapper-1 {
+
       @media #{$md, $sm, $xs} {
         margin-bottom: 40px;
       }

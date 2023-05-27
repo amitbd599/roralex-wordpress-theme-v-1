@@ -73,9 +73,9 @@
                                                         placeholder="Enter Details..." required></textarea>
                                                 </div>
                                                 <div class="main-btn">
-                                                    <button class="btn-shape">
+                                                    <span class="btn-shape">
                                                         Send Massage
-                                                    </button>
+                                                    </span>
                                                 </div><br>
                                                 <p id="emailjs-response" class=" text-danger"></p>
                                             </div>

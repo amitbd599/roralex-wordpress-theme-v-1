@@ -305,9 +305,9 @@
                                     </div>
                                 </div>
 
-                                <button class="btn-shape">
+                                <span class="btn-shape">
                                     Get A Quote
-                                </button>
+                                </span>
                             </div>
                         </div>
                     </div>
@@ -358,11 +358,11 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
 
-                                            <button class="btn-shape">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -388,10 +388,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -417,10 +417,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -446,10 +446,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>

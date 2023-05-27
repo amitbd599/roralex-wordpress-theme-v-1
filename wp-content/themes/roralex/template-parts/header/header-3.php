@@ -10,7 +10,7 @@
 
    // info
    $roralex_topbar_switch = get_theme_mod( 'roralex_topbar_switch', false );
-   $roralex_phone_num = get_theme_mod( 'roralex_phone_num', __( '+(088) 234 567 899', 'roralex' ) );
+   $roralex_phone_num = get_theme_mod( 'roralex_phone_num', __( '+(088)4567899', 'roralex' ) );
    $roralex_mail_id = get_theme_mod( 'roralex_mail_id', __( 'info@roralex.com', 'roralex' ) );
    $roralex_address = get_theme_mod( 'roralex_address', __( 'Moon ave, New York, 2020 NY US', 'roralex' ) );
    $roralex_address_url = get_theme_mod( 'roralex_address_url', __( 'https://goo.gl/maps/qzqY2PAcQwUz1BYN9', 'roralex' ) );
@@ -71,7 +71,7 @@
                             <span class="text"><?php echo esc_html__('Phone', 'roralex'); ?></span>
                         </div>
                         <h5><a
-                                href="tel: <?php echo esc_attr($roralex_phone_num) ?>"><?php echo esc_html($roralex_phone_num); ?></a>
+                                href="tel:<?php echo esc_attr($roralex_phone_num) ?>"><?php echo esc_html($roralex_phone_num); ?></a>
                         </h5>
                     </div>
                     <?php endif;?>

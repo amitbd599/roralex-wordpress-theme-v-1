@@ -107,9 +107,9 @@
 
 
                                     <a href="#">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             More About Us
-                                        </button>
+                                        </span>
                                     </a>
 
                                 </div>
@@ -377,7 +377,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -403,7 +403,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">George Skertchly</h2>
                                         </a>
 
@@ -429,7 +429,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Dakota Budd</h2>
                                         </a>
 
@@ -455,7 +455,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty O. Werner</h2>
                                         </a>
 
@@ -481,7 +481,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -507,7 +507,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty R. Reis</h2>
                                         </a>
 

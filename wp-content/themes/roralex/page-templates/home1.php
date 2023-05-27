@@ -318,11 +318,11 @@
                                     </div>
 
                                 </div>
-                                <a href="about.html">
+                                <a href="https://themesoft69.com/wp/roralex/about/">
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             More About Us
-                                        </button>
+                                        </span>
                                     </div>
                                 </a>
 
@@ -385,7 +385,7 @@
                                     construction process.</p>
                             </div>
                             <div class="btn-hold">
-                                <a href="services-details.html">
+                                <a href="https://themesoft69.com/wp/roralex/service-details/">
                                     <span>Read More</span> <i class="fa-regular fa-arrow-right-to-line"></i>
                                 </a>
                             </div>
@@ -404,7 +404,7 @@
                                     construction process.</p>
                             </div>
                             <div class="btn-hold">
-                                <a href="services-details.html">
+                                <a href="https://themesoft69.com/wp/roralex/service-details/">
                                     <span>Read More</span> <i class="fa-regular fa-arrow-right-to-line"></i>
                                 </a>
                             </div>
@@ -423,7 +423,7 @@
                                     construction process.</p>
                             </div>
                             <div class="btn-hold">
-                                <a href="services-details.html">
+                                <a href="https://themesoft69.com/wp/roralex/service-details/">
                                     <span>Read More</span> <i class="fa-regular fa-arrow-right-to-line"></i>
                                 </a>
                             </div>
@@ -442,7 +442,7 @@
                                     construction process.</p>
                             </div>
                             <div class="btn-hold">
-                                <a href="services-details.html">
+                                <a href="https://themesoft69.com/wp/roralex/service-details/">
                                     <span>Read More</span> <i class="fa-regular fa-arrow-right-to-line"></i>
                                 </a>
                             </div>
@@ -454,10 +454,10 @@
 
         <!-- Button Section -->
         <div class="btn-section text-center">
-            <a href="services.html">
-                <button class="btn-shape">
+            <a href="https://themesoft69.com/wp/roralex/service/">
+                <span class="btn-shape">
                     View All Services
-                </button>
+                </span>
             </a>
 
         </div>
@@ -705,7 +705,7 @@
                                             alt="Roralex">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -730,7 +730,7 @@
                                             alt="Roralex">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">George Skertchly</h2>
                                         </a>
 
@@ -757,7 +757,7 @@
                                             alt="Roralex">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Dakota Budd</h2>
                                         </a>
 
@@ -784,7 +784,7 @@
                                             alt="Roralex">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty O. Werner</h2>
                                         </a>
 
@@ -811,7 +811,7 @@
                                             alt="Roralex">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -838,7 +838,7 @@
                                             alt="Roralex">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty R. Reis</h2>
                                         </a>
 
@@ -935,10 +935,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -963,10 +963,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -991,10 +991,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -1019,10 +1019,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -1047,10 +1047,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -1075,10 +1075,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -1103,10 +1103,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -1131,10 +1131,10 @@
 
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 Read More
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -1357,7 +1357,9 @@
                                 <p>Home renovations, especially those involving plentiful of demolition can be a very
                                     dusty
                                     affair. This nasty dust can easily free flow.</p>
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a
+                                    href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/"><span>Read
+                                        More</span></a>
                             </div>
                         </div>
                     </div>
@@ -1389,7 +1391,9 @@
                                 <p>Home renovations, especially those involving plentiful of demolition can be a very
                                     dusty
                                     affair. This nasty dust can easily free flow.</p>
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a
+                                    href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/"><span>Read
+                                        More</span></a>
                             </div>
                         </div>
                     </div>
@@ -1421,7 +1425,9 @@
                                 <p>Home renovations, especially those involving plentiful of demolition can be a very
                                     dusty
                                     affair. This nasty dust can easily free flow.</p>
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a
+                                    href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/"><span>Read
+                                        More</span></a>
                             </div>
                         </div>
                     </div>
@@ -1453,7 +1459,9 @@
                                 <p>Home renovations, especially those involving plentiful of demolition can be a very
                                     dusty
                                     affair. This nasty dust can easily free flow.</p>
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a
+                                    href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/"><span>Read
+                                        More</span></a>
                             </div>
                         </div>
                     </div>
@@ -1485,7 +1493,9 @@
                                 <p>Home renovations, especially those involving plentiful of demolition can be a very
                                     dusty
                                     affair. This nasty dust can easily free flow.</p>
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a
+                                    href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/"><span>Read
+                                        More</span></a>
                             </div>
                         </div>
                     </div>
@@ -1517,7 +1527,9 @@
                                 <p>Home renovations, especially those involving plentiful of demolition can be a very
                                     dusty
                                     affair. This nasty dust can easily free flow.</p>
-                                <a href="blog-details.html"><span>Read More</span></a>
+                                <a
+                                    href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/"><span>Read
+                                        More</span></a>
                             </div>
                         </div>
                     </div>
@@ -1593,9 +1605,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1634,9 +1646,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1676,9 +1688,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1705,9 +1717,9 @@
                             <input type="text" placeholder="Email Address...">
                         </div>
                         <div class="btn-section">
-                            <button class="btn-shape">
+                            <span class="btn-shape">
                                 Read More
-                            </button>
+                            </span>
                         </div>
                     </div>
                 </div>

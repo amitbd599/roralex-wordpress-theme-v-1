@@ -77,7 +77,7 @@ if ( is_single() ) : ?>
             <?php get_template_part( 'template-parts/blog/blog-meta' ); ?>
 
             <div class="inner-section">
-                <p><?php the_excerpt();?></p>
+                <?php the_excerpt();?>
 
             </div>
 

@@ -197,7 +197,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>
@@ -221,7 +221,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>
@@ -245,7 +245,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>
@@ -269,7 +269,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>

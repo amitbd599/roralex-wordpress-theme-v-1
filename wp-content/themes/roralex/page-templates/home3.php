@@ -33,9 +33,9 @@
                                                 eiusmod tem porincididunt.</p>
 
 
-                                            <button class="btn-shape">
+                                            <span class="btn-shape">
                                                 Learn More
-                                            </button>
+                                            </span>
 
                                         </div>
                                     </div>
@@ -71,9 +71,9 @@
                                                 ut labore et dolore magna aliqua. Quis psum suspendisse ultrices
                                                 gravida commodo viverra Sit amet consectetur adipiscing elit sed do
                                                 eiusmod tem porincididunt.</p>
-                                            <button class="btn-shape">
+                                            <span class="btn-shape">
                                                 Learn More
-                                            </button>
+                                            </span>
 
                                         </div>
                                     </div>
@@ -108,9 +108,9 @@
                                                 ut labore et dolore magna aliqua. Quis psum suspendisse ultrices
                                                 gravida commodo viverra Sit amet consectetur adipiscing elit sed do
                                                 eiusmod tem porincididunt.</p>
-                                            <button class="btn-shape">
+                                            <span class="btn-shape">
                                                 Learn More
-                                            </button>
+                                            </span>
 
                                         </div>
                                     </div>
@@ -145,9 +145,9 @@
                                                 ut labore et dolore magna aliqua. Quis psum suspendisse ultrices
                                                 gravida commodo viverra Sit amet consectetur adipiscing elit sed do
                                                 eiusmod tem porincididunt.</p>
-                                            <button class="btn-shape">
+                                            <span class="btn-shape">
                                                 Learn More
-                                            </button>
+                                            </span>
 
                                         </div>
                                     </div>
@@ -241,10 +241,10 @@
 
                                 </div>
                                 <div class="btn-section">
-                                    <a href="about.html">
-                                        <button class="btn-shape">
+                                    <a href="https://themesoft69.com/wp/roralex/about/">
+                                        <span class="btn-shape">
                                             More About Us
-                                        </button>
+                                        </span>
                                     </a>
 
                                 </div>
@@ -321,7 +321,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>
@@ -345,7 +345,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>
@@ -369,7 +369,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>
@@ -393,7 +393,7 @@
                                         and planning stage.</p>
                                 </div>
                                 <div class="btn-hold">
-                                    <a href="services-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/service-details/">
                                         <span>Read More</span>
                                         <i class="fa-regular fa-arrow-right-to-line"></i>
                                     </a>
@@ -408,10 +408,10 @@
 
         <!-- Button Section -->
         <div class="btn-section text-center">
-            <a href="services.html">
-                <button class="btn-shape">
+            <a href="https://themesoft69.com/wp/roralex/service/">
+                <span class="btn-shape">
                     More Service
-                </button>
+                </span>
             </a>
 
         </div>
@@ -565,10 +565,10 @@
                         </div>
                         <!-- Button Section -->
                         <div class="btn-section text-center">
-                            <a href="services.html">
-                                <button class="btn-shape">
+                            <a href="https://themesoft69.com/wp/roralex/service/">
+                                <span class="btn-shape">
                                     More Services
-                                </button>
+                                </span>
                             </a>
 
                         </div>
@@ -707,7 +707,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -733,7 +733,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">George Skertchly</h2>
                                         </a>
 
@@ -759,7 +759,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Dakota Budd</h2>
                                         </a>
 
@@ -785,7 +785,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty O. Werner</h2>
                                         </a>
 
@@ -811,7 +811,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Michael V. Fournier</h2>
                                         </a>
 
@@ -837,7 +837,7 @@
                                             alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty R. Reis</h2>
                                         </a>
 
@@ -916,7 +916,8 @@
                                         </p>
                                     </div>
                                     <div class="btn-hold">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <span class="inner">
                                                 <span>View Info</span>
                                                 <i class="fa-regular fa-arrow-right-to-line"></i>
@@ -956,7 +957,8 @@
                                         </p>
                                     </div>
                                     <div class="btn-hold">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <span class="inner">
                                                 <span>View Info</span>
                                                 <i class="fa-regular fa-arrow-right-to-line"></i>
@@ -995,7 +997,8 @@
                                         </p>
                                     </div>
                                     <div class="btn-hold">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <span class="inner">
                                                 <span>View Info</span>
                                                 <i class="fa-regular fa-arrow-right-to-line"></i>
@@ -1034,7 +1037,8 @@
                                         </p>
                                     </div>
                                     <div class="btn-hold">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <span class="inner">
                                                 <span>View Info</span>
                                                 <i class="fa-regular fa-arrow-right-to-line"></i>
@@ -1073,7 +1077,8 @@
                                         </p>
                                     </div>
                                     <div class="btn-hold">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <span class="inner">
                                                 <span>View Info</span>
                                                 <i class="fa-regular fa-arrow-right-to-line"></i>
@@ -1112,7 +1117,8 @@
                                         </p>
                                     </div>
                                     <div class="btn-hold">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <span class="inner">
                                                 <span>View Info</span>
                                                 <i class="fa-regular fa-arrow-right-to-line"></i>
@@ -1130,10 +1136,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="btn-section">
-                            <a href="blog.html">
-                                <button class="btn-shape">
+                            <a href="https://themesoft69.com/wp/roralex/blog/">
+                                <span class="btn-shape">
                                     View All Project
-                                </button>
+                                </span>
                             </a>
                         </div>
                     </div>
@@ -1397,7 +1403,8 @@
 
                                     </div>
                                     <div class="inner-file">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <h2>Building construction is the process of structure</h2>
                                         </a>
                                         <p>The vast majority of building construction projects are small
@@ -1431,7 +1438,8 @@
 
                                     </div>
                                     <div class="inner-file">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <h2>There is a wide range of building products.</h2>
                                         </a>
                                         <p>The vast majority of building construction projects are small
@@ -1465,7 +1473,8 @@
 
                                     </div>
                                     <div class="inner-file">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <h2>Construction today is a significant industrial.</h2>
                                         </a>
                                         <p>The vast majority of building construction projects are small
@@ -1499,7 +1508,8 @@
 
                                     </div>
                                     <div class="inner-file">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <h2>A tent illustrates basic elements of environmental.</h2>
                                         </a>
                                         <p>The vast majority of building construction projects are small
@@ -1533,7 +1543,8 @@
 
                                     </div>
                                     <div class="inner-file">
-                                        <a href="blog-details.html">
+                                        <a
+                                            href="https://themesoft69.com/wp/roralex/2023/05/26/before-starting-a-building-construction-the-owner-sure-has-necessary-permits-2-2/">
                                             <h2>People no traveled in search of game or herds.</h2>
                                         </a>
                                         <p>The vast majority of building construction projects are small
@@ -1636,9 +1647,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1684,9 +1695,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1732,9 +1743,9 @@
 
                                     </ul>
                                     <div class="btn-section">
-                                        <button class="btn-shape">
+                                        <span class="btn-shape">
                                             Purchase
-                                        </button>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -1775,9 +1786,9 @@
                     <div class="left-side">
                         <div class="input-section">
                             <input type="text" placeholder="Email Address">
-                            <button class="btn-shape">
+                            <span class="btn-shape">
                                 Subscribe
-                            </button>
+                            </span>
                         </div>
                     </div>
                 </div>

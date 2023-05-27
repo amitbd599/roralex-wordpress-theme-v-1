@@ -27,7 +27,7 @@
                                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-6.png" alt="">
                                 </div>
                                 <div class="intro">
-                                    <a href="team-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/team-details">
                                         <h2 class="name">Michael V. Fournier</h2>
                                     </a>
 
@@ -51,7 +51,7 @@
                                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-7.png" alt="">
                                 </div>
                                 <div class="intro">
-                                    <a href="team-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/team-details">
                                         <h2 class="name">George Skertchly</h2>
                                     </a>
 
@@ -75,7 +75,7 @@
                                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-8.png" alt="">
                                 </div>
                                 <div class="intro">
-                                    <a href="team-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/team-details">
                                         <h2 class="name">Dakota Budd</h2>
                                     </a>
 
@@ -99,7 +99,7 @@
                                     <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-9.png" alt="">
                                 </div>
                                 <div class="intro">
-                                    <a href="team-details.html">
+                                    <a href="https://themesoft69.com/wp/roralex/team-details">
                                         <h2 class="name">Betty O. Werner</h2>
                                     </a>
 
@@ -124,7 +124,7 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-10.png" alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Betty R. Reis</h2>
                                         </a>
 
@@ -150,7 +150,7 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-11.png" alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Matthew W. Owen</h2>
                                         </a>
 
@@ -176,7 +176,7 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-12.png" alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">Mickey K. Roeder</h2>
                                         </a>
 
@@ -202,7 +202,7 @@
                                         <img class="img-fluid" src="<?php echo get_template_directory_uri(); ?>/assets/img/team/team-13.png" alt="">
                                     </div>
                                     <div class="intro">
-                                        <a href="team-details.html">
+                                        <a href="https://themesoft69.com/wp/roralex/team-details">
                                             <h2 class="name">John K. Ellis</h2>
                                         </a>
 

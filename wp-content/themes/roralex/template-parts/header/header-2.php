@@ -64,7 +64,7 @@
                             </ul>
                             <?php wp_reset_postdata(); ?>
                             <?php else : ?>
-                            <p><?php esc_html__( 'There no posts to display.' ); ?></p>
+                            <p><?php esc_html__( 'There no posts to display.', 'roralex' ); ?></p>
                             <?php endif; ?>
                         </div>
                     </div>

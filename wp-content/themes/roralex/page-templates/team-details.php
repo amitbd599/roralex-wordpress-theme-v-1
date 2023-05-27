@@ -66,10 +66,10 @@
                                         sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                                 </div>
                                 <div>
-                                    <a href="contact.html">
-                                        <button class="btn-shape">
+                                    <a href="https://themesoft69.com/wp/roralex/contact/">
+                                        <span class="btn-shape">
                                             Get in touch
-                                        </button>
+                                        </span>
                                     </a>
                                 </div>
 

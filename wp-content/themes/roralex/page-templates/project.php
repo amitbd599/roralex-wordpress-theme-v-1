@@ -54,10 +54,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                            <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -83,10 +83,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -112,10 +112,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -141,10 +141,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -170,10 +170,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -199,10 +199,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -228,10 +228,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -257,10 +257,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -286,10 +286,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -315,10 +315,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -344,10 +344,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>
@@ -373,10 +373,10 @@
                                         </div>
                                     </div>
                                     <div class="btn-section">
-                                        <a href="project-details.html">
-                                        <button class="btn-shape">
+                                        <a href="https://themesoft69.com/wp/roralex/project-details/">
+                                            <span class="btn-shape">
                                                 View Info
-                                            </button>
+                                            </span>
                                         </a>
                                     </div>
                                 </div>

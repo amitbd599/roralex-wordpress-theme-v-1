@@ -63,11 +63,10 @@ Class TP_Post_Sidebar_Widget extends WP_Widget{
                 <?php endif; ?>
 
                 <div class="text-file">
-                    <a href="blog-details.html">
-                        <h3><a
-                                href="<?php the_permalink(); ?>"><?php print wp_trim_words(get_the_title(), 5, ''); ?></a>
-                        </h3>
-                    </a>
+
+                    <h3><a href="<?php the_permalink(); ?>"><?php print wp_trim_words(get_the_title(), 5, ''); ?></a>
+                    </h3>
+
                     <div class="footer-text">
 
                         <span><?php the_time('F d, Y'); ?></span>
