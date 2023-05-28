@@ -20,19 +20,19 @@ class TP_OCDI_Demo_Importer {
 				'title' => __( 'Home 1', 'tpcore' ),
 				'page'  => __( 'home', 'tpcore' ),
 				'screenshot' => plugins_url( 'assets/img/demo/home1.jpg', dirname(__FILE__) ),
-				'preview_link' => 'https://themepure.net/wp/gainioz/',
+				'preview_link' => 'https://themesoft69.com/wp/roralex/',
 			),
 			'tp_demo_home_2' => array(
 				'title' => __( 'Home 2', 'tpcore' ),
 				'page'  => __( 'home-02', 'tpcore' ),
 				'screenshot' => plugins_url( 'assets/img/demo/home2.jpg', dirname(__FILE__) ),
-				'preview_link' => 'https://themepure.net/wp/gainioz/home-02/',
+				'preview_link' => 'https://themesoft69.com/wp/roralex/home-02/',
 			),
             'tp_demo_home_3' => array(
                 'title' => __( 'Home 3', 'tpcore' ),
                 'page'  => __( 'home-03', 'tpcore' ),
                 'screenshot' => plugins_url( 'assets/img/demo/home3.jpg', dirname(__FILE__) ),
-                'preview_link' => 'https://themepure.net/wp/gainioz/home-03/',
+                'preview_link' => 'https://themesoft69.com/wp/roralex/home-03/',
             ),
 		);
 
