@@ -663,7 +663,6 @@ function _header_footer_fields( $fields ) {
             'footer-style-1'   => get_template_directory_uri() . '/inc/img/footer/footer-1.png',
             'footer-style-2' => get_template_directory_uri() . '/inc/img/footer/footer-2.png',
             'footer-style-3' => get_template_directory_uri() . '/inc/img/footer/footer-3.png',
-            'footer-style-4' => get_template_directory_uri() . '/inc/img/footer/footer-4.png',
         ],
         'default'     => 'footer-style-1',
     ];

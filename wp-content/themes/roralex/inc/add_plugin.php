@@ -23,7 +23,7 @@ function roralex_register_required_plugins() {
      * If the source is NOT from the .org repo, then source is also required.
      */
 
-    $acf_url = 'https://weblearnbd.net/plugin/';
+    $acf_url = 'https://themesoft69.com/plugin/';
 
     $plugins = [
         [
@@ -32,16 +32,11 @@ function roralex_register_required_plugins() {
             'required' => true,
         ],
         [
-            'name'               => esc_html__('Tutor LMS','roralex'),
-            'slug'               => 'tutor',
-            'required'           => true,
-        ],
-        [
             'name'         => esc_html__( 'TP Core ', 'roralex' ),
             'slug'         => 'tp-core',
-            'source'       => esc_url( 'https://weblearnbd.net/wp/roralex/source/tp-core.zip' ),
+            'source'       => esc_url( 'https://themesoft69.com/wp/roralex/source/tp-core.zip' ),
             'required'     => true,
-            'external_url' => esc_url( 'https://weblearnbd.net/wp/roralex/source/tp-core.zip' ),
+            'external_url' => esc_url( 'https://themesoft69.com/wp/roralex/source/tp-core.zip' ),
         ],
         [
             'name'         => esc_html__( 'Advanced Custom Fields Pro', 'roralex' ),
@@ -74,26 +69,6 @@ function roralex_register_required_plugins() {
             'slug'     => 'breadcrumb-navxt',
             'required' => false,
         ),
-        array(
-            'name'               => esc_html__('WooCommerce','roralex'),
-            'slug'               => 'woocommerce',
-            'required'           => false,
-        ),
-        array(
-            'name'               =>  esc_html__('YITH WooCommerce Wishlist','roralex'),
-            'slug'               => 'yith-woocommerce-wishlist',
-            'required'           => false,
-        ),
-        array(
-            'name'               =>  esc_html__('YITH WooCommerce Quick View','roralex'),
-            'slug'               => 'yith-woocommerce-quick-view',
-            'required'           => false,
-        ),
-        array(
-            'name'               =>  esc_html__('Event Manager – Eventin','roralex'),
-            'slug'               => 'wp-event-solution',
-            'required'           => false,
-        )
     ];
     $config = [
         'id'           => 'roralex', // Unique ID for hashing notices for multiple instances of TGMPA.
