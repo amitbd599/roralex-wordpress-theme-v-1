@@ -101,7 +101,13 @@ margin-top: 20px;
 
 
 
+.error-title{
 
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+
+}
 
 
 /*comments list */

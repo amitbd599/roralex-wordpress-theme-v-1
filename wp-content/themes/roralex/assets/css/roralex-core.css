@@ -409,13 +409,14 @@ input[type=color] {
 /* ======= Button Shape One ======= */
 .btn-shape {
   position: relative;
-  padding: 18px 24px;
+  padding: 14px 24px;
   border-radius: 5px;
   background: var(--theme_color);
   background-size: 400%;
   color: #fff;
   border: none;
   cursor: pointer;
+  display: inline-block;
 }
 
 /*----------------------------------------*/
