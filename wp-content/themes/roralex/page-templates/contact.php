@@ -106,7 +106,7 @@
                                     </li>
                                     <li>
                                         <div>
-                                            <span><i class="fa-solid fa-phone-rotary"></i></span>
+                                            <span><i class="fa-solid fa-envelope"></i></span>
                                         </div>
                                         <div>
                                             <h4>Need to email?</h4>

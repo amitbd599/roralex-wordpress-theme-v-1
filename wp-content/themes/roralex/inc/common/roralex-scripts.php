@@ -21,7 +21,6 @@ function roralex_scripts() {
     wp_enqueue_style( 'animate', RORALEX_THEME_CSS_DIR . 'animate.css', [] );
     wp_enqueue_style( 'animationtabs', RORALEX_THEME_CSS_DIR . 'animationtabs.css', [] );
     wp_enqueue_style( 'animationtabs', RORALEX_THEME_CSS_DIR . 'animationtabs.css', [] );
-    wp_enqueue_style( 'backtotop', RORALEX_THEME_CSS_DIR . 'backtotop.css', [] );
     wp_enqueue_style( 'flaticon', RORALEX_THEME_CSS_DIR . 'flaticon.css', [] );
     wp_enqueue_style( 'font-awesome-pro', RORALEX_THEME_CSS_DIR . 'font-awesome-pro.css', [] );
     wp_enqueue_style( 'jQueryTab', RORALEX_THEME_CSS_DIR . 'jQueryTab.css', [] );
@@ -53,7 +52,6 @@ function roralex_scripts() {
 
 
     wp_enqueue_script( 'waypoints', RORALEX_THEME_JS_DIR . 'waypoints.js', [ 'jquery' ], false, true );
-    wp_enqueue_script( 'backtotop', RORALEX_THEME_JS_DIR . 'backtotop.js', [ 'jquery' ], false, true );
     wp_enqueue_script( 'counterup', RORALEX_THEME_JS_DIR . 'counterup.js', [ 'jquery' ], false, true );
     wp_enqueue_script( 'jquery-appear', RORALEX_THEME_JS_DIR . 'jquery.appear.js', [ 'jquery' ], false, true );
     wp_enqueue_script( 'jquery-knob', RORALEX_THEME_JS_DIR . 'jquery.knob.js', [ 'jquery' ], false, true );

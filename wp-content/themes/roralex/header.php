@@ -12,13 +12,14 @@
 
 <!doctype html>
 <html <?php language_attributes();?>>
+
 <head>
-	<meta charset="<?php bloginfo( 'charset' );?>">
+    <meta charset="<?php bloginfo( 'charset' );?>">
     <?php if ( is_singular() && pings_open( get_queried_object() ) ): ?>
     <?php endif;?>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<?php wp_head();?>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <?php wp_head();?>
 </head>
 
 <body <?php body_class();?>>
@@ -38,15 +39,13 @@
 
     <?php if ( !empty( $roralex_preloader ) ): ?>
     <!-- pre loader area start -->
-    <div id="loading">
-     <div id="loading-center">
-        <div id="loading-center-absolute">
-           <svg id="loader">
-              <path id="corners" d="m 0 12.5 l 0 -12.5 l 50 0 l 0 50 l -50 0 l 0 -37.5" />
-           </svg>
-           <img src="<?php echo esc_url($preloader_logo); ?>" alt="<?php echo esc_attr__('logo','roralex'); ?>">
+    <div class="preloader">
+        <div class="swapping-squares-spinner">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
         </div>
-     </div>
     </div>
     <!-- pre loader area end -->
     <?php endif;?>
@@ -54,9 +53,9 @@
     <?php if ( !empty( $roralex_backtotops ) ): ?>
     <!-- back to top start -->
     <div class="progress-wrap">
-     <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-     </svg>
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
     </div>
     <!-- back to top end -->
     <?php endif;?>
